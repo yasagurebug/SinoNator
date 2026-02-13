@@ -1,5 +1,3 @@
-import { readFileSync } from "fs";
-import path from "path";
 import { randomInt } from "crypto";
 import type {
   ActiveSet,
@@ -12,6 +10,10 @@ import type {
   RecommendRequest,
   RecommendResponse
 } from "./types";
+import activeSetJson from "@/public/data/active_set.json";
+import questionSetJson from "@/public/data/question_set.json";
+import archivesJson from "@/public/data/archives.json";
+import archiveTagsJson from "@/public/data/archive_tags.json";
 
 type DataBundle = {
   activeSet: ActiveSet;
@@ -23,16 +25,11 @@ type DataBundle = {
 const MAX_QUESTIONS = 15;
 const STAGNATION_LIMIT = 2;
 
-function loadJson<T>(...parts: string[]): T {
-  const filePath = path.join(process.cwd(), ...parts);
-  return JSON.parse(readFileSync(filePath, "utf-8")) as T;
-}
-
 function loadDataBundle(requestSetId?: string): DataBundle {
-  const activeSet = loadJson<ActiveSet>("public", "data", "active_set.json");
-  const questionSet = loadJson<QuestionSet>("public", "data", "question_set.json");
-  const archivesPayload = loadJson<{ items: Archive[] }>("public", "data", "archives.json");
-  const archiveTagsPayload = loadJson<{ items: ArchiveTag[] }>("public", "data", "archive_tags.json");
+  const activeSet = activeSetJson as ActiveSet;
+  const questionSet = questionSetJson as QuestionSet;
+  const archivesPayload = archivesJson as { items: Archive[] };
+  const archiveTagsPayload = archiveTagsJson as { items: ArchiveTag[] };
 
   const resolvedSetId = requestSetId ?? activeSet.set_id;
   if (resolvedSetId !== questionSet.set_id) {
