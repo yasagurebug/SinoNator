@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "tone": "casual",
+  "limits": {
+    "min_questions": 1,
+    "max_questions": 7,
+    "finalize_candidate_size": 5
+  },
+  "selection": {
+    "variable_weight": 0.8,
+    "fixed_weight": 0.2,
+    "no_repeat": true
+  },
+  "fixed_questions": [
+    {
+      "question_id": "q_fixed_game",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "ゲーム回が見たい？",
+      "target_tags": [
+        "format_game"
+      ]
+    },
+    {
+      "question_id": "q_fixed_sing",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "歌枠いく？",
+      "target_tags": [
+        "format_sing"
+      ]
+    },
+    {
+      "question_id": "q_fixed_watchalong",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "同時視聴系、見る？",
+      "target_tags": [
+        "format_watchalong"
+      ]
+    },
+    {
+      "question_id": "q_fixed_drawing",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "お絵描き回もあり？",
+      "target_tags": [
+        "format_drawing"
+      ]
+    },
+    {
+      "question_id": "q_fixed_funny",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "score",
+      "text": "笑える回がいい？",
+      "effects": {
+        "yes": [
+          {
+            "tag_id": "tone_funny",
+            "weight": 1.0
+          }
+        ],
+        "no": [
+          {
+            "tag_id": "tone_funny",
+            "weight": -1.0
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q_fixed_emotional",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "score",
+      "text": "しんみり話、好き？",
+      "effects": {
+        "yes": [
+          {
+            "tag_id": "tone_emotional",
+            "weight": 1.0
+          }
+        ],
+        "no": [
+          {
+            "tag_id": "tone_emotional",
+            "weight": -1.0
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q_fixed_guerrilla",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "ゲリラ感ある回、見たい？",
+      "target_tags": [
+        "attr_guerrilla"
+      ]
+    }
+  ],
+  "variable_templates": [
+    "{trigger}の話、気になる？",
+    "{trigger}ネタ、聞いてみる？",
+    "{trigger}って、あり？"
+  ],
+  "variable_count": 14
+}

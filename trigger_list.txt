@@ -1,0 +1,85 @@
+# Trigger word list
+# - One trigger per line (recommended: source|trigger_id)
+# - Lines starting with '#' are ignored
+# - To disable a trigger, prefix it with '#'
+# - Optional: source=>display (example: vtuber=>VTuber)
+# - Optional: source|trigger_id=>display (stable mapping)
+
+# auto-added
+グッズ|motif_55a4aba8bc
+家族|motif_cb1f7d20a4
+職場|motif_dc07c9bb88
+カオス|motif_8221220aeb
+スパチャ|motif_e79ab791c2
+談義|motif_95f825cc41
+マッマ|motif_35376ffb91
+トラブル|motif_fc15322dcc
+実写|motif_55fac25c11
+ASMR|motif_asmr
+妄想|motif_55c42ca308
+深夜|motif_2bd84df574
+途中|motif_42884ef8fc
+交錯|motif_9514e8de7a
+実写|motif_32a711d933
+幼少期|motif_a5db5553d6
+披露|motif_473d9fea10
+案件|motif_5312d71158
+脱線|motif_d1bc50c34a
+アナリティクス|motif_1462271471
+イラスト|motif_f4e0cc019d
+ツッコミ|motif_ed39f966e6
+百味ビーンズ|motif_8ef5c205a5
+文化|motif_f9f7bb6679
+記憶|motif_2c718f4d9c
+LINE|motif_line
+Live2D|motif_live2d
+PON|motif_pon
+アニメ|motif_c0af3a1264
+クリア|motif_deba64e8e6
+仕事|motif_cfc767a667
+告知|motif_b7b486ac27
+問題|motif_25486ad4e5
+性癖|motif_dae29909a7
+愚痴|motif_3e747c4b9f
+相談|motif_20dcba7989
+連打|motif_a789cd2f1c
+連発|motif_d4d206df3e
+ゲリラ|motif_cb3b9578bb
+バイト|motif_10ea0afcc8
+フェチ|motif_35d5b2f887
+ホラー|motif_994153c00f
+マシュマロ|motif_2061310567
+中盤以降|motif_1d9cb43f6b
+事件|motif_10b2761db5
+初見|motif_2de55a9f94
+反応|motif_b3910a8a4d
+回収|motif_5b41f44282
+完走|motif_81a7b050a4
+感想|motif_4e54bd32b7
+検討|motif_f69c237a75
+歌枠|motif_37ce9d5f47
+混沌|motif_cac98be8ba
+終始|motif_aecf8892b7
+絵描|motif_48e8fd209c
+購入|motif_41db746b5b
+追加|motif_7dc3a57449
+過去|motif_04f7ee48b9
+開始|motif_74d863c4f2
+雑談開始|motif_972d844c41
+ギャンブル|motif_72b0a1fea9
+クイズ|motif_f9d473a6a5
+クリスマス|motif_bb1f32772c
+コラボ|motif_69d670a739
+サムネ|motif_4c85c23407
+ジョジョ|motif_5aff456860
+ステージ|motif_86a507d326
+スマホ|motif_ebb0ec38c1
+モンカス|motif_c995b847b1
+写真|motif_37e3808047
+分析|motif_72fa7c88b7
+制作|motif_8cdf041fee
+報告|motif_e5ab98fd66
+多岐|motif_64fb6b92c7
+寿司|motif_b472afdf4b
+崩壊|motif_043901ea20
+店長|motif_39c7101a95

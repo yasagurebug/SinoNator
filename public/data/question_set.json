@@ -1,0 +1,417 @@
+{
+  "set_id": "2026-02",
+  "name": "2026-02 question set",
+  "generated_at": "2026-02-13T20:50:29+09:00",
+  "tone": "casual",
+  "limits": {
+    "min_questions": 1,
+    "max_questions": 7,
+    "finalize_candidate_size": 5
+  },
+  "selection": {
+    "variable_weight": 0.8,
+    "fixed_weight": 0.2,
+    "no_repeat": true
+  },
+  "questions": [
+    {
+      "question_id": "q_fixed_game",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "ゲーム回が見たい？",
+      "target_tags": [
+        "format_game"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_fixed_sing",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "歌枠いく？",
+      "target_tags": [
+        "format_sing"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_fixed_watchalong",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "同時視聴系、見る？",
+      "target_tags": [
+        "format_watchalong"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_fixed_drawing",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "お絵描き回もあり？",
+      "target_tags": [
+        "format_drawing"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_fixed_funny",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "score",
+      "text": "笑える回がいい？",
+      "effects": {
+        "yes": [
+          {
+            "tag_id": "tone_funny",
+            "weight": 1.0
+          }
+        ],
+        "no": [
+          {
+            "tag_id": "tone_funny",
+            "weight": -1.0
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q_fixed_emotional",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "score",
+      "text": "しんみり話、好き？",
+      "effects": {
+        "yes": [
+          {
+            "tag_id": "tone_emotional",
+            "weight": 1.0
+          }
+        ],
+        "no": [
+          {
+            "tag_id": "tone_emotional",
+            "weight": -1.0
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q_fixed_guerrilla",
+      "kind": "fixed",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "ゲリラ感ある回、見たい？",
+      "target_tags": [
+        "attr_guerrilla"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_42884ef8fc",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "途中の話、気になる？",
+      "target_tags": [
+        "motif_42884ef8fc"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_55a4aba8bc",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "グッズの話、気になる？",
+      "target_tags": [
+        "motif_55a4aba8bc"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_8221220aeb",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "カオスの話、気になる？",
+      "target_tags": [
+        "motif_8221220aeb"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_95f825cc41",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "談義って、あり？",
+      "target_tags": [
+        "motif_95f825cc41"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_55c42ca308",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "妄想ネタ、聞いてみる？",
+      "target_tags": [
+        "motif_55c42ca308"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_9514e8de7a",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "交錯ネタ、聞いてみる？",
+      "target_tags": [
+        "motif_9514e8de7a"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_55fac25c11",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "実写って、あり？",
+      "target_tags": [
+        "motif_55fac25c11"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_e79ab791c2",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "スパチャネタ、聞いてみる？",
+      "target_tags": [
+        "motif_e79ab791c2"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_fc15322dcc",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "トラブルネタ、聞いてみる？",
+      "target_tags": [
+        "motif_fc15322dcc"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_35376ffb91",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "マッマの話、気になる？",
+      "target_tags": [
+        "motif_35376ffb91"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_cb1f7d20a4",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "家族ネタ、聞いてみる？",
+      "target_tags": [
+        "motif_cb1f7d20a4"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_asmr",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "ASMRの話、気になる？",
+      "target_tags": [
+        "motif_asmr"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_dc07c9bb88",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "職場って、あり？",
+      "target_tags": [
+        "motif_dc07c9bb88"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    },
+    {
+      "question_id": "q_var_motif_2bd84df574",
+      "kind": "variable",
+      "is_active": true,
+      "question_mode": "filter",
+      "text": "深夜って、あり？",
+      "target_tags": [
+        "motif_2bd84df574"
+      ],
+      "answers": {
+        "yes": {
+          "action": "filter_in"
+        },
+        "no": {
+          "action": "filter_out"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "fixed_count": 7,
+    "variable_count": 14,
+    "trigger_source_set_id": "2026-02",
+    "trigger_list": {
+      "path": "trigger_list.txt",
+      "list_used": true,
+      "active": 77,
+      "commented": 7,
+      "total_lines": 85,
+      "total_candidates": 80,
+      "selected": 44,
+      "missing_in_candidates": 33
+    }
+  }
+}

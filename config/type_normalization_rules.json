@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "split_delimiter": "＋",
+  "strict": true,
+  "map": {
+    "雑談": ["format_chat"],
+    "企画雑談": ["format_chat"],
+    "作業雑談": ["format_chat"],
+    "マロ読み": ["format_chat"],
+    "スパチャ読み": ["format_chat"],
+    "プレ配信": ["format_chat"],
+    "初配信": ["format_chat"],
+    "ゲーム": ["format_game"],
+    "参加型ゲーム": ["format_game"],
+    "Gaming": ["format_game"],
+    "お絵描き": ["format_drawing"],
+    "同時視聴": ["format_watchalong"],
+    "歌枠": ["format_sing"],
+    "イベント": ["format_event"],
+    "案件": ["format_event"],
+    "ショート": ["format_short"]
+  }
+}
