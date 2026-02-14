@@ -228,6 +228,8 @@ marimo/_lsp/
 __marimo__/
 
 # SinoNator generated artifacts
-question_set_draft.json
-trigger_candidates.json
-unknown_types.json
+/question_set_draft.json
+/trigger_candidates.json
+/trigger_list.txt
+/unknown_types.json
+old/

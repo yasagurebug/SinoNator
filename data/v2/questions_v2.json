@@ -1,0 +1,2279 @@
+{
+  "generated_at": "2026-02-15T03:41:47+09:00",
+  "source_selected_path": "data/v2/selected_concepts.json",
+  "item_count": 294,
+  "items": [
+    {
+      "question_id": "qv2_q_1d938a951d3b",
+      "concept_id": "core_90b29d5fa1eb",
+      "text": "雑談配信は好きですか？",
+      "priority": 1,
+      "source_hash": "e60be2759feeb17e49accae4a6f37a8228a7c6d9",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_02e956b11c57",
+      "concept_id": "core_3081d7739206",
+      "text": "ゲーム配信はよく見ますか？",
+      "priority": 2,
+      "source_hash": "180b545ae97abf3c53b3ebca3a2c4163ae7a6d9e",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_f0074e43a87a",
+      "concept_id": "hook_c7123e52ef88",
+      "text": "リスナーとの交流が多い配信は好きですか？",
+      "priority": 6,
+      "source_hash": "6f3980aa49bf946480d70f7bd12a676688c286f4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4ef5018f78c2",
+      "concept_id": "hook_6b75ef797fb0",
+      "text": "個人に関する話題の配信に興味がありますか？",
+      "priority": 7,
+      "source_hash": "9ba94bb654dc19aceac6afaf843dca52765a9e04",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a58739f78881",
+      "concept_id": "hook_b65b8080e4ce",
+      "text": "マシュマロ（マロ）に関する話題の配信は見てみたいですか？",
+      "priority": 8,
+      "source_hash": "2d0227778e32a6a6ab792b401866986d1f48487f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_70aa399cdbda",
+      "concept_id": "hook_1dacfa28b6d7",
+      "text": "グッズの話題が出る配信に興味がありますか？",
+      "priority": 9,
+      "source_hash": "09d18b300b45fb0da6cd9042cfe3165fdd79d65c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b11441ada3d5",
+      "concept_id": "core_e18b1ea15d9c",
+      "text": "イベント配信は好きですか？",
+      "priority": 10,
+      "source_hash": "e149115aa2072ae42d08930b6c3f04ccf473826a",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_ad30686acb88",
+      "concept_id": "hook_3081d7739206",
+      "text": "ゲームの話題がある配信は好きですか？",
+      "priority": 11,
+      "source_hash": "52d4db62311bf65c7d7070eb0753fd3698223975",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f884383ac4cd",
+      "concept_id": "core_1c85eecc34a9",
+      "text": "同時視聴の配信は好きですか？",
+      "priority": 12,
+      "source_hash": "4358b277525c6b0e976bbe4d59ab92b8473148cc",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_514f75643ebc",
+      "concept_id": "core_f9cfe5e8d968",
+      "text": "お絵描き配信は好きですか？",
+      "priority": 13,
+      "source_hash": "f19b03faff442df89499444e89eb3ad2ef1ce8fe",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_7d239ee41388",
+      "concept_id": "core_35ef38c013dc",
+      "text": "企画雑談の配信は好きですか？",
+      "priority": 14,
+      "source_hash": "3c368ae162abc9bc03b1334f77903dabcac552e4",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_c86fe6adc1dd",
+      "concept_id": "core_1bf9ad95e731",
+      "text": "作業雑談の配信は好きですか？",
+      "priority": 15,
+      "source_hash": "9a734cd8a55f99cc46dfb467a00c46585b18fe8e",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_8b0558b37760",
+      "concept_id": "hook_f6d4b64ad1d4",
+      "text": "職場の話題や職場トークの配信は好きですか？",
+      "priority": 17,
+      "source_hash": "8e971599874beb475a89636a437e2c369f0821f3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1bd822701216",
+      "concept_id": "core_b818f9348564",
+      "text": "マロ読み配信は好きですか？",
+      "priority": 18,
+      "source_hash": "3af20af0e2542d88b885ee0fbdc54c8c6f1053a7",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_caa619878e48",
+      "concept_id": "hook_242e8e5c3fbc",
+      "text": "家族に関する話題の配信は好きですか？",
+      "priority": 19,
+      "source_hash": "adc16c8ba7b73a3d2d5d2c1c4a00b7b28b04e23d",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_97095db0ba70",
+      "concept_id": "core_f0aff3d58da1",
+      "text": "歌枠は好きですか？",
+      "priority": 21,
+      "source_hash": "21a3ab2bfec58d81018a3f514290daf142ffec03",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_223eab1ef9ce",
+      "concept_id": "core_f9f14b980b1a",
+      "text": "同時視聴しながら雑談する配信は好きですか？",
+      "priority": 22,
+      "source_hash": "0e296a90470b6aff0afb949d6f7ed822263c7ec2",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_87c3a56adb47",
+      "concept_id": "hook_3bc3b528013e",
+      "text": "「カオス」に関する話題の配信は気になりますか？",
+      "priority": 24,
+      "source_hash": "4dd8cb51aa32205cbc5ac5c99503507e1b4df6a1",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_445cb84055db",
+      "concept_id": "core_58dd9da25c77",
+      "text": "ショート配信はよく見ますか？",
+      "priority": 25,
+      "source_hash": "8dbe5f829f128759dcd14285ad6041a8646928ab",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_338de0fc85ca",
+      "concept_id": "hook_631a2479d98b",
+      "text": "作業しながら雑談する配信に興味がありますか？",
+      "priority": 26,
+      "source_hash": "18bb760f0b1544071d167b36c1a3dc6beb4a4901",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c09c71000472",
+      "concept_id": "core_641db47da274",
+      "text": "プレ配信は見てみたいですか？",
+      "priority": 27,
+      "source_hash": "4de119d871b9fc57f5523d0e1ae10e44502eeaa1",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_008d3a12c17d",
+      "concept_id": "core_e22cc4624493",
+      "text": "スパチャ読み配信は好きですか？",
+      "priority": 29,
+      "source_hash": "c2467d85220264fb81ae84b525ad8d9a33da74d7",
+      "question_type": "core"
+    },
+    {
+      "question_id": "qv2_q_9b2adf2d3afa",
+      "concept_id": "hook_4b346b942f50",
+      "text": "「プレイ」に関する話題の配信は気になりますか？",
+      "priority": 30,
+      "source_hash": "71e481d4c94c2f7f00951b865d17e2c92b54f120",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_60d61f2b1430",
+      "concept_id": "hook_3e0c0cc25958",
+      "text": "実写の配信は好きですか？",
+      "priority": 31,
+      "source_hash": "2277810bb58245a218b0d6d518ef2ee592169272",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_23cac4751057",
+      "concept_id": "hook_5e497a6bda81",
+      "text": "ゲリラ配信の話題は気になりますか？",
+      "priority": 32,
+      "source_hash": "e1698b27ad7d9ae20217a1b404d84e62018ce5d0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f14976ef92ff",
+      "concept_id": "hook_0c295d2805ec",
+      "text": "「案件」に関する話題のある配信は気になりますか？",
+      "priority": 33,
+      "source_hash": "de2bf960acccd587f504cc04eb38e124785cad32",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_abf44469d7d9",
+      "concept_id": "hook_b9cf65617654",
+      "text": "「マッマ」に関する話題の配信は気になりますか？",
+      "priority": 34,
+      "source_hash": "61faf11f9b8256d1784e56c54b3f450c1fb0cae5",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_7ae0b995f2f5",
+      "concept_id": "hook_f5bb61a56be5",
+      "text": "スパチャに関する話題のある配信は好きですか？",
+      "priority": 35,
+      "source_hash": "5c6ae2269d17481b9fb995ec8cbbfcafd945c382",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6356f8e313e9",
+      "concept_id": "hook_1c85eecc34a9",
+      "text": "同時視聴の配信は見てみたいですか？",
+      "priority": 36,
+      "source_hash": "1716b30e8ce74f835a244bb8756b32f263f227df",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c1b73ebbf846",
+      "concept_id": "hook_1dd34007293f",
+      "text": "生誕祭（誕生日）に関する配信は見てみたいですか？",
+      "priority": 37,
+      "source_hash": "c763d23d984511aff12b29d8ad09598a9430d4c5",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8b51c4ce221d",
+      "concept_id": "hook_f0aff3d58da1",
+      "text": "歌枠の配信は好きですか？",
+      "priority": 38,
+      "source_hash": "c63ee92b6bab3920bf106dae07ec49ca138afd29",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b7ec69e4690a",
+      "concept_id": "hook_6c3fe52f0f88",
+      "text": "相談に関する配信は見てみたいですか？",
+      "priority": 39,
+      "source_hash": "b3f525f8c4f13a35451ee2338e74617ad786564a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6188f256fc40",
+      "concept_id": "hook_0aa0bc3c7b92",
+      "text": "RTAの話題がある配信に興味がありますか？",
+      "priority": 40,
+      "source_hash": "aa2b4c1f0d52399f366542ae2cbd4efb7c4b8382",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_dd82a46d6861",
+      "concept_id": "hook_1232a9d8485f",
+      "text": "イラストに関する話題の配信に興味がありますか？",
+      "priority": 41,
+      "source_hash": "a71a903fd58c8f79172d82e61a7995442b3ae470",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8035cf4aa310",
+      "concept_id": "hook_e721012f5f3f",
+      "text": "「アンテ」に関する話題の配信は見てみたいですか？",
+      "priority": 42,
+      "source_hash": "36cb3bdb56c8d1b685528bd05adb3cc2f83a5528",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_82a02af7d50d",
+      "concept_id": "hook_a8e51527055e",
+      "text": "「クリア」に関する話題の配信は見てみたいですか？",
+      "priority": 43,
+      "source_hash": "c22753113a12d693d92376c75b9b890cc86a99af",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_48f69b88aa70",
+      "concept_id": "hook_1e20dd673d7a",
+      "text": "モデルに関する話題の配信に興味がありますか？",
+      "priority": 44,
+      "source_hash": "913a2ea513abc14f7ed8f9ce3a4d1c3e4916c132",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6325910bbba4",
+      "concept_id": "hook_09558b2cc685",
+      "text": "時間に関する話題の配信に興味がありますか？",
+      "priority": 45,
+      "source_hash": "7c618f2aac68970071d1a2de8e7ee41b9e42cc24",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_92a74d3c58b8",
+      "concept_id": "hook_f3ef78af4c24",
+      "text": "「アオ」に関連する話題の配信は気になりますか？",
+      "priority": 47,
+      "source_hash": "2ceb8e3b86d54eb144f0fa541bacaac43e39ea7b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1c754e8ec451",
+      "concept_id": "hook_d9339526fcb2",
+      "text": "「性癖」に関する話題の配信は気になりますか？",
+      "priority": 48,
+      "source_hash": "9a16afb0f07bf0eecab04ff72e4f0b103e94f214",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_81f8a9cd77cb",
+      "concept_id": "hook_c919853c899a",
+      "text": "「FA」に関連する話題の配信は気になりますか？",
+      "priority": 49,
+      "source_hash": "38b5cc5b6e05d68737e167f0f5de7318e31977f3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6a76b5f93f25",
+      "concept_id": "hook_41a632efa308",
+      "text": "コメントで盛り上がる雑談配信は好きですか？",
+      "priority": 50,
+      "source_hash": "66f6e2299397f1af06b9b371340984c947ae9622",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9b3edcc104fa",
+      "concept_id": "hook_49459476d972",
+      "text": "UNDERTALE（アンダーテール）の配信は見てみたいですか？",
+      "priority": 51,
+      "source_hash": "590ab8623136d547ae2e89d6d5dcd49652a9c728",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_7e7f516859c7",
+      "concept_id": "hook_cd68fa3c27ee",
+      "text": "幼少期の思い出を語る配信に興味がありますか？",
+      "priority": 53,
+      "source_hash": "a89ab02c3c0fe5fcc7125e088cad015fcb0702e2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_59edccb16969",
+      "concept_id": "hook_dace8aabe19e",
+      "text": "「いもこ」に関する話題の配信は見てみたいですか？",
+      "priority": 54,
+      "source_hash": "25266c65827dca55f8164d84dd28359d5ad63014",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ee16ebebfb75",
+      "concept_id": "hook_761da43975d2",
+      "text": "「ラボ」に関する話題の配信は見てみたいですか？",
+      "priority": 55,
+      "source_hash": "7dcdf3547ccfda4f0b9067582e3ef812b743bf95",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9af25e5892d2",
+      "concept_id": "hook_1060274bc900",
+      "text": "CMの話題が出る配信は好きですか？",
+      "priority": 56,
+      "source_hash": "5f9265ff8dd39f616348559839a9770784f78f54",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8077b5c49190",
+      "concept_id": "hook_ceda0e396ec3",
+      "text": "PowerWashの話題の配信に興味がありますか？",
+      "priority": 57,
+      "source_hash": "dc7e9fd9eec37bebdac4892ff954ca4630ebce96",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_7471d8fc2595",
+      "concept_id": "hook_b42e4e54492d",
+      "text": "「ちゅー」にまつわる話題の配信は気になりますか？",
+      "priority": 58,
+      "source_hash": "c1ac1e74bd95234b003e14531898cbb334f7a1ce",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fbda1d9d091d",
+      "concept_id": "hook_30a1e3646343",
+      "text": "「ウォーターフェル」に関する配信は見てみたいですか？",
+      "priority": 59,
+      "source_hash": "d1bce38f6adf609a301434ecfa9d10bdd7e9966f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_19df3b5ae2af",
+      "concept_id": "hook_a2d30870d5e3",
+      "text": "ドラッグストアの話題が出る配信に興味がありますか？",
+      "priority": 60,
+      "source_hash": "748f0de68f5a8848a5f1f364b7f34c1f5d7a9100",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4a1c184a0c5c",
+      "concept_id": "hook_a3726658b20c",
+      "text": "「ニューホーム」に関する配信は気になりますか？",
+      "priority": 61,
+      "source_hash": "d47d88c551622c74e30b72117df9d72d3ba9e774",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_650ee5c013c6",
+      "concept_id": "hook_64fe85d796d8",
+      "text": "3Dに関する話題の配信は好きですか？",
+      "priority": 62,
+      "source_hash": "7df3149b9abb24d29a2335f2de4d1ae48bcce250",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a83d210e75a1",
+      "concept_id": "hook_4e8ac322b7c0",
+      "text": "「バズ」に関する話題の配信は気になりますか？",
+      "priority": 63,
+      "source_hash": "350465a373401e001ea554f7cfc4c68cc8069657",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_774548aa78a0",
+      "concept_id": "hook_1f4ae9397ec4",
+      "text": "写真に関する話題の配信に興味がありますか？",
+      "priority": 64,
+      "source_hash": "9778bf01534cd916cede3c309887fd44c25b0fb3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e49beea81666",
+      "concept_id": "hook_11ddb2b6badc",
+      "text": "ASMR配信は好きですか？",
+      "priority": 65,
+      "source_hash": "143ed39c24a15bed3743e486d1bd65584f25b45d",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6408e8fc4066",
+      "concept_id": "hook_70092af8e575",
+      "text": "アニメの話題がある配信は好きですか？",
+      "priority": 66,
+      "source_hash": "5d1bea5084b31796d845889a26ac5b33f73224ac",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5138ef9b9a5a",
+      "concept_id": "hook_69b21bbc1543",
+      "text": "アナリティクスに関する話題の配信に興味がありますか？",
+      "priority": 67,
+      "source_hash": "5b0713e20dcf23c1208802fddc5dd42b99839263",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_af4c82bf0a6a",
+      "concept_id": "hook_6600a62f1a19",
+      "text": "広島に関する話題の配信に興味がありますか？",
+      "priority": 68,
+      "source_hash": "87792e4a5741c386cfaa9af33e02330debe69ee0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b6072a537627",
+      "concept_id": "hook_288ad7813d7a",
+      "text": "青春にまつわる話題の配信は好きですか？",
+      "priority": 69,
+      "source_hash": "df11ad0ea08ee716cd27146f5919b2df4178f6b0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_adc69c55a7cb",
+      "concept_id": "hook_5ef262aa2496",
+      "text": "ネットプリント（ネップリ）の話題は気になりますか？",
+      "priority": 71,
+      "source_hash": "62c0cebeac1b170bb13869b9511c89cd32fec180",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_bad3b8ccaf04",
+      "concept_id": "hook_9c693a859df2",
+      "text": "自己紹介をする配信は見てみたいですか？",
+      "priority": 72,
+      "source_hash": "7128171a8d159fd64a037bbbdd481bb228917a14",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_452e71cb9cf7",
+      "concept_id": "hook_7e8c46514bb2",
+      "text": "黒歴史にまつわる話をする配信は気になりますか？",
+      "priority": 73,
+      "source_hash": "bd0103e42f5051413787042e39befbc810798e17",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_bbd8ddc1dc02",
+      "concept_id": "hook_cb47a21f5883",
+      "text": "Live2Dの話題がある配信に興味がありますか？",
+      "priority": 74,
+      "source_hash": "3d0d549926f78fc7d4422ee11b273670eb8f02ce",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c1adab17b88c",
+      "concept_id": "hook_e4714f80c5a9",
+      "text": "のんびりした雰囲気の配信は好きですか？",
+      "priority": 75,
+      "source_hash": "7f9f8ebc35d07a8fbe14ed274030ddd0c464f2d0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ba2aa2a48483",
+      "concept_id": "hook_22f7f7720786",
+      "text": "フェチに関する話題の配信に興味がありますか？",
+      "priority": 76,
+      "source_hash": "c55622cff6976dedc30ea8a470ad3c079ec7a41f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_eb7a356d4bfb",
+      "concept_id": "hook_fc1c82fe013e",
+      "text": "「PART」に関する話題の配信は気になりますか？",
+      "priority": 77,
+      "source_hash": "832d4729cd9f6994d18ff16caf788814f718f8ad",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_748ab8a44913",
+      "concept_id": "hook_9c2cbd91f4f5",
+      "text": "「ちょっ」って言葉が話題の配信は気になりますか？",
+      "priority": 78,
+      "source_hash": "013be81e8782caad2e9192a16ad7748844298fa4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_cab710105159",
+      "concept_id": "hook_1dec9772cd49",
+      "text": "ホラーやホラーゲームの配信は見てみたいですか？",
+      "priority": 79,
+      "source_hash": "59bb7c344cbe6a583afa15b23437cc241de7c98f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8e82b0cf9506",
+      "concept_id": "hook_009da4b01172",
+      "text": "「余裕」について語る配信は気になりますか？",
+      "priority": 80,
+      "source_hash": "3efe7608e6dae3baa620ce81c09deec502d53796",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_38c2318d32a0",
+      "concept_id": "hook_1e81158904d7",
+      "text": "「ゆるっ」な雰囲気の配信は好きですか？",
+      "priority": 81,
+      "source_hash": "cced48702909255c1b6b945714c7c4bfc30a185a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_deb5f66f1fb1",
+      "concept_id": "hook_95894b08c6f9",
+      "text": "「おし」に関する話題の配信は気になりますか？",
+      "priority": 82,
+      "source_hash": "286b6960cdfc8c620655cc8f5fdd799929c2e28e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b202243b6451",
+      "concept_id": "hook_dbedb44bf9ea",
+      "text": "シチュボの配信は好きですか？",
+      "priority": 84,
+      "source_hash": "3ddfc1e633011249fb28f0b0f3a059beb89ac1b8",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_af8e022f6953",
+      "concept_id": "hook_554539438cea",
+      "text": "中二病に関する話題の配信は気になりますか？",
+      "priority": 85,
+      "source_hash": "384a01bb673ccc8c8ef215f47ace0bc4d34ba4a4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ce400a974ae5",
+      "concept_id": "hook_4cc54c860b66",
+      "text": "体調に関する話題の配信は気になりますか？",
+      "priority": 86,
+      "source_hash": "4487ecee415a3ff3e58256185692453b2e516edc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3d2e9fb24f1a",
+      "concept_id": "hook_5b5abca89c2d",
+      "text": "呪物にまつわる話題の配信に興味がありますか？",
+      "priority": 87,
+      "source_hash": "9003e101ca2e6134a735f4e69066b8d0a15a9aa1",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4040ccdcf42e",
+      "concept_id": "hook_33b222b1d1b4",
+      "text": "広島弁に関する話題の配信に興味がありますか？",
+      "priority": 88,
+      "source_hash": "04fe828d942920ea36346bd917717b80eebd2bff",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d4970f1eea4e",
+      "concept_id": "hook_d205abee3d2a",
+      "text": "「END」に関連する話題の配信は気になりますか？",
+      "priority": 89,
+      "source_hash": "50788dd653d408f5cf142b6523c608f2c6a6dabb",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b8dfab0ca82b",
+      "concept_id": "hook_528a45acf629",
+      "text": "LINEに関する話題の配信は見てみたいですか？",
+      "priority": 90,
+      "source_hash": "693557a0b3f72a21506238da5c60b1de8754d2ca",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f5d210297b7a",
+      "concept_id": "hook_3c8dbc7d144d",
+      "text": "サムネ作りやサムネの話題の配信は気になりますか？",
+      "priority": 91,
+      "source_hash": "385f9dba65e4fecd458549a00fc56756257d3f63",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4c8d87063b57",
+      "concept_id": "hook_a221639ae81f",
+      "text": "スマホに関する話題の配信に興味がありますか？",
+      "priority": 92,
+      "source_hash": "83df6d81f0eb9c8314937d7bfbedc39545e441a8",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fad180454f33",
+      "concept_id": "hook_cac4b8d5b07d",
+      "text": "文化祭に関する話題の配信は見てみたいですか？",
+      "priority": 93,
+      "source_hash": "1e9ac874ac775caab23758ba803ff16736db21c1",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_33010dc24fa6",
+      "concept_id": "hook_713413ea5e5f",
+      "text": "「ましゅまろ」に関する話題の配信は好きですか？",
+      "priority": 94,
+      "source_hash": "328472df0bce28dca0287cd7034245bb3b1aecdf",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_75265f6e39db",
+      "concept_id": "hook_ef92bc286c56",
+      "text": "「ガチ」な話題が出る配信は見てみたいですか？",
+      "priority": 95,
+      "source_hash": "202544c440d74a4daeb32560a6087aeb5680f6e9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b507ae08d941",
+      "concept_id": "hook_808d4faecfd6",
+      "text": "ジョジョに関連する話題の配信は好きですか？",
+      "priority": 96,
+      "source_hash": "38322560edccc663ac18d57ff8c7ad7a89aab416",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4401762c6916",
+      "concept_id": "hook_0269d9c98c52",
+      "text": "「清楚」な雰囲気の話題がある配信は好きですか？",
+      "priority": 97,
+      "source_hash": "aa0ef8c73282a6104d8cbebdaeb9705dc2fb6316",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c6c9ebfc91a5",
+      "concept_id": "hook_d1577374960f",
+      "text": "Simulator系の配信に興味がありますか？",
+      "priority": 98,
+      "source_hash": "be883a79d60ccdb3d623159f5d7c4cf7e0a91efb",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1338b2bb5679",
+      "concept_id": "hook_5392c950bdde",
+      "text": "Twitterの話題がある配信に興味がありますか？",
+      "priority": 99,
+      "source_hash": "88ce93140c47f059794e9732085dc604390ea5be",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b2da0a9eda3a",
+      "concept_id": "hook_b3085a2dbe76",
+      "text": "メンバーに関する話題の配信に興味がありますか？",
+      "priority": 100,
+      "source_hash": "9495b4f70672d266ad9b4ea0b7a58241b75314d8",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1d88bdaa07e9",
+      "concept_id": "hook_0b76919ac464",
+      "text": "「ラフ」に関する話題の配信は気になりますか？",
+      "priority": 101,
+      "source_hash": "48128a7bec71cc7d6f3a58ef0ac48f8b84f895e7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9bf1e22da3b1",
+      "concept_id": "hook_f6d850b3169c",
+      "text": "収益化に関する話題の配信に興味がありますか？",
+      "priority": 102,
+      "source_hash": "20828e42b0c918aa2e79bf1fb2114b6bc9320089",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_22a3defa12eb",
+      "concept_id": "hook_520f730113d4",
+      "text": "登録者動向について話す配信に興味がありますか？",
+      "priority": 103,
+      "source_hash": "2151c06416970908edc6920c926600e7f0a3b94e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5d1d1f599b52",
+      "concept_id": "hook_2c7a92a80b81",
+      "text": "「たま」に関する話題の配信は気になりますか？",
+      "priority": 104,
+      "source_hash": "9fd7c0519ac8c862eb705a7bf62d5390937361f9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ca402fba97c0",
+      "concept_id": "hook_a051db2e9960",
+      "text": "ほのぼの系の雑談配信は好きですか？",
+      "priority": 105,
+      "source_hash": "ec0b6c08d996469f38a091071fdf29b70c328156",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_af8e7bc72619",
+      "concept_id": "hook_a646289ad73a",
+      "text": "クリスマスに関する配信に興味がありますか？",
+      "priority": 106,
+      "source_hash": "fcb366a34757a48f388d4f2f66bf954432d930c2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_059bba1949d1",
+      "concept_id": "hook_16d972117dd5",
+      "text": "コラボ配信は好きですか？",
+      "priority": 107,
+      "source_hash": "bb0d2e0ef13e25047e97ebee5a257ae64500c2bb",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3db11bbd0fab",
+      "concept_id": "hook_882ef837dab5",
+      "text": "「バニーガーデン」に関連する配信は気になりますか？",
+      "priority": 108,
+      "source_hash": "7b2af393a02d842d8b58e5dea816a79f176da25f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_0d33b3875983",
+      "concept_id": "hook_2fa9b336f717",
+      "text": "健康診断の話題が出る配信は気になりますか？",
+      "priority": 109,
+      "source_hash": "f1798f14a3b863498ac05d66c3251e7ef7b2d0ec",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c7cd6e4a8ded",
+      "concept_id": "hook_e9172a4f6793",
+      "text": "寝坊にまつわる話題の配信は気になりますか？",
+      "priority": 110,
+      "source_hash": "a2b550635efcd68ed17d9b0c8c25d2b1df98922e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5004771934b1",
+      "concept_id": "hook_d9c9abdf404a",
+      "text": "「PON」に関する話題の配信は気になりますか？",
+      "priority": 111,
+      "source_hash": "4a264f016287c6950e6fd15e24dcb847ca9d97f7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e887b9c0b44a",
+      "concept_id": "hook_7f4af5ee7e3c",
+      "text": "「しか」に関連する話題の配信は気になりますか？",
+      "priority": 112,
+      "source_hash": "0903bf3a92a8b63a62b95f0cd23c2e9adbf05f3f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d4e97f501d2f",
+      "concept_id": "hook_63b560db8849",
+      "text": "「テスト」に関する配信は見てみたいですか？",
+      "priority": 113,
+      "source_hash": "1c7150e7bda53d63dfd17a7411cae46840b4f1ad",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8a2f386f6025",
+      "concept_id": "hook_79b1535a817d",
+      "text": "ボイスに関する配信は見てみたいですか？",
+      "priority": 114,
+      "source_hash": "a36ec270beb673dc782f430b83d281afd0934689",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b3eccaf0997f",
+      "concept_id": "hook_49a9ef1b0597",
+      "text": "店長に関する話題の配信は気になりますか？",
+      "priority": 115,
+      "source_hash": "c7bb55adbea5173738e556f50e44ef01b10e0f21",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a6f2ba456c92",
+      "concept_id": "hook_e2a0ced198d9",
+      "text": "恋愛に関する話題の配信は好きですか？",
+      "priority": 116,
+      "source_hash": "222b32b403401c13d625b9941842a1b0ce3526a7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_04baa0b71006",
+      "concept_id": "hook_0a43adab5aa4",
+      "text": "「Sandtrix」や「Sandtrix+」の話題は気になりますか？",
+      "priority": 117,
+      "source_hash": "7a41b164779d96db3b3ac34329dbb70827e7ebad",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_93d871d05702",
+      "concept_id": "hook_98bd08f18ff1",
+      "text": "「なん」に関する話題の配信は気になりますか？",
+      "priority": 118,
+      "source_hash": "1b1ef165eb8f3af62e240ddd77914d2416eec6a4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9927c707928b",
+      "concept_id": "hook_6722041428da",
+      "text": "チャレンジ系の配信は見てみたいですか？",
+      "priority": 119,
+      "source_hash": "2772bb233cbd9b86c92e3e34eb7230955e1a7139",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3f455556a0fe",
+      "concept_id": "hook_6a4d15efeb22",
+      "text": "「今週」に関する話題の配信は気になりますか？",
+      "priority": 120,
+      "source_hash": "cf4e36db538062fc453ea36c14704a54726fac21",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1bcf934f08c6",
+      "concept_id": "hook_3919c3621d36",
+      "text": "朝活に関する配信は見てみたいですか？",
+      "priority": 121,
+      "source_hash": "6789bdaf8e943c24f825784eaef3116bc44235c9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_0b93ab9156c6",
+      "concept_id": "hook_55a753a0b894",
+      "text": "Switch / Switch2の話題の配信に興味がありますか？",
+      "priority": 122,
+      "source_hash": "1cdda0accce9c9a19734e5f89a5fd99e81c49c6a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fdf3331d2090",
+      "concept_id": "hook_b06801441b60",
+      "text": "「あああああ」に関連する話題の配信は見てみたいですか？",
+      "priority": 123,
+      "source_hash": "c38ac0c805dba5fd749d331efbcf947d82170bbd",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9719601dae55",
+      "concept_id": "hook_b6e3f9666c7a",
+      "text": "「しゃ」に関連する話題の配信は気になりますか？",
+      "priority": 124,
+      "source_hash": "ca879343f97789d1de72a74697ca6039551810c0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5d3e21a39fb3",
+      "concept_id": "hook_8a95e35f0c99",
+      "text": "「ちょっとだけ」にまつわる話題の配信は気になりますか？",
+      "priority": 125,
+      "source_hash": "c9ea58d658c5874075eaadaf5d059e977e6f90cc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_76f73b4a9dcc",
+      "concept_id": "hook_34cc2a6d50b6",
+      "text": "ギャンブルに関する配信は見てみたいですか？",
+      "priority": 126,
+      "source_hash": "df3cce917dbe349e64e29b70e89952e91339f140",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_7430b062004d",
+      "concept_id": "hook_58dd9da25c77",
+      "text": "「ショート」に関する配信は気になりますか？",
+      "priority": 127,
+      "source_hash": "eb92d4ae6c4388b91ee568cc8ce398555bcbad36",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4aeedddd20f5",
+      "concept_id": "hook_11ff349ee146",
+      "text": "「モンカス」に関する配信は見てみたいですか？",
+      "priority": 128,
+      "source_hash": "6a06152d0d4a160533b3ade0ebfb5a9bed4e4b2b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_20a9a66d5f19",
+      "concept_id": "hook_e9e796e9cb60",
+      "text": "彼氏の話題が出る配信は気になりますか？",
+      "priority": 129,
+      "source_hash": "bf6e685ba3e42dc38c0be29aa5d5996664caec9f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_318e7baab4d7",
+      "concept_id": "hook_7de46858918a",
+      "text": "新衣装の話題がある配信は気になりますか？",
+      "priority": 130,
+      "source_hash": "e44aa37ec3e2d87b4b0de7903b96d934429ce38d",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8146e8a41acd",
+      "concept_id": "hook_4d134bc07221",
+      "text": "「24」に関連する話題の配信は気になりますか？",
+      "priority": 131,
+      "source_hash": "9ade079943aa0400075e1d3994215bc4061d5075",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_17ba6eb90ea9",
+      "concept_id": "hook_2d91cbf686b3",
+      "text": "CAPTCHAに関する話題の配信に興味がありますか？",
+      "priority": 132,
+      "source_hash": "f9be8f21073da811cd3f75d65696cbe5cf3628f3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c9e2ac66d514",
+      "concept_id": "hook_bccc14ee7da1",
+      "text": "Discordの話題が出る配信に興味がありますか？",
+      "priority": 133,
+      "source_hash": "9e4044490247ede0a81d33dd47c66312e4873e50",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_14704c4c68fb",
+      "concept_id": "hook_56442e28fd32",
+      "text": "FANBOXに関する話題の配信に興味がありますか？",
+      "priority": 134,
+      "source_hash": "0db455bb5db464d2bf31397db114d21c54207ddc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9dd47634afef",
+      "concept_id": "hook_c890a4554494",
+      "text": "Vlogに関する配信は見てみたいですか？",
+      "priority": 135,
+      "source_hash": "65d886ba1d31cef80a65b7c95381d33735d262bd",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_32470d51b3a5",
+      "concept_id": "hook_9f4a6ac500d1",
+      "text": "「えっち」に関する話題の配信は気になりますか？",
+      "priority": 136,
+      "source_hash": "b54889c5f6d7d70e0d4af60d4d8ee6eed467aa58",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_309a23eee476",
+      "concept_id": "hook_e1a8bc898865",
+      "text": "「きたなめ」に関する配信は気になりますか？",
+      "priority": 137,
+      "source_hash": "7c99a853f0472bcb5334bc0672dfec5776390292",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_08f5d4c1c3d7",
+      "concept_id": "hook_573351f8aafa",
+      "text": "「ごめん」にまつわる話題の配信は気になりますか？",
+      "priority": 138,
+      "source_hash": "cfed09b43b88ad5ed080d5be2c20054d2651df85",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_0e5493d62eee",
+      "concept_id": "hook_0d1fb4ec5bbb",
+      "text": "しぐれういの話題が出る配信は好きですか？",
+      "priority": 139,
+      "source_hash": "e3a41aaade061a3216de10b4b52bbe18a62ae6af",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_42690a4312ce",
+      "concept_id": "hook_3c54027838b0",
+      "text": "「しののっこ」に関する話題の配信は気になりますか？",
+      "priority": 140,
+      "source_hash": "99d5c46a7d485eea74640d4159f8c3cfa94ca683",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ea11a50ab03b",
+      "concept_id": "hook_0440e1b0c65b",
+      "text": "たまごっちの話題が出る配信は見てみたいですか？",
+      "priority": 141,
+      "source_hash": "f0bdc11e3286f24b5d79a019eb6906ee7b0d8c4f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5b84089011d0",
+      "concept_id": "hook_c916267f807a",
+      "text": "「なそ」に関する話題の配信は気になりますか？",
+      "priority": 142,
+      "source_hash": "b85f3c8bff3264006995aed6b2db72422c0c50ac",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6c204e000808",
+      "concept_id": "hook_7ef581795b23",
+      "text": "アキネーターの話題がある配信は見てみたいですか？",
+      "priority": 143,
+      "source_hash": "9972a89e6ebceaa2699d9116f0e2cc160d622609",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2ae9a422940e",
+      "concept_id": "hook_b04dc4d683c9",
+      "text": "アクキーの話題が出る配信は好きですか？",
+      "priority": 144,
+      "source_hash": "06b5e324a73810897f810d872bff0abab63a2024",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e9413e3693c4",
+      "concept_id": "hook_c686c1a9dd78",
+      "text": "アーカイブに関する話題の配信は気になりますか？",
+      "priority": 145,
+      "source_hash": "e2b0906457a76dda4f818847c90d867e3df0d108",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_0a4704de8b5e",
+      "concept_id": "hook_e24a2214ccb3",
+      "text": "「ギュンギュん」に関する配信は気になりますか？",
+      "priority": 146,
+      "source_hash": "d4a508623554e899df36d71dab3b8bcb9b1c2c2f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6d404f46b108",
+      "concept_id": "hook_56c7bc31a93a",
+      "text": "サプライズのある配信は好きですか？",
+      "priority": 147,
+      "source_hash": "0bc81ad4fc0112f11ec561d8c3b6baa19c797905",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_961449049e71",
+      "concept_id": "hook_791df159ad13",
+      "text": "セクハラに関する話題のある配信は気になりますか？",
+      "priority": 148,
+      "source_hash": "753e7808decfdb761fa6a48e9b12a8d379b0809e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4f59375537e3",
+      "concept_id": "hook_fec0a09bf5ba",
+      "text": "「ナイスパ」に関する話題の配信は見てみたいですか？",
+      "priority": 149,
+      "source_hash": "a4ff1ca09469cb7aa1a65c3bd46f95083eedc757",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2f7d508efb23",
+      "concept_id": "hook_055d8afe073d",
+      "text": "フルタイムに関する話題の配信は気になりますか？",
+      "priority": 150,
+      "source_hash": "4d7727376deaa4784622f2f6c7bc172d74d41476",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_dd99ff0063d9",
+      "concept_id": "hook_d5d6e3a5b606",
+      "text": "メンバーシップの話題がある配信に興味がありますか？",
+      "priority": 151,
+      "source_hash": "2f5a477dab36ec26dfaaedcfa1373a46cca9b4aa",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_690c6e009a18",
+      "concept_id": "hook_77a668549022",
+      "text": "世界地図に関する話題の配信に興味がありますか？",
+      "priority": 152,
+      "source_hash": "b3aa1e8a2b289a56eafd00cb16204b4697f347f3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c9da36048e0d",
+      "concept_id": "hook_7895598bcd52",
+      "text": "事務所勧誘の話題が出る配信に興味がありますか？",
+      "priority": 153,
+      "source_hash": "c7c6cb382d033751c88853b4c74d370c9a16777c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c34f8303913b",
+      "concept_id": "hook_0b545fa15a9b",
+      "text": "加湿器の話題が出る配信に興味がありますか？",
+      "priority": 154,
+      "source_hash": "9ef3c368f0ee8da6681800a85ec8637bc195b572",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1804f2d52e61",
+      "concept_id": "hook_ad50b63cbd09",
+      "text": "哲学に関する話題の配信に興味がありますか？",
+      "priority": 155,
+      "source_hash": "ab001fe1005f7a77f0c462a9597929737c24c9d3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9ff154403045",
+      "concept_id": "hook_9fa3da66de7e",
+      "text": "屋台の話題が出る配信は好きですか？",
+      "priority": 156,
+      "source_hash": "508bfbaf419129610b0e969abf8e47dd43118617",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_eef6215502b7",
+      "concept_id": "hook_c8231a9e2e30",
+      "text": "怪談の話題がある配信は好きですか？",
+      "priority": 157,
+      "source_hash": "a539f073617601288fb91349eb9e0d2673a0b4cb",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b2860c82f1af",
+      "concept_id": "hook_796ca8f45e7e",
+      "text": "「江波」に関する話題の配信は気になりますか？",
+      "priority": 158,
+      "source_hash": "5ad14049d9770634252358ea433653ea5b634bb9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a4d4cf021f0f",
+      "concept_id": "hook_3bbff987412a",
+      "text": "焼肉に関する話題の配信は見てみたいですか？",
+      "priority": 159,
+      "source_hash": "4e9142b8997b09e0203cf6cad4038b6dc5ceb6bd",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_52b2caae35e5",
+      "concept_id": "hook_2cb627964c5e",
+      "text": "税理士に関する話題の配信に興味がありますか？",
+      "priority": 160,
+      "source_hash": "62099b26f7f4c0fc71e1e8cb8533ba482eaf9553",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f17dc98b2030",
+      "concept_id": "hook_b4ab8b6ac55e",
+      "text": "縦型の配信は見てみたいですか？",
+      "priority": 161,
+      "source_hash": "5d30917e5e1412bb209fc86ae5ba33cd5b568a76",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c8b6774698d8",
+      "concept_id": "hook_f63f96efcf4d",
+      "text": "「GO」に関する話題の配信に興味がありますか？",
+      "priority": 162,
+      "source_hash": "029342ec78663653de1de5e51c185018e1b54c07",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a479eae0bf66",
+      "concept_id": "hook_be38e4ffb7bf",
+      "text": "RPGに関する配信に興味がありますか？",
+      "priority": 163,
+      "source_hash": "5a7fd5fcffbd5da09e0d92d870dc2beb3d3d010c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_33de39c7c0a4",
+      "concept_id": "hook_f75ce6b9e57d",
+      "text": "「いいいい」に関する話題の配信は気になりますか？",
+      "priority": 164,
+      "source_hash": "0b2608accff5d8267ab0b59df461fc28c1fc35df",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_392cf6fdc292",
+      "concept_id": "hook_3a449414c480",
+      "text": "「こどおじ」に関する話題の配信は気になりますか？",
+      "priority": 165,
+      "source_hash": "d680fe2ec355353c7d977a4d0a427396fc87a02f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1559567ec79c",
+      "concept_id": "hook_c3325673d789",
+      "text": "やらかしエピソードがある配信は気になりますか？",
+      "priority": 166,
+      "source_hash": "cf613b39606391af232b97f8b967475392244bf6",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_943e909cf875",
+      "concept_id": "hook_e8ceaa8f6b45",
+      "text": "オタクに関する話題の配信は好きですか？",
+      "priority": 167,
+      "source_hash": "910af5fd7763828e1df544265db342e5f367aa83",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_abbaa5e874b3",
+      "concept_id": "hook_c973e21d6d52",
+      "text": "ケーキの話題が出る配信は好きですか？",
+      "priority": 168,
+      "source_hash": "bc2e5b8d097c2d2b3141848878e2a78a73eb65fe",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9832c37aa8f4",
+      "concept_id": "hook_79a934542e7d",
+      "text": "スタンプに関する話題の配信は好きですか？",
+      "priority": 169,
+      "source_hash": "affe92b894837051cfad685bc6a2ec38b12a0b88",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_41073cf3d5c8",
+      "concept_id": "hook_fd5f79e59d94",
+      "text": "「マヨ」に関する話題の配信は気になりますか？",
+      "priority": 170,
+      "source_hash": "8bc774d701a75137869ba7a60a8fa4003be455a0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_09fcab1fd580",
+      "concept_id": "hook_e677262ff95b",
+      "text": "「人生初」の体験談を語る配信は見てみたいですか？",
+      "priority": 171,
+      "source_hash": "09b9e677beb511fb051bd3e3582d05699dbfa94a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3234a405e0da",
+      "concept_id": "hook_a455bdfb1193",
+      "text": "再販の話題がある配信に興味がありますか？",
+      "priority": 172,
+      "source_hash": "569585e0e1df77fd6eb966efca53d8331dbb2558",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_43d485fff3a3",
+      "concept_id": "hook_2cb24e2529ab",
+      "text": "飲酒に関する話題の配信は好きですか？",
+      "priority": 173,
+      "source_hash": "51fccc016799c504cad47a40c3449d1d7240c17c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f4279d1acdd5",
+      "concept_id": "hook_c0427cd3d8fc",
+      "text": "駄菓子に関する話題の配信に興味がありますか？",
+      "priority": 174,
+      "source_hash": "31414365a50aec64e43ec7be72b92bd2146235ee",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ff127129ba14",
+      "concept_id": "hook_7f5df4aab53e",
+      "text": "「DgS」に関する話題の配信に興味がありますか？",
+      "priority": 175,
+      "source_hash": "2c9e7df5c84b9e9e6381ee8558a6b98cac6787b9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_cbdbebd8508b",
+      "concept_id": "hook_1e66019c6aec",
+      "text": "Skebに関する話題の配信に興味がありますか？",
+      "priority": 176,
+      "source_hash": "f88a311bb7a1f2a84b9704906c93c2848f62e0ee",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f1622397b38f",
+      "concept_id": "hook_73796ecfaef5",
+      "text": "「あーちゃん」に関する話題の配信は気になりますか？",
+      "priority": 177,
+      "source_hash": "b8165b1b452db8f4b7ab7920098b7dd230a38017",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f0a97999a428",
+      "concept_id": "hook_90060ade1f81",
+      "text": "くしゃみの話題が出る配信は気になりますか？",
+      "priority": 178,
+      "source_hash": "55b0afcea4cd277294a3ee620da12a02c2aee19e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_cae47b9d466f",
+      "concept_id": "hook_38e52f0304e8",
+      "text": "たこに関する話題の配信に興味がありますか？",
+      "priority": 179,
+      "source_hash": "5cce350eec6054346e23068f4b6a776995213389",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_06a53e0c22fd",
+      "concept_id": "hook_b59331a81100",
+      "text": "「ゆるゆる」な雰囲気の配信は好きですか？",
+      "priority": 180,
+      "source_hash": "ab499eb3f3efa1f3d1d43d616681ea712dade0f1",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a7926443efa2",
+      "concept_id": "hook_eebdeac7e1b6",
+      "text": "アクスタの話題が出る配信に興味がありますか？",
+      "priority": 181,
+      "source_hash": "f5a3fb5f87e2e02d1e62ef34b7d63a9f6e6697df",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9c1de35c4ab9",
+      "concept_id": "hook_9a750a03725d",
+      "text": "「オーエン」に関する話題の配信は気になりますか？",
+      "priority": 182,
+      "source_hash": "c7424c5439de5ed65ecdd9a7d983ee1d63786d9a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d51f3b5ccee8",
+      "concept_id": "hook_dc4380d53d28",
+      "text": "ギャルに関する話題の配信は好きですか？",
+      "priority": 183,
+      "source_hash": "b7551c134dc4d1473986f15945735b29413a386a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_eac65f0e4cb8",
+      "concept_id": "hook_5a5f08df9472",
+      "text": "プレゼントの話題がある配信は気になりますか？",
+      "priority": 184,
+      "source_hash": "d0caa5f73fcfd98428158b53a5dc027ba6075cd2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fd3c5e84d170",
+      "concept_id": "hook_a99c62cf4374",
+      "text": "モデリングの話題がある配信に興味がありますか？",
+      "priority": 185,
+      "source_hash": "cef7a190cfcddc16b1f35e4644c3c5dd2aa08bdf",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_31b3f19d8b89",
+      "concept_id": "hook_87879a5101ba",
+      "text": "ライフハックの話題がある配信は見てみたいですか？",
+      "priority": 186,
+      "source_hash": "59b7f848ee70a2e5eb7962a12c76038c6205633c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_54823b43f552",
+      "concept_id": "hook_b752b6eb8e42",
+      "text": "「ワンピ」に関する話題の配信は好きですか？",
+      "priority": 187,
+      "source_hash": "052ba006c28146fa571d58a5afc9a450a868e44e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_033a8facf220",
+      "concept_id": "hook_bcd17c91d3b8",
+      "text": "「しかのこ」に関する配信は気になりますか？",
+      "priority": 188,
+      "source_hash": "b05e7abb5cd58f7957c3e4f83c12f46ec2d7edf6",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fc4e507821c5",
+      "concept_id": "hook_69a825a28cb9",
+      "text": "チョコに関する話題のある配信は好きですか？",
+      "priority": 189,
+      "source_hash": "bdcda57bfcd9229ffc75763e96c9e6b4a15307c7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8842f8ee4a7a",
+      "concept_id": "hook_36454dc98108",
+      "text": "ペットに関する配信に興味がありますか？",
+      "priority": 190,
+      "source_hash": "5e7082bb603f2ad3d8dc296eaa4846f8d82d1d8f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3874a498fd7b",
+      "concept_id": "hook_139b92e430a9",
+      "text": "不審者通報に関する話題の配信は気になりますか？",
+      "priority": 191,
+      "source_hash": "1c5080cb80f0ca79e3dca73936eeb73d75905182",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_19a8b5a9e50b",
+      "concept_id": "hook_71befe8e2817",
+      "text": "伝説にまつわる話題の配信に興味がありますか？",
+      "priority": 192,
+      "source_hash": "9366968b94414542f00c6e3c7beef4e4d6fbde05",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d40bf60026ba",
+      "concept_id": "hook_5516f01001d3",
+      "text": "「社畜」に関する話題の配信は気になりますか？",
+      "priority": 193,
+      "source_hash": "9147c7772133a73284a5d4724e1f0d5593139e0a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_bb6e889650b0",
+      "concept_id": "hook_a7eb32ca0ea2",
+      "text": "BGMに関する話題の配信に興味がありますか？",
+      "priority": 194,
+      "source_hash": "1a9b00413d0b4cba3b6319e4c38e908ef9d8ab13",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_04c81ae8fd5e",
+      "concept_id": "hook_70c94a757c2a",
+      "text": "「JK」に関する話題の配信は気になりますか？",
+      "priority": 195,
+      "source_hash": "5a1563c01af3639b424a450ab5b8fa57e01deaf9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a58eb5f18bdd",
+      "concept_id": "hook_e7905f3b1b9d",
+      "text": "OBSに関する配信に興味がありますか？",
+      "priority": 196,
+      "source_hash": "bf24545dcb8305abce558b7e461b4e26704cb544",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_836f8b63d74e",
+      "concept_id": "hook_7b807520080d",
+      "text": "「つぐ」に関する話題の配信は気になりますか？",
+      "priority": 197,
+      "source_hash": "59c03130298fa4b80853291f77a1f76049c0d6c7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5be28620557f",
+      "concept_id": "hook_1fae3a152002",
+      "text": "ぷよテト（ぷよぷよ/テトリス）の配信は見てみたいですか？",
+      "priority": 198,
+      "source_hash": "a686438be72c19194ea7941d7e3dda08faf70bd5",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1b868cdc1dd8",
+      "concept_id": "hook_89eb79b5c81c",
+      "text": "「カンパーイ」に関する配信は好きですか？",
+      "priority": 199,
+      "source_hash": "a3b71b60d7fc96029f6d1c4e957a120f6280acda",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ed8437e8be60",
+      "concept_id": "hook_c9fa83c27b8d",
+      "text": "コロナに関する話題の配信に興味がありますか？",
+      "priority": 200,
+      "source_hash": "24ceeed0cf8eb9699fd0162caac87d7a94191f02",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_15399c9bcb5e",
+      "concept_id": "hook_6dc0f603699b",
+      "text": "コンビニに関する話題の配信に興味がありますか？",
+      "priority": 201,
+      "source_hash": "1c83ced731e9b7ef794cb6cf03117c5cae2c1308",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_44ace9311e62",
+      "concept_id": "hook_5eaedaa221b4",
+      "text": "スイカに関する話題の配信に興味がありますか？",
+      "priority": 202,
+      "source_hash": "a7dca5ff13e3a620ecb33f09e484b5fc352c04cb",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_41f7e0eb7ba9",
+      "concept_id": "hook_4cdd98528c99",
+      "text": "スタバの新作や限定メニューの話題は気になりますか？",
+      "priority": 203,
+      "source_hash": "71b7f7af7782d6ba9125aeda07faa53ef44d846d",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b5bede9538dd",
+      "concept_id": "hook_5969d0688239",
+      "text": "ドキドキする展開のある配信は好きですか？",
+      "priority": 204,
+      "source_hash": "bbc026c9a80b783cf7b7686d5b40d1d889e3eb22",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_21460a0d4f5b",
+      "concept_id": "hook_dac8ec446b17",
+      "text": "ネタバレ（コメント含む）のある配信は見たいですか？",
+      "priority": 205,
+      "source_hash": "f4cf515a4ae75df3a0bfc423011492a2f79e80cd",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b0f8871f95fb",
+      "concept_id": "hook_502161a90664",
+      "text": "ファンレターにまつわる話題の配信に興味がありますか？",
+      "priority": 206,
+      "source_hash": "c63f64f62db9d82c63fda47c8dbbba384902886b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_be4d729917d0",
+      "concept_id": "hook_e3f0c508cb89",
+      "text": "借金に関する話題の配信に興味がありますか？",
+      "priority": 207,
+      "source_hash": "f12b3026d8b221ef2c86a06c208d17104c4bc239",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f962ceb18bf7",
+      "concept_id": "hook_5978cbf78aba",
+      "text": "利用規約に関する話題の配信に興味がありますか？",
+      "priority": 208,
+      "source_hash": "4654a1c5a9dc649030c4cba124ee8eb0f9a2a3ef",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e05e64ab6e22",
+      "concept_id": "hook_1303a299947b",
+      "text": "「勇者」に関する話題の配信は好きですか？",
+      "priority": 209,
+      "source_hash": "4d4cb13dbea2d2d22e7c507fa51dcc74c58c8dbc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2b5cee091cbb",
+      "concept_id": "hook_00904b6827e1",
+      "text": "地震に関する話題の配信に興味がありますか？",
+      "priority": 210,
+      "source_hash": "b4ae68e9a1ea84b670f561edcc7b524f0f8049ee",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_cb264667866d",
+      "concept_id": "hook_6fc3645daffd",
+      "text": "「大歓迎」という言葉が出てくる配信は見てみたいですか？",
+      "priority": 211,
+      "source_hash": "12da2befeaf732c70ddfabd0aaec7a843c24e07b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2b77b7a12a87",
+      "concept_id": "hook_3d7c04282891",
+      "text": "「異変」にまつわる話題の配信は気になりますか？",
+      "priority": 212,
+      "source_hash": "7e9e75a618289c770bb0d8a9a01bc88c5b892e2a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_025d220d73c0",
+      "concept_id": "hook_7fdaa9f4233a",
+      "text": "「緊急記者会見」に関連する配信は気になりますか？",
+      "priority": 213,
+      "source_hash": "2025a8f06bb911026ed414d73bc1bad25dd57dc7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_673324a7dab5",
+      "concept_id": "hook_b08a798dd60f",
+      "text": "「謝罪会見」に関する話題の配信は気になりますか？",
+      "priority": 214,
+      "source_hash": "af3e87976e2352e34100ecc4beea3e16a7829600",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_08681e3ca6e5",
+      "concept_id": "hook_b48f6f6773aa",
+      "text": "「8192」に関する話題の配信は気になりますか？",
+      "priority": 215,
+      "source_hash": "5c865a9d2c65784131065c9ebccd1d14982e1ab2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d319f6dd6f20",
+      "concept_id": "hook_560040c54a3b",
+      "text": "AIに関する話題の配信に興味がありますか？",
+      "priority": 216,
+      "source_hash": "8acac082bfd2f3a862a0e1d62c6f1338983bd0f3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a321e1748889",
+      "concept_id": "hook_4d4ce73b1566",
+      "text": "「Card」に関する話題の配信に興味がありますか？",
+      "priority": 217,
+      "source_hash": "5aa40d60c4216a09c38d620aa8b4aab50189c5a9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3b16299b2069",
+      "concept_id": "hook_495265260f5b",
+      "text": "ChatGPTに関する話題の配信に興味がありますか？",
+      "priority": 218,
+      "source_hash": "e4e1eb25bc223556fd6aaa646ef6c9efcf82db8d",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_49c0e90b8de5",
+      "concept_id": "hook_89f89c02cf47",
+      "text": "「ID」に関する話題の配信に興味がありますか？",
+      "priority": 219,
+      "source_hash": "223260f6c306b01c85a72ece5dcfbdbb2352ba88",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_fffd3787c04b",
+      "concept_id": "hook_acb9f29dc361",
+      "text": "MBTIに関する話題の配信に興味がありますか？",
+      "priority": 220,
+      "source_hash": "d702c315ac94f2eaf99722608d7f2dbf1a5e9f35",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_f0c8a724655a",
+      "concept_id": "hook_e85bdb62be77",
+      "text": "UNOに関する配信は好きですか？",
+      "priority": 221,
+      "source_hash": "57fd839bb3ac84c824a4a7e4e2a8ec6d9ae8bcb4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5a4fdbd14966",
+      "concept_id": "hook_64979b975971",
+      "text": "「おわれまテン」に関する配信は見てみたいですか？",
+      "priority": 222,
+      "source_hash": "c891ea538e1eb2bcac230b41fe94f5d72b9bc77a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a8e1505823e4",
+      "concept_id": "hook_fb5a5d857780",
+      "text": "「こゲーム」に関する配信は見てみたいですか？",
+      "priority": 223,
+      "source_hash": "dd636a4f609ae6303f0e90950ba106a8634c0cb3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_75c4432a0124",
+      "concept_id": "hook_c16cc9826daa",
+      "text": "「じゃけえ」に関連する話題の配信は好きですか？",
+      "priority": 224,
+      "source_hash": "0b2acdbdb81d7241bfcf8375954943d7992de939",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_169601f6c5fa",
+      "concept_id": "hook_763399d462bb",
+      "text": "すぱちゃの話題が出る配信に興味がありますか？",
+      "priority": 225,
+      "source_hash": "5317f936b404fd44a253070950a4b7e46b267f40",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_851b2c9d439e",
+      "concept_id": "hook_fbb88d744b66",
+      "text": "「っぴー」に関する話題の配信は気になりますか？",
+      "priority": 226,
+      "source_hash": "37a48200c50f2ba190236e6e5bef88fdd3743702",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a47e74fdc646",
+      "concept_id": "hook_7cf30cf7446b",
+      "text": "「なんでも」系の雑談配信は好きですか？",
+      "priority": 227,
+      "source_hash": "a9f8b36a0a3ebbffa6febb1353a2e3b7098f0916",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_685367b20720",
+      "concept_id": "hook_cafa8b5ff8da",
+      "text": "ぬいぐるみの話題がある配信は見てみたいですか？",
+      "priority": 228,
+      "source_hash": "3ca911f8379df48b74ca1c60d6499a87e35776d7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_495331e94841",
+      "concept_id": "hook_fa0ee1389663",
+      "text": "「まさか」と驚く展開のある配信は好きですか？",
+      "priority": 229,
+      "source_hash": "d35b3047e06eba0a481e0bc520ad443a7ad0f133",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3bd5325f128b",
+      "concept_id": "hook_50b63901ed37",
+      "text": "「アツシーマン」に関する配信は気になりますか？",
+      "priority": 230,
+      "source_hash": "79bf671c5cc2083d05efab49cfc4dd3e8ee1b6f7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_17cc862e52c4",
+      "concept_id": "hook_1a29007a518c",
+      "text": "カミングアウトに関する話題の配信は気になりますか？",
+      "priority": 231,
+      "source_hash": "0213cfff6f48772637c6ece04b5820dfa9e71f49",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ed8468a66a46",
+      "concept_id": "hook_c14314827041",
+      "text": "カレーの話題が出る配信は好きですか？",
+      "priority": 232,
+      "source_hash": "bb0f3597bd230749136eced6ebc6353ab19485ca",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6bcab4f99ddf",
+      "concept_id": "hook_edd6eec3a830",
+      "text": "サバイバルに関する配信は見てみたいですか？",
+      "priority": 233,
+      "source_hash": "12069d48e7cc547d6a66fadb09d51778c27184e7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5b924b4ebb5d",
+      "concept_id": "hook_795d25e718e1",
+      "text": "ダンスに関する配信は見てみたいですか？",
+      "priority": 234,
+      "source_hash": "bfc11d0291d14ad90898d3f92103c4cfb7220985",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2f503561762e",
+      "concept_id": "hook_02f17fee864f",
+      "text": "デザインの話題がある配信に興味がありますか？",
+      "priority": 235,
+      "source_hash": "f3509ea79d1e37fa1e512b4c975b5557c256d90b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_113cdd64c46c",
+      "concept_id": "hook_68cd1ffec81d",
+      "text": "ニュースの話題を扱う配信はよく見ますか？",
+      "priority": 236,
+      "source_hash": "fb6e2185b42fc3ab4106ec8d0497bc3af018878a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_eacc397b7048",
+      "concept_id": "hook_15af117d0572",
+      "text": "ハロウィンに関する話題の配信に興味がありますか？",
+      "priority": 237,
+      "source_hash": "3f933c97e977785b5a6ce0052092b855d71bb441",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8119b4668d8b",
+      "concept_id": "hook_b8d197c1d9e1",
+      "text": "プロセカ（プロジェクトセカイ）の話題は好きですか？",
+      "priority": 238,
+      "source_hash": "ab0eee7297ab1984e1dee48a338afc5d46c53c42",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ad819255e79a",
+      "concept_id": "hook_ed92827a7568",
+      "text": "「ボツ」にまつわる話題の配信は気になりますか？",
+      "priority": 239,
+      "source_hash": "9a2dd875a4a55bb52615de6e7ee657eea7b4d086",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_df4ac954dfa2",
+      "concept_id": "hook_344a3e312396",
+      "text": "「メダリスト」に関連する配信は気になりますか？",
+      "priority": 240,
+      "source_hash": "e27e5f7f6ec3348663dc23968683ad9a87000373",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e8d476c9ae24",
+      "concept_id": "hook_7ef38af353b8",
+      "text": "メルカリの話題が出る配信に興味がありますか？",
+      "priority": 241,
+      "source_hash": "f46f10e70d1fe7da472cc60cb79c685dc5cb61d3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_bd1d0ac0c6c7",
+      "concept_id": "hook_81f68fd11348",
+      "text": "「リアル」に関する話題の配信は気になりますか？",
+      "priority": 242,
+      "source_hash": "267b4c92aa797810ecb6f6df1360ff62038610cc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4a9845464925",
+      "concept_id": "hook_e7676d6c3885",
+      "text": "ワクワクする話題の配信は見てみたいですか？",
+      "priority": 243,
+      "source_hash": "6c33e6dfd2f157cba5ac36185f9946ec433ed038",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b2ee0de0da42",
+      "concept_id": "hook_cf0dd27df81a",
+      "text": "事故物件にまつわる話題の配信に興味がありますか？",
+      "priority": 244,
+      "source_hash": "36a95e0ac566e852a3d9745a889c17cab08a376b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_74c9b4ddaba7",
+      "concept_id": "hook_905a4279f8b1",
+      "text": "人狼に関する配信は見てみたいですか？",
+      "priority": 245,
+      "source_hash": "92edc8a1140599e2586ffdf1d7c31c14cfb8bc07",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1df11206c965",
+      "concept_id": "hook_574cd4fb795b",
+      "text": "「今日」にまつわる話題の配信に興味がありますか？",
+      "priority": 246,
+      "source_hash": "a418ebb95381e3c09578b1f7d22019d8d8d270a5",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3d23dcdde072",
+      "concept_id": "hook_96bbe7e67370",
+      "text": "会社の話題が出る配信に興味がありますか？",
+      "priority": 247,
+      "source_hash": "96d105585073720b08b7130cf36a4dd02b96d6a4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d1d8b42e1f4a",
+      "concept_id": "hook_2e304a5925ae",
+      "text": "口内炎について話す配信は気になりますか？",
+      "priority": 248,
+      "source_hash": "70e7d814713a5aa11c5456b6dd547147d5d36cf2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8e8a53f6bef3",
+      "concept_id": "hook_8b1b4acaa32a",
+      "text": "外郎売に関する話題の配信に興味がありますか？",
+      "priority": 249,
+      "source_hash": "c3f75b1d991f831db54ac22c8b1e210ec3cb64d7",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_578e00b8f011",
+      "concept_id": "hook_8e83d73c5faf",
+      "text": "晩酌しながら雑談する配信は見てみたいですか？",
+      "priority": 250,
+      "source_hash": "344e0b76ec1badf91fdb8a31000cb0bc61287fca",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4986ef5fac63",
+      "concept_id": "hook_cd0eb1a1e60e",
+      "text": "最高記録に関する話題の配信に興味がありますか？",
+      "priority": 251,
+      "source_hash": "0ac148e46e24cee44d3f52c9f782029b18492786",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b0ae842e844a",
+      "concept_id": "hook_06e2c91939b9",
+      "text": "流行語大賞に関する話題の配信は気になりますか？",
+      "priority": 252,
+      "source_hash": "d8f42aba512f139d2d20c54bafe7cf25ef80524e",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_9e59cb6584f8",
+      "concept_id": "hook_fcb422a84531",
+      "text": "粘液嚢胞に関する話題の配信に興味がありますか？",
+      "priority": 253,
+      "source_hash": "6fcbaf7ac156d97ac1807656bbed6aed3e5a7480",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_a5e50524789f",
+      "concept_id": "hook_cbc262d9f2d2",
+      "text": "「花奈」に関する話題の配信は見てみたいですか？",
+      "priority": 254,
+      "source_hash": "f9774d18de1d7968f4042a146e81897443eb32d0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d489b9b67008",
+      "concept_id": "hook_606f9cc9c5c5",
+      "text": "「BAN」に関する話題の配信は気になりますか？",
+      "priority": 255,
+      "source_hash": "0fa34f3d6c5eda555bb16bcc046a8137c30ed8a3",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1084530af44b",
+      "concept_id": "hook_03aa1ad19790",
+      "text": "「Creepy」な雰囲気の配信は好きですか？",
+      "priority": 256,
+      "source_hash": "784526406f259d625c4e762e8164e4d590fef993",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3017243dc0b2",
+      "concept_id": "hook_d1415f04bb34",
+      "text": "GeoGuessrの配信は見てみたいですか？",
+      "priority": 257,
+      "source_hash": "3f2d94b025b6d1eed6109cfd2ee6895283727cf9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_960879df47cf",
+      "concept_id": "hook_7533092f7898",
+      "text": "「NOMUZO」に関する話題の配信に興味がありますか？",
+      "priority": 258,
+      "source_hash": "c46a788c7023de3d5ae288c6e0d1107161703270",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_8ed826b2b25d",
+      "concept_id": "hook_698de13e6027",
+      "text": "PayPayに関する話題の配信に興味がありますか？",
+      "priority": 259,
+      "source_hash": "601bdac7d452649d354118a5795f7a7f262b9099",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e2f034f7fbb8",
+      "concept_id": "hook_d219af98f552",
+      "text": "「Skb」に関連する話題の配信は気になりますか？",
+      "priority": 260,
+      "source_hash": "f0cebbe2e08f53162e729ba527f1c40301234465",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_6f1f53d150d4",
+      "concept_id": "hook_05329fa70eb0",
+      "text": "「おしがま」に関する話題の配信は見てみたいですか？",
+      "priority": 261,
+      "source_hash": "0be3950ab31226965b83c706a3726df46a723fa1",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_67c7b2381765",
+      "concept_id": "hook_01c7b6d14648",
+      "text": "「おしるこニキ」の話題が出る配信は見てみたいですか？",
+      "priority": 262,
+      "source_hash": "c0cd0eb30201045a1ba9e21afcebbd427bb6c2d2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_bc5c5e4f18e2",
+      "concept_id": "hook_1177d3402d40",
+      "text": "「おっさんカップリング」の話題がある配信は見てみたいですか？",
+      "priority": 263,
+      "source_hash": "e09e15fcf3623f07e27432b4f432a98e3507b143",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_74cfaadb0a7b",
+      "concept_id": "hook_bcdb32cf37ce",
+      "text": "「こイングリッシュ」に興味がありますか？",
+      "priority": 264,
+      "source_hash": "c5ddd2ecc8f3067bf83907b6d650bd0d40496fd4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d56acc101ad2",
+      "concept_id": "hook_e160af9d399e",
+      "text": "たこやきの話題が出る配信は好きですか？",
+      "priority": 265,
+      "source_hash": "e37368db8cd8586ce29e324590fb2bdd2b63bcec",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_701160b891a7",
+      "concept_id": "hook_afdea8c6caf4",
+      "text": "「つぶゆき」に関する話題の配信は気になりますか？",
+      "priority": 266,
+      "source_hash": "c61e95fae0ffcabe5885334c070e29305845b55f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_44b6cfc44303",
+      "concept_id": "hook_b60ee6b3b856",
+      "text": "「どステップ」に関する話題の配信は見てみたいですか？",
+      "priority": 267,
+      "source_hash": "20fd18b264688723a74fb25e2a6d452829d6f22f",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_c38d36ae807b",
+      "concept_id": "hook_92d87602c8e4",
+      "text": "「ねばーランド」に関する配信は気になりますか？",
+      "priority": 268,
+      "source_hash": "1a56848f40bd6134f1f6f81c4a02f893835ec656",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1b086678e2de",
+      "concept_id": "hook_cef8ef9ef5aa",
+      "text": "ほのぼのゲームの配信は見てみたいですか？",
+      "priority": 269,
+      "source_hash": "4f51d1bf37bed80c5a63a179702b9b04d9b3fc83",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_82b8a6279a67",
+      "concept_id": "hook_f88a717b2b91",
+      "text": "「りんちゃ」に関する話題の配信は気になりますか？",
+      "priority": 270,
+      "source_hash": "9fad1c1a1336843cdb145ce2b8c710978fc51620",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_d959966a1bce",
+      "concept_id": "hook_c066ad803e60",
+      "text": "イマジナリーフレンドの話題は気になりますか？",
+      "priority": 271,
+      "source_hash": "b0710c5c00240a5bb9ba627efb34d15ee220580b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_4106ccf32341",
+      "concept_id": "hook_c43f586ea659",
+      "text": "「ウォシュレットバトル」の話題は気になりますか？",
+      "priority": 272,
+      "source_hash": "91c3931de4c6e93b8a899311f04e70ca199843b0",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_2dc523ac0799",
+      "concept_id": "hook_8af3f177a93c",
+      "text": "「エマージェンシー」に関する配信は気になりますか？",
+      "priority": 273,
+      "source_hash": "18f12e7c60233a19bd94f4370c4057e727107446",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_b34c192955f1",
+      "concept_id": "hook_650412d8f266",
+      "text": "エヴァに関連する話題の配信に興味がありますか？",
+      "priority": 274,
+      "source_hash": "3ea082d2b67cf1ce64512b5410bec47ed02699bd",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_900fc7b9a6f0",
+      "concept_id": "hook_0ea61c3a41ca",
+      "text": "ガシャの話題がある配信に興味がありますか？",
+      "priority": 275,
+      "source_hash": "049b9da3f688c8a57634dd9a54e41910e117b700",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5fbcfc4bcad2",
+      "concept_id": "hook_268364082249",
+      "text": "クズライフハックの話題がある配信は気になりますか？",
+      "priority": 276,
+      "source_hash": "f97d4fa067c146545e3f71baa186765483101f41",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ffecc706eadc",
+      "concept_id": "hook_51892847f233",
+      "text": "「クリアカード」に関する配信に興味がありますか？",
+      "priority": 277,
+      "source_hash": "4ed7dc1c04b8dd32f21dfdbd6a4653514f8c3dca",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_069d587c246e",
+      "concept_id": "hook_60c0363639c4",
+      "text": "グリルに関する話題の配信は見てみたいですか？",
+      "priority": 278,
+      "source_hash": "39417e1eaf669f0f8e42d999cb77a313ca2102c9",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3184d8f346f6",
+      "concept_id": "hook_548b92e6b656",
+      "text": "「サバちゃん」に関する配信は気になりますか？",
+      "priority": 279,
+      "source_hash": "a24fdeb9048256ce8b42af543e4725667929dc56",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_aa038bde146a",
+      "concept_id": "hook_d1b4e4f83b7f",
+      "text": "「シスター」に関する配信は見てみたいですか？",
+      "priority": 280,
+      "source_hash": "86822a935a60d59fd7b663cd659a408d0cd9c1c6",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_025cde36e498",
+      "concept_id": "hook_9fcfe47efa58",
+      "text": "ストビューに関する配信に興味がありますか？",
+      "priority": 281,
+      "source_hash": "82e4fce9bf60c557628f5f35f614d34b117f1e88",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_e96b445956b0",
+      "concept_id": "hook_0fbf35f1cbeb",
+      "text": "ストリートビューに興味がありますか？",
+      "priority": 282,
+      "source_hash": "d230210d065ef1f34ed7bc9b7797f1a667d6eb47",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_eb9ef214a58c",
+      "concept_id": "hook_d37a6215e77e",
+      "text": "スペースワールドに関する話題の配信は見てみたいですか？",
+      "priority": 283,
+      "source_hash": "48a169a20827e447449e26b364dab03e26623ddc",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_ffb2f6baa116",
+      "concept_id": "hook_276f0a53ff3a",
+      "text": "「セクハラペイント」に関連する話題の配信は気になりますか？",
+      "priority": 284,
+      "source_hash": "1c459a1c9ff1aa2715869a549fe00a6e5ff992e2",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_1b170a55fa6b",
+      "concept_id": "hook_6c9f767a5448",
+      "text": "ニンダイの話題が出る配信は気になりますか？",
+      "priority": 285,
+      "source_hash": "b6fbf5eb25a33526bba8c36392ab66f1de81abe8",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_5cb6d15e5afc",
+      "concept_id": "hook_1516c306db3a",
+      "text": "「フラウィ」に関する話題の配信は気になりますか？",
+      "priority": 286,
+      "source_hash": "aad7ef80906366fbf9d36bb373ddff4b2122628b",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_3fdf9170ef7a",
+      "concept_id": "hook_29372771e38c",
+      "text": "プチバズに関する話題の配信は気になりますか？",
+      "priority": 287,
+      "source_hash": "8fb21aaea11ad6356830c61ae4c1789e9d8f6e20",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_0f3465144c5c",
+      "concept_id": "hook_51e37ef424d0",
+      "text": "「ホロライバー」に関する配信は見てみたいですか？",
+      "priority": 288,
+      "source_hash": "e5ca0e814245d468e6e87602e35edc0c378d4eed",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_21de17a5008f",
+      "concept_id": "hook_14351b8be06f",
+      "text": "マンモグラフィーに関する話題に興味がありますか？",
+      "priority": 289,
+      "source_hash": "f6a7e9ddb11a45984a2065348e8575282f96a887",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_255773551b28",
+      "concept_id": "hook_ca712023d579",
+      "text": "メシテロ系の話題がある配信は見てみたいですか？",
+      "priority": 290,
+      "source_hash": "8307346d183e6bf3a9ebeb41707e7b763e621bb4",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_aae5fa375555",
+      "concept_id": "hook_3919902844cb",
+      "text": "一周年記念の話題がある配信は見てみたいですか？",
+      "priority": 291,
+      "source_hash": "e556d82492cbdb0072cd36ac4cd08a27df39cf14",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_354297e74e4e",
+      "concept_id": "hook_67264496e8bc",
+      "text": "体型図解に関する話題の配信は見てみたいですか？",
+      "priority": 292,
+      "source_hash": "a4c391e9cf5895ffe89f273464fd37067cc8cc4a",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_aa4de008a27b",
+      "concept_id": "hook_f99fe5398c70",
+      "text": "作詞挑戦の配信は見てみたいですか？",
+      "priority": 293,
+      "source_hash": "c1717179766559a4a3fdaa398f0cd2451ffaeb9c",
+      "question_type": "hook"
+    },
+    {
+      "question_id": "qv2_q_427e872600d5",
+      "concept_id": "hook_61efd531db94",
+      "text": "公共交通の話題が出る配信に興味がありますか？",
+      "priority": 294,
+      "source_hash": "02ab07fa25ac32bfb6436e30b9145ab1e445ed62",
+      "question_type": "hook"
+    }
+  ],
+  "meta": {
+    "reused": 0,
+    "updated": 294,
+    "mock": false,
+    "llm_retry_attempts": 3,
+    "retry_success": 1,
+    "fallback_used": 0
+  }
+}

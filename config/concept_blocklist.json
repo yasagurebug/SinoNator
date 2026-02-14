@@ -1,0 +1,354 @@
+{
+  "concepts": [
+    {
+      "concept_id": "hook_c721c1d46440",
+      "type": "hook",
+      "name": "しののめにこ",
+      "definition": "文字列「しののめにこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しののめにこ"
+      ],
+      "support": 148
+    },
+    {
+      "concept_id": "hook_d5997d11aa80",
+      "type": "hook",
+      "name": "新人Vtuber",
+      "definition": "文字列「新人Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人Vtuber"
+      ],
+      "support": 74
+    },
+    {
+      "concept_id": "hook_a21a351c734b",
+      "type": "hook",
+      "name": "新人セルフ受肉Vtuber",
+      "definition": "文字列「新人セルフ受肉Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人セルフ受肉Vtuber"
+      ],
+      "support": 63
+    },
+    {
+      "concept_id": "hook_9d7279e2cdcb",
+      "type": "hook",
+      "name": "深夜雑談",
+      "definition": "文字列「深夜雑談」に関連する話題を含む配信",
+      "seed_terms": [
+        "深夜雑談"
+      ],
+      "support": 41
+    },
+    {
+      "concept_id": "hook_909ec32ffc31",
+      "type": "hook",
+      "name": "Vtuber",
+      "definition": "文字列「Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "Vtuber"
+      ],
+      "support": 27
+    },
+    {
+      "concept_id": "hook_6163ab518ef1",
+      "type": "hook",
+      "name": "初見さん歓迎",
+      "definition": "文字列「初見さん歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "初見さん歓迎"
+      ],
+      "support": 24
+    },
+    {
+      "concept_id": "hook_09462f77a9f5",
+      "type": "hook",
+      "name": "個人Vtuber",
+      "definition": "文字列「個人Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人Vtuber"
+      ],
+      "support": 12
+    },
+    {
+      "concept_id": "hook_77f560c8e11c",
+      "type": "hook",
+      "name": "セルフ受肉",
+      "definition": "文字列「セルフ受肉」に関連する話題を含む配信",
+      "seed_terms": [
+        "セルフ受肉"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_6a5e50e11eca",
+      "type": "hook",
+      "name": "新人",
+      "definition": "文字列「新人」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_91c744d5a6d6",
+      "type": "hook",
+      "name": "しののめ",
+      "definition": "文字列「しののめ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しののめ"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_b630b78d2dfa",
+      "type": "hook",
+      "name": "半セルフ受肉vtuber",
+      "definition": "文字列「半セルフ受肉vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "半セルフ受肉vtuber"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_b516a084b346",
+      "type": "hook",
+      "name": "半セルフ受肉vtuberしののめにこ",
+      "definition": "文字列「半セルフ受肉vtuberしののめにこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "半セルフ受肉vtuberしののめにこ"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "hook_6ce3530eedcc",
+      "type": "hook",
+      "name": "新人Vtuber／しののめにこ",
+      "definition": "文字列「新人Vtuber／しののめにこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人Vtuber／しののめにこ"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "hook_ef984a2bbdce",
+      "type": "hook",
+      "name": "PART２",
+      "definition": "文字列「PART２」に関連する話題を含む配信",
+      "seed_terms": [
+        "PART２"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_07359a0eadf2",
+      "type": "hook",
+      "name": "個人勢Vtuberしののめにこ",
+      "definition": "文字列「個人勢Vtuberしののめにこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人勢Vtuberしののめにこ"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_f68acdc4d4bc",
+      "type": "hook",
+      "name": "完全初見",
+      "definition": "文字列「完全初見」に関連する話題を含む配信",
+      "seed_terms": [
+        "完全初見"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_e55e854a1880",
+      "type": "hook",
+      "name": "VTuber準備中",
+      "definition": "文字列「VTuber準備中」に関連する話題を含む配信",
+      "seed_terms": [
+        "VTuber準備中"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_885600554cac",
+      "type": "hook",
+      "name": "にこ",
+      "definition": "文字列「にこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "にこ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_733fefb626c1",
+      "type": "hook",
+      "name": "個人勢Vtuber",
+      "definition": "文字列「個人勢Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人勢Vtuber"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_828724df56bb",
+      "type": "hook",
+      "name": "初見さん",
+      "definition": "文字列「初見さん」に関連する話題を含む配信",
+      "seed_terms": [
+        "初見さん"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_0e458fad7695",
+      "type": "hook",
+      "name": "深夜",
+      "definition": "文字列「深夜」に関連する話題を含む配信",
+      "seed_terms": [
+        "深夜"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_ccc190296ae7",
+      "type": "hook",
+      "name": "Cパート",
+      "definition": "文字列「Cパート」に関連する話題を含む配信",
+      "seed_terms": [
+        "Cパート"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_d259bb7707b1",
+      "type": "hook",
+      "name": "PART3",
+      "definition": "文字列「PART3」に関連する話題を含む配信",
+      "seed_terms": [
+        "PART3"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_c65343b09883",
+      "type": "hook",
+      "name": "ちょっと時間空いたから話そ！",
+      "definition": "文字列「ちょっと時間空いたから話そ！」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっと時間空いたから話そ！"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_5efb7c41c548",
+      "type": "hook",
+      "name": "にこち",
+      "definition": "文字列「にこち」に関連する話題を含む配信",
+      "seed_terms": [
+        "にこち"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_4350cdcf019c",
+      "type": "hook",
+      "name": "新人受肉Vtuber",
+      "definition": "文字列「新人受肉Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人受肉Vtuber"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_986d1bd486c9",
+      "type": "hook",
+      "name": "1/2を13回連続",
+      "definition": "文字列「1/2を13回連続」に関連する話題を含む配信",
+      "seed_terms": [
+        "1/2を13回連続"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c9c257253497",
+      "type": "hook",
+      "name": "1/2を13回連続引く",
+      "definition": "文字列「1/2を13回連続引く」に関連する話題を含む配信",
+      "seed_terms": [
+        "1/2を13回連続引く"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b884b004d348",
+      "type": "hook",
+      "name": "10分チャレンジ",
+      "definition": "文字列「10分チャレンジ」に関連する話題を含む配信",
+      "seed_terms": [
+        "10分チャレンジ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_318d378a7ad4",
+      "type": "hook",
+      "name": "新人半セルフ受肉Vtuber",
+      "definition": "文字列「新人半セルフ受肉Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "新人半セルフ受肉Vtuber"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_bc5549d4a04a",
+      "type": "hook",
+      "name": "初見さん大歓迎",
+      "definition": "文字列「初見さん大歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "初見さん大歓迎"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_610f9bbb36d0",
+      "type": "hook",
+      "name": "受肉Vtuber",
+      "definition": "文字列「受肉Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "受肉Vtuber"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_4d916dda32df",
+      "type": "hook",
+      "name": "セルフ受肉Vtuber",
+      "definition": "文字列「セルフ受肉Vtuber」に関連する話題を含む配信",
+      "seed_terms": [
+        "セルフ受肉Vtuber"
+      ],
+      "support": 11
+    },
+    {
+      "concept_id": "hook_0f8578bf2e3f",
+      "type": "hook",
+      "name": "ホロライブ",
+      "definition": "文字列「ホロライブ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホロライブ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_7cc2b486ecc9",
+      "type": "hook",
+      "name": "２０万点",
+      "definition": "文字列「２０万点」に関連する話題を含む配信",
+      "seed_terms": [
+        "２０万点"
+      ],
+      "support": 2
+    }
+  ]
+}

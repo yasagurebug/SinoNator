@@ -1,0 +1,7804 @@
+{
+  "generated_at": "2026-02-15T03:36:01+09:00",
+  "source_concepts_path": "data/v2/concepts.json",
+  "source_votes_path": "data/v2/concept_votes.jsonl",
+  "thresholds": {
+    "min_yes_rate": 0.005,
+    "max_yes_rate": 0.98,
+    "max_unknown_rate": 1.0,
+    "redundant_jaccard_threshold": 0.98,
+    "rare_hook_keep_count": 40,
+    "rare_hook_max_support": 6,
+    "rare_hook_min_yes_rate": 1e-05,
+    "rare_hook_max_yes_rate": 0.12,
+    "rare_redundant_jaccard_threshold": 0.98,
+    "core_priority_boost": 0.25
+  },
+  "all_scored_count": 270,
+  "selected_count": 294,
+  "selected_core_count": 254,
+  "selected_spice_count": 40,
+  "items": [
+    {
+      "concept_id": "core_90b29d5fa1eb",
+      "type": "core",
+      "name": "雑談",
+      "definition": "TSVのタイプが「雑談」に該当する配信",
+      "seed_terms": [
+        "雑談"
+      ],
+      "yes_count": 143,
+      "no_count": 144,
+      "unknown_count": 0,
+      "yes_rate": 0.4983,
+      "unknown_rate": 0.0,
+      "split_score": 1.257845,
+      "rec_yes_rate": 0.2727,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "-GRm7fMLexs",
+        "-QTTq2ZSmcA",
+        "-bumZpJSV3U",
+        "08jBE0vR1m8",
+        "0NpPirqiwZg",
+        "1P8qmOQHAjM",
+        "1zk3KJmmw1s",
+        "2Y-PMWG1zPU",
+        "3p5K7roF4w0",
+        "440pdg6wGHY",
+        "468TPz31ntA",
+        "5jUhue_346w",
+        "60c1otnyY50",
+        "6JvVStqJqg8",
+        "6fRUz38wEFI",
+        "6l9LvQBSbuE",
+        "77K-m3r4B6k",
+        "7ViHjs3sHBE",
+        "7Vq9r6s5yKw",
+        "80ToZBkr4JA",
+        "8LxIDW9h6Nc",
+        "8uZAAKvhGqs",
+        "A4HxTRRCViY",
+        "AEeFVAQO91w",
+        "AZHBEfp4HWs",
+        "Av0FgoBvA8E",
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "BvirgNnaLSk",
+        "Cx6-_A9zolI",
+        "D3md_ISuLYk",
+        "D8ZZcQdn2f4",
+        "DMEzwnBPaTU",
+        "E9zs68i093Q",
+        "EBAwBn9_Me8",
+        "ERULNw3eZhQ",
+        "ERXKi9RR0OI",
+        "Enwto9yMG4E",
+        "Ev0oIMOmvn0",
+        "FtTM28_eedk",
+        "GNFEm8csqNs",
+        "H98QOybZk9o",
+        "HUIGRY7DkAA",
+        "HmdrSpdBfeU",
+        "HxVD1mjxDH4",
+        "IEe1yY1jzL8",
+        "IyzACoEdSZI",
+        "KXLQuq9lmlA",
+        "KwaIAV3Q_2g",
+        "L7-YCTQPnS4",
+        "LBl_bVelUak",
+        "LpSBY0dBwv4",
+        "MA6pscP6kSQ",
+        "NmWcNtlH9UE",
+        "NrPKr4dvmps",
+        "O20AcFrSWpE",
+        "OPNC5wt7nSQ",
+        "P2dKlmZvqZs",
+        "P5Fe-ATA4ZA",
+        "PGPkpIjy6m8",
+        "PKTBKxtnqXE",
+        "PP2LTvJcFkE",
+        "PzmhQwGOBJM",
+        "Q8DHXouVrNs",
+        "Qj8xJYwpm6w",
+        "R5__6nx-ufQ",
+        "RAae2y5Ub38",
+        "RtFWKk55J2s",
+        "T9p0YuL1JNw",
+        "TmCe79DNmGE",
+        "Tn9CvNT4dVY",
+        "VdxPOYIvJSs",
+        "WI0X0cVixqc",
+        "Wi0X0_EsuYg",
+        "WyH2jcpRECg",
+        "X-G18ZFuXPc",
+        "Y_fXnLTJauI",
+        "YjYw_UEmX3M",
+        "ZfAXsCI2WvE",
+        "ZuPq1SOQyoY",
+        "ZwvN4Bs6MMU",
+        "_9FsF8yHUg0",
+        "_LifehYIBgg",
+        "_agOXs8CRkQ",
+        "ajXkPbRJJIk",
+        "cBEEsmohqug",
+        "cbxqOHW0RBc",
+        "cqZYfPtph08",
+        "d5HDvotYHRs",
+        "dV-PMSAfYcI",
+        "e2e1dn3E06Y",
+        "eQ4WhyW_zD4",
+        "esiVP68HKpc",
+        "et7xQeSO9Lc",
+        "f2GQnhUBKLU",
+        "f9V5tiN1VEI",
+        "g6UhYEU8IDM",
+        "gPUWhpAYls0",
+        "gnErfB1Tln4",
+        "hI1VLuC-9BQ",
+        "hMNy6Y-PhjI",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "hu8qS_EMtQ8",
+        "iM5Uhax-bzI",
+        "jOtfnZvLIZw",
+        "k1JFeKjkOds",
+        "kc-NxHb4wRE",
+        "kmQ13VdGd7I",
+        "l-zeiMw_Gw4",
+        "lGhbL2BpXcE",
+        "lOYZ39sETEk",
+        "m79nB-ZpW7A",
+        "mG3ZYF6vvYc",
+        "mm_cGR4ijSQ",
+        "mn-3NxDzQnY",
+        "nGZUQ0AwcOo",
+        "nuLm_7mC7Ss",
+        "oOOt1p82VRU",
+        "oWZb3qmdSTU",
+        "pp3NS77EQ_k",
+        "pu0fM_7tyPc",
+        "qMIje1uTKfY",
+        "qNBKuJAcoQM",
+        "s1oT47MSYwY",
+        "s9iVJCxKLb8",
+        "sNZKTWQTJeE",
+        "snWEfEjr_C4",
+        "tgJiT_U-j7w",
+        "u5RHsH63Xd4",
+        "vWIj7IXpFOQ",
+        "vorCYR-Z8x8",
+        "xPTdKfS93nU",
+        "xZrj5ogR5V4",
+        "xslomc9TD5o",
+        "yCDWCNslMbA",
+        "yHP_NLTa9pU",
+        "yYLRoTD8rFo",
+        "yz6ugOAq5e0",
+        "z6uGr0Cw884",
+        "zDMCs8OtY_U",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "core_3081d7739206",
+      "type": "core",
+      "name": "ゲーム",
+      "definition": "TSVのタイプが「ゲーム」に該当する配信",
+      "seed_terms": [
+        "ゲーム"
+      ],
+      "yes_count": 84,
+      "no_count": 203,
+      "unknown_count": 0,
+      "yes_rate": 0.2927,
+      "unknown_rate": 0.0,
+      "split_score": 1.10012,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "-IieV7Y5KS8",
+        "-kPRSLaW5fY",
+        "057-so4V2MU",
+        "0RqDalkY7Do",
+        "0d2S9pM5vIA",
+        "1D9ZoDDAkUU",
+        "4CNvbVdvZp8",
+        "4d1ITaFxFWc",
+        "4gWzUegmZ7w",
+        "4lcNBQb7Z-c",
+        "7y--HbZSV-M",
+        "8jlKeJ8OkLk",
+        "8kdxUKSIxcg",
+        "9Ua1EeTRvmA",
+        "9p4juGUr-Qw",
+        "BW9u44UzEZI",
+        "C5PI0pKxt-k",
+        "CAYlvH97w9Y",
+        "Cf1utnhNpk0",
+        "Cgz4nan7fTo",
+        "DCcfHVlL70E",
+        "FTxO8LsUduw",
+        "Gr8ftM_xvTA",
+        "HaX7fKnFFgA",
+        "Hn2LnLtmcmA",
+        "IChrtcTLRmo",
+        "IFKDUNrHq_0",
+        "KerjfFJDHjU",
+        "LK5cTZrrpx8",
+        "NK9BO3Koen4",
+        "NvbP7ZyxO7U",
+        "ORkBC4z3Kfw",
+        "RFtUq-OPRsE",
+        "SLJxvbgUFgQ",
+        "SYO1S6iqRh4",
+        "Ss_j0UXDTUk",
+        "UIfeCU4zTys",
+        "UvI__vRgynw",
+        "V3J476W3Fr8",
+        "WAqfewAfKaQ",
+        "XX9uoyNvUTQ",
+        "XYgupUPHQDk",
+        "X_qi99fUTK0",
+        "YIOXlSk_ZHY",
+        "YNvopwEHchA",
+        "ZW5QT4Sv-5w",
+        "aYlNsEQEy1E",
+        "alfeqzduVOs",
+        "bHN0xCKYH_E",
+        "bctkg3TSeHU",
+        "brc5tBLswX4",
+        "cQz5jIxfeEU",
+        "cecB0jLN-6s",
+        "czJicZI_VWM",
+        "eYjLHypfiz4",
+        "f3dI2zf97ww",
+        "f9V5tiN1VEI",
+        "fdI_N6FVh4E",
+        "hIz4Y2Bh5EA",
+        "hK9UptFLngo",
+        "i1qPPxvxJZ4",
+        "iAxwcXDnUrE",
+        "iPJqPktGtBo",
+        "jBuLSm_F_7A",
+        "jN48NXKNjA8",
+        "jOtfnZvLIZw",
+        "jVO_8TbMpkA",
+        "k8lyyhzS7Hc",
+        "kEae-aV4JKI",
+        "lP9xZjrsCSQ",
+        "ml-ZMVols_Q",
+        "p-qNRo9Ohdw",
+        "pHLlK1pWZg4",
+        "sc75mnXwmns",
+        "tHu-YfLjQ1E",
+        "uRLHPp3vwmo",
+        "utqkk_MmStY",
+        "vVjC1pW00S8",
+        "vryXS-zekPE",
+        "wxSsmUgfSJo",
+        "yAfJpKW4Ulc",
+        "yi6cK_rZiD0",
+        "zYzzZC_jaIU",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_0d0fd2531ac7",
+      "type": "hook",
+      "name": "さん",
+      "definition": "文字列「さん」に関連する話題を含む配信",
+      "seed_terms": [
+        "さん"
+      ],
+      "yes_count": 81,
+      "no_count": 206,
+      "unknown_count": 0,
+      "yes_rate": 0.2822,
+      "unknown_rate": 0.0,
+      "split_score": 0.851896,
+      "rec_yes_rate": 0.321,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "-GRm7fMLexs",
+        "00OpEJLZkY4",
+        "0NpPirqiwZg",
+        "2Y-PMWG1zPU",
+        "440pdg6wGHY",
+        "4BbryGgTdUY",
+        "6l9LvQBSbuE",
+        "77K-m3r4B6k",
+        "7NyAMYaOe9c",
+        "80ToZBkr4JA",
+        "8LxIDW9h6Nc",
+        "8uZAAKvhGqs",
+        "AEeFVAQO91w",
+        "AZHBEfp4HWs",
+        "BW_PRCATh0A",
+        "D3md_ISuLYk",
+        "DMEzwnBPaTU",
+        "ERULNw3eZhQ",
+        "GNFEm8csqNs",
+        "GZe69EAbfdw",
+        "HxVD1mjxDH4",
+        "IyzACoEdSZI",
+        "KXLQuq9lmlA",
+        "KYWONrZnqBU",
+        "KwaIAV3Q_2g",
+        "MA6pscP6kSQ",
+        "NrPKr4dvmps",
+        "O20AcFrSWpE",
+        "P2dKlmZvqZs",
+        "P5Fe-ATA4ZA",
+        "PGPkpIjy6m8",
+        "PYPXGWIsDvM",
+        "Q8DHXouVrNs",
+        "Qj8xJYwpm6w",
+        "R49TL9_Uwss",
+        "RFtUq-OPRsE",
+        "T9p0YuL1JNw",
+        "TmCe79DNmGE",
+        "V3J476W3Fr8",
+        "WI0X0cVixqc",
+        "X-G18ZFuXPc",
+        "ZET0F14FUzk",
+        "ZfAXsCI2WvE",
+        "ZwvN4Bs6MMU",
+        "_9FsF8yHUg0",
+        "ajXkPbRJJIk",
+        "cQz5jIxfeEU",
+        "d5HDvotYHRs",
+        "eQ4WhyW_zD4",
+        "g6UhYEU8IDM",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "hu8qS_EMtQ8",
+        "jHqBK4tp-ek",
+        "kc-NxHb4wRE",
+        "lGhbL2BpXcE",
+        "loSp_OQ3sUY",
+        "mG3ZYF6vvYc",
+        "mZRy5NEDfP0",
+        "mm_cGR4ijSQ",
+        "mn-3NxDzQnY",
+        "oOOt1p82VRU",
+        "pu0fM_7tyPc",
+        "pzPUA0J5kI0",
+        "qNBKuJAcoQM",
+        "rz2rS5P3wDc",
+        "s9iVJCxKLb8",
+        "snWEfEjr_C4",
+        "tgJiT_U-j7w",
+        "u5RHsH63Xd4",
+        "vYrL10DujkI",
+        "wHvVSD-KLHk",
+        "xDQmy5uZkgg",
+        "yCDWCNslMbA",
+        "yHP_NLTa9pU",
+        "yi6cK_rZiD0",
+        "z6uGr0Cw884",
+        "zDMCs8OtY_U",
+        "zQHiODQz3A4",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2b532893eb86",
+      "type": "hook",
+      "name": "初見",
+      "definition": "文字列「初見」に関連する話題を含む配信",
+      "seed_terms": [
+        "初見"
+      ],
+      "yes_count": 76,
+      "no_count": 211,
+      "unknown_count": 0,
+      "yes_rate": 0.2648,
+      "unknown_rate": 0.0,
+      "split_score": 0.83069,
+      "rec_yes_rate": 0.3553,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "-GRm7fMLexs",
+        "00OpEJLZkY4",
+        "0NpPirqiwZg",
+        "2Y-PMWG1zPU",
+        "440pdg6wGHY",
+        "4BbryGgTdUY",
+        "77K-m3r4B6k",
+        "7NyAMYaOe9c",
+        "80ToZBkr4JA",
+        "8LxIDW9h6Nc",
+        "8uZAAKvhGqs",
+        "AZHBEfp4HWs",
+        "D3md_ISuLYk",
+        "DMEzwnBPaTU",
+        "GNFEm8csqNs",
+        "GZe69EAbfdw",
+        "HxVD1mjxDH4",
+        "IyzACoEdSZI",
+        "KXLQuq9lmlA",
+        "KerjfFJDHjU",
+        "KwaIAV3Q_2g",
+        "MA6pscP6kSQ",
+        "NrPKr4dvmps",
+        "O20AcFrSWpE",
+        "P2dKlmZvqZs",
+        "P5Fe-ATA4ZA",
+        "PGPkpIjy6m8",
+        "PYPXGWIsDvM",
+        "Q8DHXouVrNs",
+        "Qj8xJYwpm6w",
+        "R49TL9_Uwss",
+        "T9p0YuL1JNw",
+        "TmCe79DNmGE",
+        "WI0X0cVixqc",
+        "X-G18ZFuXPc",
+        "ZfAXsCI2WvE",
+        "ZwvN4Bs6MMU",
+        "_9FsF8yHUg0",
+        "ajXkPbRJJIk",
+        "bctkg3TSeHU",
+        "cecB0jLN-6s",
+        "czJicZI_VWM",
+        "d5HDvotYHRs",
+        "eQ4WhyW_zD4",
+        "f3dI2zf97ww",
+        "g6UhYEU8IDM",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "hu8qS_EMtQ8",
+        "iAxwcXDnUrE",
+        "kc-NxHb4wRE",
+        "lGhbL2BpXcE",
+        "loSp_OQ3sUY",
+        "mG3ZYF6vvYc",
+        "mZRy5NEDfP0",
+        "mm_cGR4ijSQ",
+        "mn-3NxDzQnY",
+        "oOOt1p82VRU",
+        "pu0fM_7tyPc",
+        "pzPUA0J5kI0",
+        "qNBKuJAcoQM",
+        "rz2rS5P3wDc",
+        "s9iVJCxKLb8",
+        "snWEfEjr_C4",
+        "tgJiT_U-j7w",
+        "u5RHsH63Xd4",
+        "wHvVSD-KLHk",
+        "xDQmy5uZkgg",
+        "yCDWCNslMbA",
+        "yHP_NLTa9pU",
+        "z6uGr0Cw884",
+        "zDMCs8OtY_U",
+        "zQHiODQz3A4",
+        "zwoGZFEdQkg",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4d0fff7f1128",
+      "type": "hook",
+      "name": "歓迎",
+      "definition": "文字列「歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "歓迎"
+      ],
+      "yes_count": 70,
+      "no_count": 217,
+      "unknown_count": 0,
+      "yes_rate": 0.2439,
+      "unknown_rate": 0.0,
+      "split_score": 0.78573,
+      "rec_yes_rate": 0.3143,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "-GRm7fMLexs",
+        "00OpEJLZkY4",
+        "0NpPirqiwZg",
+        "2Y-PMWG1zPU",
+        "440pdg6wGHY",
+        "4BbryGgTdUY",
+        "77K-m3r4B6k",
+        "7NyAMYaOe9c",
+        "80ToZBkr4JA",
+        "8LxIDW9h6Nc",
+        "8uZAAKvhGqs",
+        "AZHBEfp4HWs",
+        "D3md_ISuLYk",
+        "DMEzwnBPaTU",
+        "GNFEm8csqNs",
+        "GZe69EAbfdw",
+        "HxVD1mjxDH4",
+        "IyzACoEdSZI",
+        "KXLQuq9lmlA",
+        "KwaIAV3Q_2g",
+        "MA6pscP6kSQ",
+        "NrPKr4dvmps",
+        "O20AcFrSWpE",
+        "P2dKlmZvqZs",
+        "P5Fe-ATA4ZA",
+        "PGPkpIjy6m8",
+        "PYPXGWIsDvM",
+        "Q8DHXouVrNs",
+        "Qj8xJYwpm6w",
+        "R49TL9_Uwss",
+        "T9p0YuL1JNw",
+        "TmCe79DNmGE",
+        "WI0X0cVixqc",
+        "X-G18ZFuXPc",
+        "ZfAXsCI2WvE",
+        "ZwvN4Bs6MMU",
+        "_9FsF8yHUg0",
+        "ajXkPbRJJIk",
+        "d5HDvotYHRs",
+        "eQ4WhyW_zD4",
+        "g6UhYEU8IDM",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "hu8qS_EMtQ8",
+        "kc-NxHb4wRE",
+        "lGhbL2BpXcE",
+        "loSp_OQ3sUY",
+        "mG3ZYF6vvYc",
+        "mZRy5NEDfP0",
+        "mm_cGR4ijSQ",
+        "mn-3NxDzQnY",
+        "oOOt1p82VRU",
+        "pu0fM_7tyPc",
+        "pzPUA0J5kI0",
+        "qNBKuJAcoQM",
+        "rz2rS5P3wDc",
+        "s9iVJCxKLb8",
+        "snWEfEjr_C4",
+        "tgJiT_U-j7w",
+        "u5RHsH63Xd4",
+        "wHvVSD-KLHk",
+        "xDQmy5uZkgg",
+        "xslomc9TD5o",
+        "yCDWCNslMbA",
+        "yHP_NLTa9pU",
+        "z6uGr0Cw884",
+        "zDMCs8OtY_U",
+        "zQHiODQz3A4",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c7123e52ef88",
+      "type": "hook",
+      "name": "リスナー",
+      "definition": "文字列「リスナー」に関連する話題を含む配信",
+      "seed_terms": [
+        "リスナー"
+      ],
+      "yes_count": 72,
+      "no_count": 215,
+      "unknown_count": 0,
+      "yes_rate": 0.2509,
+      "unknown_rate": 0.0,
+      "split_score": 0.785508,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "-IlCV3AFJqs",
+        "-QTTq2ZSmcA",
+        "468TPz31ntA",
+        "60c1otnyY50",
+        "77K-m3r4B6k",
+        "8uZAAKvhGqs",
+        "AEeFVAQO91w",
+        "AZHBEfp4HWs",
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "BvirgNnaLSk",
+        "Cgz4nan7fTo",
+        "D3md_ISuLYk",
+        "E9zs68i093Q",
+        "EBAwBn9_Me8",
+        "ERULNw3eZhQ",
+        "F-nViYjqNKM",
+        "FtTM28_eedk",
+        "GD9-wjMdGVQ",
+        "GNFEm8csqNs",
+        "GZe69EAbfdw",
+        "HUIGRY7DkAA",
+        "HaX7fKnFFgA",
+        "HxVD1mjxDH4",
+        "LK5cTZrrpx8",
+        "LpSBY0dBwv4",
+        "PzmhQwGOBJM",
+        "Q8DHXouVrNs",
+        "R49TL9_Uwss",
+        "R5__6nx-ufQ",
+        "T9p0YuL1JNw",
+        "TRqgqSY0-vE",
+        "X-G18ZFuXPc",
+        "XYgupUPHQDk",
+        "YjYw_UEmX3M",
+        "ZuPq1SOQyoY",
+        "_agOXs8CRkQ",
+        "aPpIlgRZ_KE",
+        "bZVrg3-nTqc",
+        "bho-pb8_5Fs",
+        "cBEEsmohqug",
+        "cQz5jIxfeEU",
+        "cbxqOHW0RBc",
+        "d5HDvotYHRs",
+        "dV-PMSAfYcI",
+        "e2e1dn3E06Y",
+        "gPUWhpAYls0",
+        "gnErfB1Tln4",
+        "hMNy6Y-PhjI",
+        "hV2FBMJprhY",
+        "hu8qS_EMtQ8",
+        "i1qPPxvxJZ4",
+        "jHqBK4tp-ek",
+        "jVO_8TbMpkA",
+        "jfvr9jPbkDo",
+        "jjCIZjARdM0",
+        "kc-NxHb4wRE",
+        "m79nB-ZpW7A",
+        "mG3ZYF6vvYc",
+        "mZRy5NEDfP0",
+        "mqbML8VMrAk",
+        "oOOt1p82VRU",
+        "pHLlK1pWZg4",
+        "qEbOx0OUzog",
+        "qMIje1uTKfY",
+        "rz2rS5P3wDc",
+        "u5RHsH63Xd4",
+        "vYrL10DujkI",
+        "xslomc9TD5o",
+        "y5TD8AEznd8",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6b75ef797fb0",
+      "type": "hook",
+      "name": "個人",
+      "definition": "文字列「個人」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人"
+      ],
+      "yes_count": 56,
+      "no_count": 231,
+      "unknown_count": 0,
+      "yes_rate": 0.1951,
+      "unknown_rate": 0.0,
+      "split_score": 0.670131,
+      "rec_yes_rate": 0.2321,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "057-so4V2MU",
+        "08jBE0vR1m8",
+        "0RqDalkY7Do",
+        "0d2S9pM5vIA",
+        "1D9ZoDDAkUU",
+        "440pdg6wGHY",
+        "4d1ITaFxFWc",
+        "8jlKeJ8OkLk",
+        "AEeFVAQO91w",
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "BW_PRCATh0A",
+        "Cgz4nan7fTo",
+        "DCcfHVlL70E",
+        "Ev0oIMOmvn0",
+        "FtTM28_eedk",
+        "H98QOybZk9o",
+        "HUIGRY7DkAA",
+        "IFKDUNrHq_0",
+        "L7-YCTQPnS4",
+        "Lt86o2fQwR8",
+        "NmWcNtlH9UE",
+        "NrPKr4dvmps",
+        "OPNC5wt7nSQ",
+        "PGPkpIjy6m8",
+        "PP2LTvJcFkE",
+        "PzmhQwGOBJM",
+        "RtFWKk55J2s",
+        "TRqgqSY0-vE",
+        "YIOXlSk_ZHY",
+        "Y_fXnLTJauI",
+        "_agOXs8CRkQ",
+        "bho-pb8_5Fs",
+        "cbxqOHW0RBc",
+        "ctkre-k-maI",
+        "eYjLHypfiz4",
+        "et7xQeSO9Lc",
+        "gnErfB1Tln4",
+        "hI1VLuC-9BQ",
+        "hK9UptFLngo",
+        "hmPoCXkluM8",
+        "i1qPPxvxJZ4",
+        "jN48NXKNjA8",
+        "jVO_8TbMpkA",
+        "lOYZ39sETEk",
+        "pHLlK1pWZg4",
+        "sc75mnXwmns",
+        "uRLHPp3vwmo",
+        "vSEud736WYI",
+        "vVjC1pW00S8",
+        "vWIj7IXpFOQ",
+        "vryXS-zekPE",
+        "xPTdKfS93nU",
+        "xRFrHyqqX3w",
+        "zLZlrx0nBPQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b65b8080e4ce",
+      "type": "hook",
+      "name": "マシュマロ（マロ）",
+      "definition": "文字列「マシュマロ（マロ）」に関連する話題を含む配信",
+      "seed_terms": [
+        "マシュマロ",
+        "マロ",
+        "ましゅまろ"
+      ],
+      "yes_count": 49,
+      "no_count": 238,
+      "unknown_count": 0,
+      "yes_rate": 0.1707,
+      "unknown_rate": 0.0,
+      "split_score": 0.635551,
+      "rec_yes_rate": 0.3469,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "08jBE0vR1m8",
+        "0RqDalkY7Do",
+        "1zk3KJmmw1s",
+        "4BbryGgTdUY",
+        "6fRUz38wEFI",
+        "6l9LvQBSbuE",
+        "77K-m3r4B6k",
+        "80ToZBkr4JA",
+        "AZHBEfp4HWs",
+        "BUO11BWzyWU",
+        "Cgz4nan7fTo",
+        "E9d1bd-6UXE",
+        "ERULNw3eZhQ",
+        "F-nViYjqNKM",
+        "FtTM28_eedk",
+        "GD9-wjMdGVQ",
+        "HxVD1mjxDH4",
+        "IFKDUNrHq_0",
+        "KXLQuq9lmlA",
+        "L7-YCTQPnS4",
+        "Lt86o2fQwR8",
+        "NmWcNtlH9UE",
+        "OPNC5wt7nSQ",
+        "R49TL9_Uwss",
+        "_agOXs8CRkQ",
+        "bho-pb8_5Fs",
+        "ctkre-k-maI",
+        "e2e1dn3E06Y",
+        "g6UhYEU8IDM",
+        "jHqBK4tp-ek",
+        "jfvr9jPbkDo",
+        "kmQ13VdGd7I",
+        "l5tN47R_KMU",
+        "mG3ZYF6vvYc",
+        "mqbML8VMrAk",
+        "mwt9GELuAOc",
+        "nuLm_7mC7Ss",
+        "qEbOx0OUzog",
+        "qMIje1uTKfY",
+        "s1oT47MSYwY",
+        "vWIj7IXpFOQ",
+        "vYrL10DujkI",
+        "xZrj5ogR5V4",
+        "xslomc9TD5o",
+        "ywynpXOAWFA",
+        "yz6ugOAq5e0",
+        "zLZlrx0nBPQ",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1dacfa28b6d7",
+      "type": "hook",
+      "name": "グッズ",
+      "definition": "文字列「グッズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "グッズ"
+      ],
+      "yes_count": 40,
+      "no_count": 247,
+      "unknown_count": 0,
+      "yes_rate": 0.1394,
+      "unknown_rate": 0.0,
+      "split_score": 0.559503,
+      "rec_yes_rate": 0.375,
+      "yes_video_ids": [
+        "468TPz31ntA",
+        "6l9LvQBSbuE",
+        "80ToZBkr4JA",
+        "BUO11BWzyWU",
+        "Ev0oIMOmvn0",
+        "FtTM28_eedk",
+        "GD9-wjMdGVQ",
+        "HUIGRY7DkAA",
+        "HmdrSpdBfeU",
+        "IEe1yY1jzL8",
+        "KwaIAV3Q_2g",
+        "L7-YCTQPnS4",
+        "NmWcNtlH9UE",
+        "NrPKr4dvmps",
+        "T9p0YuL1JNw",
+        "Y_fXnLTJauI",
+        "YjYw_UEmX3M",
+        "_9FsF8yHUg0",
+        "aYlNsEQEy1E",
+        "ajXkPbRJJIk",
+        "bZVrg3-nTqc",
+        "bho-pb8_5Fs",
+        "ctkre-k-maI",
+        "dV-PMSAfYcI",
+        "e2e1dn3E06Y",
+        "jHqBK4tp-ek",
+        "jfvr9jPbkDo",
+        "jjCIZjARdM0",
+        "kc-NxHb4wRE",
+        "kmQ13VdGd7I",
+        "lGhbL2BpXcE",
+        "pHLlK1pWZg4",
+        "pu0fM_7tyPc",
+        "rz2rS5P3wDc",
+        "vYrL10DujkI",
+        "xPTdKfS93nU",
+        "xslomc9TD5o",
+        "yAfJpKW4Ulc",
+        "yCDWCNslMbA",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_e18b1ea15d9c",
+      "type": "core",
+      "name": "イベント",
+      "definition": "TSVのタイプが「イベント」に該当する配信",
+      "seed_terms": [
+        "イベント"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.533614,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "GD9-wjMdGVQ",
+        "bZVrg3-nTqc",
+        "jHqBK4tp-ek",
+        "l5tN47R_KMU",
+        "vSEud736WYI",
+        "vYrL10DujkI",
+        "y5TD8AEznd8"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_3081d7739206",
+      "type": "hook",
+      "name": "ゲーム",
+      "definition": "文字列「ゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲーム"
+      ],
+      "yes_count": 40,
+      "no_count": 247,
+      "unknown_count": 0,
+      "yes_rate": 0.1394,
+      "unknown_rate": 0.0,
+      "split_score": 0.531193,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "-kPRSLaW5fY",
+        "057-so4V2MU",
+        "0RqDalkY7Do",
+        "0d2S9pM5vIA",
+        "4d1ITaFxFWc",
+        "7y--HbZSV-M",
+        "8jlKeJ8OkLk",
+        "9Ua1EeTRvmA",
+        "9p4juGUr-Qw",
+        "BW_PRCATh0A",
+        "C5PI0pKxt-k",
+        "Cgz4nan7fTo",
+        "FtTM28_eedk",
+        "GZe69EAbfdw",
+        "HaX7fKnFFgA",
+        "Hn2LnLtmcmA",
+        "IChrtcTLRmo",
+        "IFKDUNrHq_0",
+        "KYWONrZnqBU",
+        "ORkBC4z3Kfw",
+        "R5__6nx-ufQ",
+        "SYO1S6iqRh4",
+        "TmCe79DNmGE",
+        "WAqfewAfKaQ",
+        "XX9uoyNvUTQ",
+        "XYgupUPHQDk",
+        "YNvopwEHchA",
+        "alfeqzduVOs",
+        "bctkg3TSeHU",
+        "brc5tBLswX4",
+        "cQz5jIxfeEU",
+        "cecB0jLN-6s",
+        "f3dI2zf97ww",
+        "f9V5tiN1VEI",
+        "hIz4Y2Bh5EA",
+        "kEae-aV4JKI",
+        "pu0fM_7tyPc",
+        "u5RHsH63Xd4",
+        "uRLHPp3vwmo",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_1c85eecc34a9",
+      "type": "core",
+      "name": "同時視聴",
+      "definition": "TSVのタイプが「同時視聴」に該当する配信",
+      "seed_terms": [
+        "同時視聴"
+      ],
+      "yes_count": 16,
+      "no_count": 271,
+      "unknown_count": 0,
+      "yes_rate": 0.0557,
+      "unknown_rate": 0.0,
+      "split_score": 0.510449,
+      "rec_yes_rate": 0.0625,
+      "yes_video_ids": [
+        "7tGkoptgYC4",
+        "B0yad5aSDi8",
+        "BDbqM9bvyow",
+        "FB5cOpHNZSk",
+        "LpSBY0dBwv4",
+        "PKTBKxtnqXE",
+        "SBdosbUy3L0",
+        "YjYw_UEmX3M",
+        "ZgrDiS2vcrM",
+        "_LifehYIBgg",
+        "aPpIlgRZ_KE",
+        "kmQ13VdGd7I",
+        "sU2hKCqFrbU",
+        "vorCYR-Z8x8",
+        "xRFrHyqqX3w",
+        "zc3Ur0xJWlA"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "core_f9cfe5e8d968",
+      "type": "core",
+      "name": "お絵描き",
+      "definition": "TSVのタイプが「お絵描き」に該当する配信",
+      "seed_terms": [
+        "お絵描き"
+      ],
+      "yes_count": 15,
+      "no_count": 272,
+      "unknown_count": 0,
+      "yes_rate": 0.0523,
+      "unknown_rate": 0.0,
+      "split_score": 0.497037,
+      "rec_yes_rate": 0.1333,
+      "yes_video_ids": [
+        "00OpEJLZkY4",
+        "7NyAMYaOe9c",
+        "BDbqM9bvyow",
+        "BXHkCEW_kbY",
+        "GZe69EAbfdw",
+        "Y74G6mQZTmw",
+        "aPpIlgRZ_KE",
+        "jjCIZjARdM0",
+        "loSp_OQ3sUY",
+        "mZRy5NEDfP0",
+        "nSp_x7-7LCo",
+        "pNrK8RYqxGA",
+        "qgNxzRh1a8U",
+        "xDQmy5uZkgg",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "core_35ef38c013dc",
+      "type": "core",
+      "name": "企画雑談",
+      "definition": "TSVのタイプが「企画雑談」に該当する配信",
+      "seed_terms": [
+        "企画雑談"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.493852,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "AEeFVAQO91w",
+        "Av0FgoBvA8E",
+        "BA2Q7V4YVbo",
+        "E9zs68i093Q",
+        "PzmhQwGOBJM",
+        "et7xQeSO9Lc",
+        "g6UhYEU8IDM",
+        "hI1VLuC-9BQ",
+        "m79nB-ZpW7A",
+        "nuLm_7mC7Ss",
+        "qMIje1uTKfY",
+        "xslomc9TD5o",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "core_1bf9ad95e731",
+      "type": "core",
+      "name": "作業雑談",
+      "definition": "TSVのタイプが「作業雑談」に該当する配信",
+      "seed_terms": [
+        "作業雑談"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.483399,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "0NpPirqiwZg",
+        "1P8qmOQHAjM",
+        "3p5K7roF4w0",
+        "BUO11BWzyWU",
+        "BvirgNnaLSk",
+        "Cx6-_A9zolI",
+        "P5Fe-ATA4ZA",
+        "RAae2y5Ub38",
+        "Wi0X0_EsuYg",
+        "hV2FBMJprhY",
+        "jOtfnZvLIZw",
+        "l-zeiMw_Gw4",
+        "mm_cGR4ijSQ"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_9fccc80054f5",
+      "type": "hook",
+      "name": "ない",
+      "definition": "文字列「ない」に関連する話題を含む配信",
+      "seed_terms": [
+        "ない"
+      ],
+      "yes_count": 35,
+      "no_count": 252,
+      "unknown_count": 0,
+      "yes_rate": 0.122,
+      "unknown_rate": 0.0,
+      "split_score": 0.48163,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "-QTTq2ZSmcA",
+        "-kPRSLaW5fY",
+        "0RqDalkY7Do",
+        "0d2S9pM5vIA",
+        "7ViHjs3sHBE",
+        "9p4juGUr-Qw",
+        "DCcfHVlL70E",
+        "DMEzwnBPaTU",
+        "F-nViYjqNKM",
+        "IEe1yY1jzL8",
+        "IFKDUNrHq_0",
+        "LK5cTZrrpx8",
+        "OPNC5wt7nSQ",
+        "ORkBC4z3Kfw",
+        "PP2LTvJcFkE",
+        "Qj8xJYwpm6w",
+        "RFtUq-OPRsE",
+        "axFbb8WYINw",
+        "bZVrg3-nTqc",
+        "cBEEsmohqug",
+        "e2e1dn3E06Y",
+        "et7xQeSO9Lc",
+        "g6UhYEU8IDM",
+        "hIz4Y2Bh5EA",
+        "jBuLSm_F_7A",
+        "jfvr9jPbkDo",
+        "mZRy5NEDfP0",
+        "nGZUQ0AwcOo",
+        "uRLHPp3vwmo",
+        "utqkk_MmStY",
+        "vWIj7IXpFOQ",
+        "xPTdKfS93nU",
+        "xslomc9TD5o",
+        "yz6ugOAq5e0",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f6d4b64ad1d4",
+      "type": "hook",
+      "name": "職場トーク",
+      "definition": "文字列「職場トーク」に関連する話題を含む配信",
+      "seed_terms": [
+        "職場",
+        "職場話"
+      ],
+      "yes_count": 34,
+      "no_count": 253,
+      "unknown_count": 0,
+      "yes_rate": 0.1185,
+      "unknown_rate": 0.0,
+      "split_score": 0.477585,
+      "rec_yes_rate": 0.2647,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "08jBE0vR1m8",
+        "2Y-PMWG1zPU",
+        "468TPz31ntA",
+        "4d1ITaFxFWc",
+        "60c1otnyY50",
+        "7ViHjs3sHBE",
+        "AZHBEfp4HWs",
+        "BUO11BWzyWU",
+        "D3md_ISuLYk",
+        "D8ZZcQdn2f4",
+        "E9d1bd-6UXE",
+        "IyzACoEdSZI",
+        "PGPkpIjy6m8",
+        "PP2LTvJcFkE",
+        "Q8DHXouVrNs",
+        "RtFWKk55J2s",
+        "VdxPOYIvJSs",
+        "X-G18ZFuXPc",
+        "_9FsF8yHUg0",
+        "brc5tBLswX4",
+        "d5HDvotYHRs",
+        "eYjLHypfiz4",
+        "gPUWhpAYls0",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "i1qPPxvxJZ4",
+        "jjCIZjARdM0",
+        "k1JFeKjkOds",
+        "lOYZ39sETEk",
+        "qEbOx0OUzog",
+        "s1oT47MSYwY",
+        "xslomc9TD5o",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_b818f9348564",
+      "type": "core",
+      "name": "マロ読み",
+      "definition": "TSVのタイプが「マロ読み」に該当する配信",
+      "seed_terms": [
+        "マロ読み"
+      ],
+      "yes_count": 12,
+      "no_count": 275,
+      "unknown_count": 0,
+      "yes_rate": 0.0418,
+      "unknown_rate": 0.0,
+      "split_score": 0.458707,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "4BbryGgTdUY",
+        "E9d1bd-6UXE",
+        "F-nViYjqNKM",
+        "Lt86o2fQwR8",
+        "PYPXGWIsDvM",
+        "R49TL9_Uwss",
+        "bho-pb8_5Fs",
+        "ctkre-k-maI",
+        "mqbML8VMrAk",
+        "mwt9GELuAOc",
+        "qEbOx0OUzog",
+        "zLZlrx0nBPQ"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_242e8e5c3fbc",
+      "type": "hook",
+      "name": "家族",
+      "definition": "文字列「家族」に関連する話題を含む配信",
+      "seed_terms": [
+        "家族"
+      ],
+      "yes_count": 28,
+      "no_count": 259,
+      "unknown_count": 0,
+      "yes_rate": 0.0976,
+      "unknown_rate": 0.0,
+      "split_score": 0.406694,
+      "rec_yes_rate": 0.2143,
+      "yes_video_ids": [
+        "0yT2IVMDXGg",
+        "468TPz31ntA",
+        "4d1ITaFxFWc",
+        "7ViHjs3sHBE",
+        "9p4juGUr-Qw",
+        "AEeFVAQO91w",
+        "Av0FgoBvA8E",
+        "BvirgNnaLSk",
+        "D3md_ISuLYk",
+        "FtTM28_eedk",
+        "IFKDUNrHq_0",
+        "OPNC5wt7nSQ",
+        "PP2LTvJcFkE",
+        "RtFWKk55J2s",
+        "ZET0F14FUzk",
+        "axFbb8WYINw",
+        "cBEEsmohqug",
+        "gnErfB1Tln4",
+        "hV2FBMJprhY",
+        "hmPoCXkluM8",
+        "lOYZ39sETEk",
+        "mG3ZYF6vvYc",
+        "mqbML8VMrAk",
+        "pHLlK1pWZg4",
+        "rz2rS5P3wDc",
+        "vWIj7IXpFOQ",
+        "wEEfLTKiKdE",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_35b7c0a023cb",
+      "type": "hook",
+      "name": "個人勢",
+      "definition": "文字列「個人勢」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人勢"
+      ],
+      "yes_count": 27,
+      "no_count": 260,
+      "unknown_count": 0,
+      "yes_rate": 0.0941,
+      "unknown_rate": 0.0,
+      "split_score": 0.395419,
+      "rec_yes_rate": 0.1852,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "0RqDalkY7Do",
+        "4d1ITaFxFWc",
+        "AEeFVAQO91w",
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "BW_PRCATh0A",
+        "DCcfHVlL70E",
+        "Ev0oIMOmvn0",
+        "H98QOybZk9o",
+        "HUIGRY7DkAA",
+        "IFKDUNrHq_0",
+        "L7-YCTQPnS4",
+        "Lt86o2fQwR8",
+        "OPNC5wt7nSQ",
+        "RtFWKk55J2s",
+        "_agOXs8CRkQ",
+        "bho-pb8_5Fs",
+        "cbxqOHW0RBc",
+        "ctkre-k-maI",
+        "eYjLHypfiz4",
+        "et7xQeSO9Lc",
+        "jVO_8TbMpkA",
+        "vVjC1pW00S8",
+        "vryXS-zekPE",
+        "xPTdKfS93nU",
+        "zLZlrx0nBPQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_f0aff3d58da1",
+      "type": "core",
+      "name": "歌枠",
+      "definition": "TSVのタイプが「歌枠」に該当する配信",
+      "seed_terms": [
+        "歌枠"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.38374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "DhHXao29lQ0",
+        "JeTYFjVMoJ0",
+        "VsRxxenaRAs",
+        "pzPUA0J5kI0"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "core_f9f14b980b1a",
+      "type": "core",
+      "name": "同時視聴＋雑談",
+      "definition": "TSVのタイプが「同時視聴＋雑談」に該当する配信",
+      "seed_terms": [
+        "同時視聴＋雑談"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.364186,
+      "rec_yes_rate": 0.1667,
+      "yes_video_ids": [
+        "LpSBY0dBwv4",
+        "PKTBKxtnqXE",
+        "YjYw_UEmX3M",
+        "_LifehYIBgg",
+        "kmQ13VdGd7I",
+        "vorCYR-Z8x8"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_aba65c8fa8af",
+      "type": "hook",
+      "name": "だけ",
+      "definition": "文字列「だけ」に関連する話題を含む配信",
+      "seed_terms": [
+        "だけ"
+      ],
+      "yes_count": 24,
+      "no_count": 263,
+      "unknown_count": 0,
+      "yes_rate": 0.0836,
+      "unknown_rate": 0.0,
+      "split_score": 0.360672,
+      "rec_yes_rate": 0.125,
+      "yes_video_ids": [
+        "00OpEJLZkY4",
+        "0yT2IVMDXGg",
+        "1P8qmOQHAjM",
+        "7NyAMYaOe9c",
+        "BUO11BWzyWU",
+        "C5PI0pKxt-k",
+        "Cx6-_A9zolI",
+        "IEe1yY1jzL8",
+        "P5Fe-ATA4ZA",
+        "PzmhQwGOBJM",
+        "RAae2y5Ub38",
+        "T9p0YuL1JNw",
+        "TDcRHdnDt1g",
+        "Wi0X0_EsuYg",
+        "Y_fXnLTJauI",
+        "f2GQnhUBKLU",
+        "hmPoCXkluM8",
+        "iM5Uhax-bzI",
+        "kEae-aV4JKI",
+        "oQikqIV_XrA",
+        "p-qNRo9Ohdw",
+        "yHP_NLTa9pU",
+        "zQHiODQz3A4",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3bc3b528013e",
+      "type": "hook",
+      "name": "カオス",
+      "definition": "文字列「カオス」に関連する話題を含む配信",
+      "seed_terms": [
+        "カオス"
+      ],
+      "yes_count": 22,
+      "no_count": 265,
+      "unknown_count": 0,
+      "yes_rate": 0.0767,
+      "unknown_rate": 0.0,
+      "split_score": 0.353646,
+      "rec_yes_rate": 0.3182,
+      "yes_video_ids": [
+        "0RqDalkY7Do",
+        "440pdg6wGHY",
+        "4lcNBQb7Z-c",
+        "77K-m3r4B6k",
+        "AZHBEfp4HWs",
+        "Cf1utnhNpk0",
+        "Cgz4nan7fTo",
+        "E9zs68i093Q",
+        "FTxO8LsUduw",
+        "GNFEm8csqNs",
+        "GZe69EAbfdw",
+        "HmdrSpdBfeU",
+        "LBl_bVelUak",
+        "TDcRHdnDt1g",
+        "V3J476W3Fr8",
+        "axFbb8WYINw",
+        "ctkre-k-maI",
+        "k1JFeKjkOds",
+        "kmQ13VdGd7I",
+        "l5tN47R_KMU",
+        "y5TD8AEznd8",
+        "yCDWCNslMbA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_58dd9da25c77",
+      "type": "core",
+      "name": "ショート",
+      "definition": "TSVのタイプが「ショート」に該当する配信",
+      "seed_terms": [
+        "ショート"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.34759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "JcNFtKErk9o",
+        "TRqgqSY0-vE",
+        "oQikqIV_XrA",
+        "vd4lnydU2LU",
+        "wHvVSD-KLHk"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_631a2479d98b",
+      "type": "hook",
+      "name": "作業",
+      "definition": "文字列「作業」に関連する話題を含む配信",
+      "seed_terms": [
+        "作業"
+      ],
+      "yes_count": 22,
+      "no_count": 265,
+      "unknown_count": 0,
+      "yes_rate": 0.0767,
+      "unknown_rate": 0.0,
+      "split_score": 0.336699,
+      "rec_yes_rate": 0.1818,
+      "yes_video_ids": [
+        "-0N5k5TOGbE",
+        "00OpEJLZkY4",
+        "1P8qmOQHAjM",
+        "7y--HbZSV-M",
+        "BvirgNnaLSk",
+        "Cx6-_A9zolI",
+        "DMEzwnBPaTU",
+        "P2dKlmZvqZs",
+        "P5Fe-ATA4ZA",
+        "RAae2y5Ub38",
+        "TDcRHdnDt1g",
+        "Wi0X0_EsuYg",
+        "_9FsF8yHUg0",
+        "brc5tBLswX4",
+        "hV2FBMJprhY",
+        "jjCIZjARdM0",
+        "l-zeiMw_Gw4",
+        "mZRy5NEDfP0",
+        "mm_cGR4ijSQ",
+        "oOOt1p82VRU",
+        "tgJiT_U-j7w",
+        "uRLHPp3vwmo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_641db47da274",
+      "type": "core",
+      "name": "プレ配信",
+      "definition": "TSVのタイプが「プレ配信」に該当する配信",
+      "seed_terms": [
+        "プレ配信"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.33043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "0yT2IVMDXGg",
+        "TDcRHdnDt1g",
+        "axFbb8WYINw",
+        "wEEfLTKiKdE"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_8d00450c5d27",
+      "type": "hook",
+      "name": "ちゃん",
+      "definition": "文字列「ちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちゃん"
+      ],
+      "yes_count": 20,
+      "no_count": 267,
+      "unknown_count": 0,
+      "yes_rate": 0.0697,
+      "unknown_rate": 0.0,
+      "split_score": 0.325347,
+      "rec_yes_rate": 0.3,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "1D9ZoDDAkUU",
+        "7NyAMYaOe9c",
+        "7ViHjs3sHBE",
+        "BA2Q7V4YVbo",
+        "L7-YCTQPnS4",
+        "PP2LTvJcFkE",
+        "YIOXlSk_ZHY",
+        "ZET0F14FUzk",
+        "_agOXs8CRkQ",
+        "brc5tBLswX4",
+        "e2e1dn3E06Y",
+        "kEae-aV4JKI",
+        "l-zeiMw_Gw4",
+        "qgNxzRh1a8U",
+        "sc75mnXwmns",
+        "utqkk_MmStY",
+        "vWIj7IXpFOQ",
+        "xPTdKfS93nU",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "core_e22cc4624493",
+      "type": "core",
+      "name": "スパチャ読み",
+      "definition": "TSVのタイプが「スパチャ読み」に該当する配信",
+      "seed_terms": [
+        "スパチャ読み"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.312578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "jfvr9jPbkDo",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core_type"
+    },
+    {
+      "concept_id": "hook_4b346b942f50",
+      "type": "hook",
+      "name": "プレイ",
+      "definition": "文字列「プレイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プレイ"
+      ],
+      "yes_count": 19,
+      "no_count": 268,
+      "unknown_count": 0,
+      "yes_rate": 0.0662,
+      "unknown_rate": 0.0,
+      "split_score": 0.305374,
+      "rec_yes_rate": 0.2632,
+      "yes_video_ids": [
+        "4gWzUegmZ7w",
+        "9p4juGUr-Qw",
+        "Gr8ftM_xvTA",
+        "Hn2LnLtmcmA",
+        "NK9BO3Koen4",
+        "ORkBC4z3Kfw",
+        "SLJxvbgUFgQ",
+        "XX9uoyNvUTQ",
+        "YNvopwEHchA",
+        "aYlNsEQEy1E",
+        "alfeqzduVOs",
+        "czJicZI_VWM",
+        "eYjLHypfiz4",
+        "f3dI2zf97ww",
+        "iPJqPktGtBo",
+        "jOtfnZvLIZw",
+        "utqkk_MmStY",
+        "yi6cK_rZiD0",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3e0c0cc25958",
+      "type": "hook",
+      "name": "実写",
+      "definition": "文字列「実写」に関連する話題を含む配信",
+      "seed_terms": [
+        "実写"
+      ],
+      "yes_count": 16,
+      "no_count": 271,
+      "unknown_count": 0,
+      "yes_rate": 0.0557,
+      "unknown_rate": 0.0,
+      "split_score": 0.30126,
+      "rec_yes_rate": 0.4375,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "8uZAAKvhGqs",
+        "D3md_ISuLYk",
+        "FtTM28_eedk",
+        "IEe1yY1jzL8",
+        "NrPKr4dvmps",
+        "cbxqOHW0RBc",
+        "d5HDvotYHRs",
+        "et7xQeSO9Lc",
+        "lGhbL2BpXcE",
+        "lOYZ39sETEk",
+        "m79nB-ZpW7A",
+        "mqbML8VMrAk",
+        "pHLlK1pWZg4",
+        "tHu-YfLjQ1E",
+        "xslomc9TD5o"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5e497a6bda81",
+      "type": "hook",
+      "name": "ゲリラ",
+      "definition": "文字列「ゲリラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲリラ"
+      ],
+      "yes_count": 19,
+      "no_count": 268,
+      "unknown_count": 0,
+      "yes_rate": 0.0662,
+      "unknown_rate": 0.0,
+      "split_score": 0.299433,
+      "rec_yes_rate": 0.0526,
+      "yes_video_ids": [
+        "-QTTq2ZSmcA",
+        "1P8qmOQHAjM",
+        "3p5K7roF4w0",
+        "7Vq9r6s5yKw",
+        "BvirgNnaLSk",
+        "DMEzwnBPaTU",
+        "Enwto9yMG4E",
+        "P2dKlmZvqZs",
+        "Qj8xJYwpm6w",
+        "RAae2y5Ub38",
+        "T9p0YuL1JNw",
+        "Wi0X0_EsuYg",
+        "Y_fXnLTJauI",
+        "esiVP68HKpc",
+        "hV2FBMJprhY",
+        "jOtfnZvLIZw",
+        "oOOt1p82VRU",
+        "pNrK8RYqxGA",
+        "yHP_NLTa9pU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0c295d2805ec",
+      "type": "hook",
+      "name": "案件",
+      "definition": "文字列「案件」に関連する話題を含む配信",
+      "seed_terms": [
+        "案件"
+      ],
+      "yes_count": 19,
+      "no_count": 268,
+      "unknown_count": 0,
+      "yes_rate": 0.0662,
+      "unknown_rate": 0.0,
+      "split_score": 0.299433,
+      "rec_yes_rate": 0.2105,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "8jlKeJ8OkLk",
+        "BvirgNnaLSk",
+        "KXLQuq9lmlA",
+        "KYWONrZnqBU",
+        "T9p0YuL1JNw",
+        "eYjLHypfiz4",
+        "g6UhYEU8IDM",
+        "hV2FBMJprhY",
+        "hu8qS_EMtQ8",
+        "iPJqPktGtBo",
+        "jfvr9jPbkDo",
+        "kmQ13VdGd7I",
+        "mZRy5NEDfP0",
+        "nuLm_7mC7Ss",
+        "qgNxzRh1a8U",
+        "xZrj5ogR5V4",
+        "ywynpXOAWFA",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b9cf65617654",
+      "type": "hook",
+      "name": "マッマ",
+      "definition": "文字列「マッマ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マッマ"
+      ],
+      "yes_count": 15,
+      "no_count": 272,
+      "unknown_count": 0,
+      "yes_rate": 0.0523,
+      "unknown_rate": 0.0,
+      "split_score": 0.280347,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "4d1ITaFxFWc",
+        "7y--HbZSV-M",
+        "8uZAAKvhGqs",
+        "AEeFVAQO91w",
+        "BvirgNnaLSk",
+        "Cgz4nan7fTo",
+        "NmWcNtlH9UE",
+        "PGPkpIjy6m8",
+        "Q8DHXouVrNs",
+        "cbxqOHW0RBc",
+        "mG3ZYF6vvYc",
+        "rz2rS5P3wDc",
+        "tHu-YfLjQ1E",
+        "tgJiT_U-j7w",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f5bb61a56be5",
+      "type": "hook",
+      "name": "スパチャ",
+      "definition": "文字列「スパチャ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スパチャ"
+      ],
+      "yes_count": 17,
+      "no_count": 270,
+      "unknown_count": 0,
+      "yes_rate": 0.0592,
+      "unknown_rate": 0.0,
+      "split_score": 0.273647,
+      "rec_yes_rate": 0.1765,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "7ViHjs3sHBE",
+        "BA2Q7V4YVbo",
+        "GD9-wjMdGVQ",
+        "GNFEm8csqNs",
+        "NmWcNtlH9UE",
+        "Q8DHXouVrNs",
+        "esiVP68HKpc",
+        "gPUWhpAYls0",
+        "hMNy6Y-PhjI",
+        "hmPoCXkluM8",
+        "jfvr9jPbkDo",
+        "nuLm_7mC7Ss",
+        "rz2rS5P3wDc",
+        "vVjC1pW00S8",
+        "ywynpXOAWFA",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1c85eecc34a9",
+      "type": "hook",
+      "name": "同時視聴",
+      "definition": "文字列「同時視聴」に関連する話題を含む配信",
+      "seed_terms": [
+        "同時視聴"
+      ],
+      "yes_count": 17,
+      "no_count": 270,
+      "unknown_count": 0,
+      "yes_rate": 0.0592,
+      "unknown_rate": 0.0,
+      "split_score": 0.273647,
+      "rec_yes_rate": 0.1176,
+      "yes_video_ids": [
+        "7tGkoptgYC4",
+        "B0yad5aSDi8",
+        "BDbqM9bvyow",
+        "FB5cOpHNZSk",
+        "LpSBY0dBwv4",
+        "PKTBKxtnqXE",
+        "SBdosbUy3L0",
+        "YjYw_UEmX3M",
+        "ZgrDiS2vcrM",
+        "_LifehYIBgg",
+        "aPpIlgRZ_KE",
+        "kmQ13VdGd7I",
+        "sU2hKCqFrbU",
+        "vYrL10DujkI",
+        "vorCYR-Z8x8",
+        "xRFrHyqqX3w",
+        "zc3Ur0xJWlA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1dd34007293f",
+      "type": "hook",
+      "name": "生誕祭（誕生日）",
+      "definition": "文字列「生誕祭（誕生日）」に関連する話題を含む配信",
+      "seed_terms": [
+        "生誕祭",
+        "生誕",
+        "誕生日"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.270197,
+      "rec_yes_rate": 0.7778,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "GD9-wjMdGVQ",
+        "IEe1yY1jzL8",
+        "bZVrg3-nTqc",
+        "et7xQeSO9Lc",
+        "kc-NxHb4wRE",
+        "xZrj5ogR5V4",
+        "yCDWCNslMbA",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f0aff3d58da1",
+      "type": "hook",
+      "name": "歌枠",
+      "definition": "文字列「歌枠」に関連する話題を含む配信",
+      "seed_terms": [
+        "歌枠"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.258137,
+      "rec_yes_rate": 0.3571,
+      "yes_video_ids": [
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "DhHXao29lQ0",
+        "Ev0oIMOmvn0",
+        "JcNFtKErk9o",
+        "JeTYFjVMoJ0",
+        "L7-YCTQPnS4",
+        "NrPKr4dvmps",
+        "VsRxxenaRAs",
+        "pzPUA0J5kI0",
+        "rz2rS5P3wDc",
+        "vorCYR-Z8x8",
+        "y5TD8AEznd8",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6c3fe52f0f88",
+      "type": "hook",
+      "name": "相談",
+      "definition": "文字列「相談」に関連する話題を含む配信",
+      "seed_terms": [
+        "相談"
+      ],
+      "yes_count": 13,
+      "no_count": 274,
+      "unknown_count": 0,
+      "yes_rate": 0.0453,
+      "unknown_rate": 0.0,
+      "split_score": 0.249756,
+      "rec_yes_rate": 0.3846,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "BA2Q7V4YVbo",
+        "BUO11BWzyWU",
+        "Ev0oIMOmvn0",
+        "F-nViYjqNKM",
+        "Lt86o2fQwR8",
+        "PYPXGWIsDvM",
+        "bZVrg3-nTqc",
+        "esiVP68HKpc",
+        "g6UhYEU8IDM",
+        "hmPoCXkluM8",
+        "mqbML8VMrAk",
+        "yYLRoTD8rFo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0aa0bc3c7b92",
+      "type": "hook",
+      "name": "RTA",
+      "definition": "文字列「RTA」に関連する話題を含む配信",
+      "seed_terms": [
+        "RTA"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.247975,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "FTxO8LsUduw",
+        "IEe1yY1jzL8",
+        "KerjfFJDHjU",
+        "bZVrg3-nTqc",
+        "bctkg3TSeHU",
+        "cecB0jLN-6s",
+        "i1qPPxvxJZ4",
+        "iAxwcXDnUrE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1232a9d8485f",
+      "type": "hook",
+      "name": "イラスト",
+      "definition": "文字列「イラスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "イラスト"
+      ],
+      "yes_count": 11,
+      "no_count": 276,
+      "unknown_count": 0,
+      "yes_rate": 0.0383,
+      "unknown_rate": 0.0,
+      "split_score": 0.235222,
+      "rec_yes_rate": 0.4545,
+      "yes_video_ids": [
+        "00OpEJLZkY4",
+        "Cgz4nan7fTo",
+        "L7-YCTQPnS4",
+        "TDcRHdnDt1g",
+        "aYlNsEQEy1E",
+        "bZVrg3-nTqc",
+        "jjCIZjARdM0",
+        "l-zeiMw_Gw4",
+        "mZRy5NEDfP0",
+        "vSEud736WYI",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e721012f5f3f",
+      "type": "hook",
+      "name": "アンテ",
+      "definition": "文字列「アンテ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アンテ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.23374,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "KerjfFJDHjU",
+        "bctkg3TSeHU",
+        "cecB0jLN-6s",
+        "iAxwcXDnUrE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a8e51527055e",
+      "type": "hook",
+      "name": "クリア",
+      "definition": "文字列「クリア」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリア"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.233399,
+      "rec_yes_rate": 0.0714,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "7y--HbZSV-M",
+        "BW_PRCATh0A",
+        "IFKDUNrHq_0",
+        "SYO1S6iqRh4",
+        "V3J476W3Fr8",
+        "YNvopwEHchA",
+        "ZW5QT4Sv-5w",
+        "bZVrg3-nTqc",
+        "kEae-aV4JKI",
+        "ml-ZMVols_Q",
+        "pHLlK1pWZg4",
+        "vVjC1pW00S8",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1e20dd673d7a",
+      "type": "hook",
+      "name": "モデル",
+      "definition": "文字列「モデル」に関連する話題を含む配信",
+      "seed_terms": [
+        "モデル"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.233399,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "80ToZBkr4JA",
+        "E9zs68i093Q",
+        "GZe69EAbfdw",
+        "P2dKlmZvqZs",
+        "_9FsF8yHUg0",
+        "axFbb8WYINw",
+        "brc5tBLswX4",
+        "et7xQeSO9Lc",
+        "jHqBK4tp-ek",
+        "kEae-aV4JKI",
+        "mZRy5NEDfP0",
+        "rz2rS5P3wDc",
+        "s9iVJCxKLb8",
+        "yYLRoTD8rFo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_09558b2cc685",
+      "type": "hook",
+      "name": "時間",
+      "definition": "文字列「時間」に関連する話題を含む配信",
+      "seed_terms": [
+        "時間"
+      ],
+      "yes_count": 14,
+      "no_count": 273,
+      "unknown_count": 0,
+      "yes_rate": 0.0488,
+      "unknown_rate": 0.0,
+      "split_score": 0.233399,
+      "rec_yes_rate": 0.2143,
+      "yes_video_ids": [
+        "-QTTq2ZSmcA",
+        "7ViHjs3sHBE",
+        "7Vq9r6s5yKw",
+        "E9d1bd-6UXE",
+        "EBAwBn9_Me8",
+        "Enwto9yMG4E",
+        "Gr8ftM_xvTA",
+        "ORkBC4z3Kfw",
+        "T9p0YuL1JNw",
+        "TDcRHdnDt1g",
+        "X-G18ZFuXPc",
+        "XX9uoyNvUTQ",
+        "dV-PMSAfYcI",
+        "u5RHsH63Xd4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_ae05ce463286",
+      "type": "hook",
+      "name": "らしい",
+      "definition": "文字列「らしい」に関連する話題を含む配信",
+      "seed_terms": [
+        "らしい"
+      ],
+      "yes_count": 13,
+      "no_count": 274,
+      "unknown_count": 0,
+      "yes_rate": 0.0453,
+      "unknown_rate": 0.0,
+      "split_score": 0.219523,
+      "rec_yes_rate": 0.2308,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "0d2S9pM5vIA",
+        "D8ZZcQdn2f4",
+        "SLJxvbgUFgQ",
+        "ZfAXsCI2WvE",
+        "ajXkPbRJJIk",
+        "bho-pb8_5Fs",
+        "d5HDvotYHRs",
+        "eQ4WhyW_zD4",
+        "eYjLHypfiz4",
+        "hK9UptFLngo",
+        "iAxwcXDnUrE",
+        "rz2rS5P3wDc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f3ef78af4c24",
+      "type": "hook",
+      "name": "アオ",
+      "definition": "文字列「アオ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アオ"
+      ],
+      "yes_count": 13,
+      "no_count": 274,
+      "unknown_count": 0,
+      "yes_rate": 0.0453,
+      "unknown_rate": 0.0,
+      "split_score": 0.219523,
+      "rec_yes_rate": 0.0769,
+      "yes_video_ids": [
+        "7tGkoptgYC4",
+        "B0yad5aSDi8",
+        "BDbqM9bvyow",
+        "LpSBY0dBwv4",
+        "PKTBKxtnqXE",
+        "SBdosbUy3L0",
+        "YjYw_UEmX3M",
+        "ZgrDiS2vcrM",
+        "_LifehYIBgg",
+        "aPpIlgRZ_KE",
+        "sU2hKCqFrbU",
+        "vorCYR-Z8x8",
+        "zc3Ur0xJWlA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_d9339526fcb2",
+      "type": "hook",
+      "name": "性癖",
+      "definition": "文字列「性癖」に関連する話題を含む配信",
+      "seed_terms": [
+        "性癖"
+      ],
+      "yes_count": 13,
+      "no_count": 274,
+      "unknown_count": 0,
+      "yes_rate": 0.0453,
+      "unknown_rate": 0.0,
+      "split_score": 0.219523,
+      "rec_yes_rate": 0.0769,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "057-so4V2MU",
+        "6l9LvQBSbuE",
+        "7ViHjs3sHBE",
+        "E9d1bd-6UXE",
+        "RAae2y5Ub38",
+        "T9p0YuL1JNw",
+        "axFbb8WYINw",
+        "hV2FBMJprhY",
+        "hu8qS_EMtQ8",
+        "qNBKuJAcoQM",
+        "qgNxzRh1a8U",
+        "zLZlrx0nBPQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c919853c899a",
+      "type": "hook",
+      "name": "FA",
+      "definition": "文字列「FA」に関連する話題を含む配信",
+      "seed_terms": [
+        "FA"
+      ],
+      "yes_count": 11,
+      "no_count": 276,
+      "unknown_count": 0,
+      "yes_rate": 0.0383,
+      "unknown_rate": 0.0,
+      "split_score": 0.21704,
+      "rec_yes_rate": 0.3636,
+      "yes_video_ids": [
+        "KwaIAV3Q_2g",
+        "R49TL9_Uwss",
+        "_agOXs8CRkQ",
+        "brc5tBLswX4",
+        "gPUWhpAYls0",
+        "gnErfB1Tln4",
+        "m79nB-ZpW7A",
+        "nuLm_7mC7Ss",
+        "u5RHsH63Xd4",
+        "vYrL10DujkI",
+        "y5TD8AEznd8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_41a632efa308",
+      "type": "hook",
+      "name": "コメント",
+      "definition": "文字列「コメント」に関連する話題を含む配信",
+      "seed_terms": [
+        "コメント"
+      ],
+      "yes_count": 11,
+      "no_count": 276,
+      "unknown_count": 0,
+      "yes_rate": 0.0383,
+      "unknown_rate": 0.0,
+      "split_score": 0.21704,
+      "rec_yes_rate": 0.3636,
+      "yes_video_ids": [
+        "3p5K7roF4w0",
+        "77K-m3r4B6k",
+        "IChrtcTLRmo",
+        "TmCe79DNmGE",
+        "f9V5tiN1VEI",
+        "i1qPPxvxJZ4",
+        "kmQ13VdGd7I",
+        "l5tN47R_KMU",
+        "oWZb3qmdSTU",
+        "xZrj5ogR5V4",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_49459476d972",
+      "type": "hook",
+      "name": "UNDERTALE（アンダーテール）",
+      "definition": "文字列「UNDERTALE（アンダーテール）」に関連する話題を含む配信",
+      "seed_terms": [
+        "UNDERTALE",
+        "アンダーテール"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.2109,
+      "rec_yes_rate": 0.8,
+      "yes_video_ids": [
+        "KerjfFJDHjU",
+        "bctkg3TSeHU",
+        "cecB0jLN-6s",
+        "i1qPPxvxJZ4",
+        "iAxwcXDnUrE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7e50adc08913",
+      "type": "hook",
+      "name": "しよ",
+      "definition": "文字列「しよ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しよ"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.203531,
+      "rec_yes_rate": 0.4444,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "4BbryGgTdUY",
+        "6fRUz38wEFI",
+        "YIOXlSk_ZHY",
+        "YjYw_UEmX3M",
+        "g6UhYEU8IDM",
+        "pp3NS77EQ_k",
+        "yCDWCNslMbA",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cd68fa3c27ee",
+      "type": "hook",
+      "name": "幼少期",
+      "definition": "文字列「幼少期」に関連する話題を含む配信",
+      "seed_terms": [
+        "幼少期"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.203531,
+      "rec_yes_rate": 0.4444,
+      "yes_video_ids": [
+        "2Y-PMWG1zPU",
+        "Av0FgoBvA8E",
+        "BUO11BWzyWU",
+        "X-G18ZFuXPc",
+        "g6UhYEU8IDM",
+        "l5tN47R_KMU",
+        "qEbOx0OUzog",
+        "snWEfEjr_C4",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_dace8aabe19e",
+      "type": "hook",
+      "name": "いもこ",
+      "definition": "文字列「いもこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "いもこ"
+      ],
+      "yes_count": 11,
+      "no_count": 276,
+      "unknown_count": 0,
+      "yes_rate": 0.0383,
+      "unknown_rate": 0.0,
+      "split_score": 0.198858,
+      "rec_yes_rate": 0.2727,
+      "yes_video_ids": [
+        "BvirgNnaLSk",
+        "Cgz4nan7fTo",
+        "DMEzwnBPaTU",
+        "Ev0oIMOmvn0",
+        "HmdrSpdBfeU",
+        "O20AcFrSWpE",
+        "PP2LTvJcFkE",
+        "VdxPOYIvJSs",
+        "tgJiT_U-j7w",
+        "yYLRoTD8rFo",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_761da43975d2",
+      "type": "hook",
+      "name": "ラボ",
+      "definition": "文字列「ラボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラボ"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.1979,
+      "rec_yes_rate": 0.5714,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "H98QOybZk9o",
+        "PKTBKxtnqXE",
+        "bctkg3TSeHU",
+        "cecB0jLN-6s",
+        "cqZYfPtph08",
+        "eQ4WhyW_zD4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1060274bc900",
+      "type": "hook",
+      "name": "CM",
+      "definition": "文字列「CM」に関連する話題を含む配信",
+      "seed_terms": [
+        "CM"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "8uZAAKvhGqs",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_ceda0e396ec3",
+      "type": "hook",
+      "name": "PowerWash",
+      "definition": "文字列「PowerWash」に関連する話題を含む配信",
+      "seed_terms": [
+        "PowerWash"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "4gWzUegmZ7w",
+        "Gr8ftM_xvTA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b42e4e54492d",
+      "type": "hook",
+      "name": "ちゅー",
+      "definition": "文字列「ちゅー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちゅー"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "77K-m3r4B6k",
+        "Q8DHXouVrNs"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_30a1e3646343",
+      "type": "hook",
+      "name": "ウォーターフェル",
+      "definition": "文字列「ウォーターフェル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ウォーターフェル"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "bctkg3TSeHU",
+        "iAxwcXDnUrE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a2d30870d5e3",
+      "type": "hook",
+      "name": "ドラッグストア",
+      "definition": "文字列「ドラッグストア」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドラッグストア"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "HxVD1mjxDH4",
+        "L7-YCTQPnS4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a3726658b20c",
+      "type": "hook",
+      "name": "ニューホーム",
+      "definition": "文字列「ニューホーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニューホーム"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.197124,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "KerjfFJDHjU",
+        "cecB0jLN-6s"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_64fe85d796d8",
+      "type": "hook",
+      "name": "3D",
+      "definition": "文字列「3D」に関連する話題を含む配信",
+      "seed_terms": [
+        "3D"
+      ],
+      "yes_count": 11,
+      "no_count": 276,
+      "unknown_count": 0,
+      "yes_rate": 0.0383,
+      "unknown_rate": 0.0,
+      "split_score": 0.191002,
+      "rec_yes_rate": 0.1818,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "8uZAAKvhGqs",
+        "IEe1yY1jzL8",
+        "TmCe79DNmGE",
+        "brc5tBLswX4",
+        "jfvr9jPbkDo",
+        "lOYZ39sETEk",
+        "nuLm_7mC7Ss",
+        "rz2rS5P3wDc",
+        "yYLRoTD8rFo",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4e8ac322b7c0",
+      "type": "hook",
+      "name": "バズ",
+      "definition": "文字列「バズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "バズ"
+      ],
+      "yes_count": 10,
+      "no_count": 277,
+      "unknown_count": 0,
+      "yes_rate": 0.0348,
+      "unknown_rate": 0.0,
+      "split_score": 0.189632,
+      "rec_yes_rate": 0.3,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "468TPz31ntA",
+        "4gWzUegmZ7w",
+        "D8ZZcQdn2f4",
+        "T9p0YuL1JNw",
+        "cbxqOHW0RBc",
+        "et7xQeSO9Lc",
+        "hV2FBMJprhY",
+        "rz2rS5P3wDc",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1f4ae9397ec4",
+      "type": "hook",
+      "name": "写真",
+      "definition": "文字列「写真」に関連する話題を含む配信",
+      "seed_terms": [
+        "写真"
+      ],
+      "yes_count": 10,
+      "no_count": 277,
+      "unknown_count": 0,
+      "yes_rate": 0.0348,
+      "unknown_rate": 0.0,
+      "split_score": 0.189632,
+      "rec_yes_rate": 0.3,
+      "yes_video_ids": [
+        "Av0FgoBvA8E",
+        "E9zs68i093Q",
+        "YjYw_UEmX3M",
+        "bho-pb8_5Fs",
+        "gnErfB1Tln4",
+        "hu8qS_EMtQ8",
+        "mn-3NxDzQnY",
+        "nuLm_7mC7Ss",
+        "xPTdKfS93nU",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_11ddb2b6badc",
+      "type": "hook",
+      "name": "ASMR",
+      "definition": "文字列「ASMR」に関連する話題を含む配信",
+      "seed_terms": [
+        "ASMR"
+      ],
+      "yes_count": 10,
+      "no_count": 277,
+      "unknown_count": 0,
+      "yes_rate": 0.0348,
+      "unknown_rate": 0.0,
+      "split_score": 0.176322,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "6l9LvQBSbuE",
+        "E9d1bd-6UXE",
+        "KwaIAV3Q_2g",
+        "NrPKr4dvmps",
+        "TDcRHdnDt1g",
+        "Y_fXnLTJauI",
+        "_LifehYIBgg",
+        "e2e1dn3E06Y",
+        "esiVP68HKpc",
+        "hmPoCXkluM8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_70092af8e575",
+      "type": "hook",
+      "name": "アニメ",
+      "definition": "文字列「アニメ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アニメ"
+      ],
+      "yes_count": 10,
+      "no_count": 277,
+      "unknown_count": 0,
+      "yes_rate": 0.0348,
+      "unknown_rate": 0.0,
+      "split_score": 0.176322,
+      "rec_yes_rate": 0.1,
+      "yes_video_ids": [
+        "FTxO8LsUduw",
+        "KXLQuq9lmlA",
+        "NrPKr4dvmps",
+        "OPNC5wt7nSQ",
+        "PKTBKxtnqXE",
+        "Qj8xJYwpm6w",
+        "ajXkPbRJJIk",
+        "f9V5tiN1VEI",
+        "lGhbL2BpXcE",
+        "pNrK8RYqxGA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_69b21bbc1543",
+      "type": "hook",
+      "name": "アナリティクス",
+      "definition": "文字列「アナリティクス」に関連する話題を含む配信",
+      "seed_terms": [
+        "アナリティクス"
+      ],
+      "yes_count": 8,
+      "no_count": 279,
+      "unknown_count": 0,
+      "yes_rate": 0.0279,
+      "unknown_rate": 0.0,
+      "split_score": 0.174314,
+      "rec_yes_rate": 0.375,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "D3md_ISuLYk",
+        "H98QOybZk9o",
+        "bho-pb8_5Fs",
+        "cqZYfPtph08",
+        "dV-PMSAfYcI",
+        "s1oT47MSYwY",
+        "tgJiT_U-j7w"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6600a62f1a19",
+      "type": "hook",
+      "name": "広島",
+      "definition": "文字列「広島」に関連する話題を含む配信",
+      "seed_terms": [
+        "広島"
+      ],
+      "yes_count": 8,
+      "no_count": 279,
+      "unknown_count": 0,
+      "yes_rate": 0.0279,
+      "unknown_rate": 0.0,
+      "split_score": 0.174314,
+      "rec_yes_rate": 0.375,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "KXLQuq9lmlA",
+        "PzmhQwGOBJM",
+        "RtFWKk55J2s",
+        "ajXkPbRJJIk",
+        "g6UhYEU8IDM",
+        "l5tN47R_KMU",
+        "pHLlK1pWZg4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_288ad7813d7a",
+      "type": "hook",
+      "name": "青春",
+      "definition": "文字列「青春」に関連する話題を含む配信",
+      "seed_terms": [
+        "青春"
+      ],
+      "yes_count": 8,
+      "no_count": 279,
+      "unknown_count": 0,
+      "yes_rate": 0.0279,
+      "unknown_rate": 0.0,
+      "split_score": 0.174314,
+      "rec_yes_rate": 0.375,
+      "yes_video_ids": [
+        "B0yad5aSDi8",
+        "LpSBY0dBwv4",
+        "WAqfewAfKaQ",
+        "ZuPq1SOQyoY",
+        "ctkre-k-maI",
+        "vSEud736WYI",
+        "vorCYR-Z8x8",
+        "y5TD8AEznd8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b36e9312d27b",
+      "type": "hook",
+      "name": "なき",
+      "definition": "文字列「なき」に関連する話題を含む配信",
+      "seed_terms": [
+        "なき"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1709,
+      "rec_yes_rate": 0.6,
+      "yes_video_ids": [
+        "6JvVStqJqg8",
+        "D3md_ISuLYk",
+        "Q8DHXouVrNs",
+        "lOYZ39sETEk",
+        "nuLm_7mC7Ss"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5ef262aa2496",
+      "type": "hook",
+      "name": "ネットプリント（ネップリ）",
+      "definition": "文字列「ネットプリント（ネップリ）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネップリ",
+        "ネットプリント"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1709,
+      "rec_yes_rate": 0.6,
+      "yes_video_ids": [
+        "KwaIAV3Q_2g",
+        "bZVrg3-nTqc",
+        "jHqBK4tp-ek",
+        "nuLm_7mC7Ss",
+        "oWZb3qmdSTU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9c693a859df2",
+      "type": "hook",
+      "name": "自己紹介",
+      "definition": "文字列「自己紹介」に関連する話題を含む配信",
+      "seed_terms": [
+        "自己紹介"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1709,
+      "rec_yes_rate": 0.6,
+      "yes_video_ids": [
+        "D3md_ISuLYk",
+        "ZET0F14FUzk",
+        "et7xQeSO9Lc",
+        "oOOt1p82VRU",
+        "vVjC1pW00S8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7e8c46514bb2",
+      "type": "hook",
+      "name": "黒歴史",
+      "definition": "文字列「黒歴史」に関連する話題を含む配信",
+      "seed_terms": [
+        "黒歴史"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1709,
+      "rec_yes_rate": 0.6,
+      "yes_video_ids": [
+        "440pdg6wGHY",
+        "AZHBEfp4HWs",
+        "Av0FgoBvA8E",
+        "snWEfEjr_C4",
+        "vorCYR-Z8x8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cb47a21f5883",
+      "type": "hook",
+      "name": "Live2D",
+      "definition": "文字列「Live2D」に関連する話題を含む配信",
+      "seed_terms": [
+        "Live2D"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.169329,
+      "rec_yes_rate": 0.4286,
+      "yes_video_ids": [
+        "6l9LvQBSbuE",
+        "Cgz4nan7fTo",
+        "H98QOybZk9o",
+        "f9V5tiN1VEI",
+        "g6UhYEU8IDM",
+        "kc-NxHb4wRE",
+        "s9iVJCxKLb8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e4714f80c5a9",
+      "type": "hook",
+      "name": "のんびり",
+      "definition": "文字列「のんびり」に関連する話題を含む配信",
+      "seed_terms": [
+        "のんびり"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.167496,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "AZHBEfp4HWs",
+        "MA6pscP6kSQ",
+        "_9FsF8yHUg0",
+        "d5HDvotYHRs",
+        "eQ4WhyW_zD4",
+        "kc-NxHb4wRE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_22f7f7720786",
+      "type": "hook",
+      "name": "フェチ",
+      "definition": "文字列「フェチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フェチ"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.167496,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "7ViHjs3sHBE",
+        "YjYw_UEmX3M",
+        "kc-NxHb4wRE",
+        "oOOt1p82VRU",
+        "pu0fM_7tyPc",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fc1c82fe013e",
+      "type": "hook",
+      "name": "PART",
+      "definition": "文字列「PART」に関連する話題を含む配信",
+      "seed_terms": [
+        "PART"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.161332,
+      "rec_yes_rate": 0.1111,
+      "yes_video_ids": [
+        "1D9ZoDDAkUU",
+        "1P8qmOQHAjM",
+        "Cx6-_A9zolI",
+        "Hn2LnLtmcmA",
+        "Wi0X0_EsuYg",
+        "ZfAXsCI2WvE",
+        "ml-ZMVols_Q",
+        "sc75mnXwmns",
+        "yAfJpKW4Ulc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9c2cbd91f4f5",
+      "type": "hook",
+      "name": "ちょっ",
+      "definition": "文字列「ちょっ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっ"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.161332,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "7Vq9r6s5yKw",
+        "Cgz4nan7fTo",
+        "Enwto9yMG4E",
+        "PKTBKxtnqXE",
+        "T9p0YuL1JNw",
+        "Y_fXnLTJauI",
+        "f2GQnhUBKLU",
+        "iM5Uhax-bzI",
+        "yHP_NLTa9pU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1dec9772cd49",
+      "type": "hook",
+      "name": "ホラー（ホラーゲーム含む）",
+      "definition": "文字列「ホラー（ホラーゲーム含む）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホラー",
+        "ホラーゲーム"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.161332,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "7y--HbZSV-M",
+        "8jlKeJ8OkLk",
+        "BW_PRCATh0A",
+        "Cf1utnhNpk0",
+        "FTxO8LsUduw",
+        "IFKDUNrHq_0",
+        "ORkBC4z3Kfw",
+        "SLJxvbgUFgQ",
+        "hIz4Y2Bh5EA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_009da4b01172",
+      "type": "hook",
+      "name": "余裕",
+      "definition": "文字列「余裕」に関連する話題を含む配信",
+      "seed_terms": [
+        "余裕"
+      ],
+      "yes_count": 9,
+      "no_count": 278,
+      "unknown_count": 0,
+      "yes_rate": 0.0314,
+      "unknown_rate": 0.0,
+      "split_score": 0.161332,
+      "rec_yes_rate": 0.1111,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "EBAwBn9_Me8",
+        "SYO1S6iqRh4",
+        "brc5tBLswX4",
+        "f3dI2zf97ww",
+        "p-qNRo9Ohdw",
+        "pHLlK1pWZg4",
+        "vVjC1pW00S8",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1e81158904d7",
+      "type": "hook",
+      "name": "ゆるっ",
+      "definition": "文字列「ゆるっ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゆるっ"
+      ],
+      "yes_count": 8,
+      "no_count": 279,
+      "unknown_count": 0,
+      "yes_rate": 0.0279,
+      "unknown_rate": 0.0,
+      "split_score": 0.149314,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "440pdg6wGHY",
+        "6fRUz38wEFI",
+        "NrPKr4dvmps",
+        "R5__6nx-ufQ",
+        "hmPoCXkluM8",
+        "mn-3NxDzQnY",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_95894b08c6f9",
+      "type": "hook",
+      "name": "おし",
+      "definition": "文字列「おし」に関連する話題を含む配信",
+      "seed_terms": [
+        "おし"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "oWZb3qmdSTU",
+        "pu0fM_7tyPc",
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9a67aef39dce",
+      "type": "hook",
+      "name": "かい",
+      "definition": "文字列「かい」に関連する話題を含む配信",
+      "seed_terms": [
+        "かい"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "DMEzwnBPaTU",
+        "jHqBK4tp-ek",
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_dbedb44bf9ea",
+      "type": "hook",
+      "name": "シチュボ",
+      "definition": "文字列「シチュボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "シチュボ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "EBAwBn9_Me8",
+        "nuLm_7mC7Ss"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_554539438cea",
+      "type": "hook",
+      "name": "中二病",
+      "definition": "文字列「中二病」に関連する話題を含む配信",
+      "seed_terms": [
+        "中二病"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "L7-YCTQPnS4",
+        "PYPXGWIsDvM",
+        "f9V5tiN1VEI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4cc54c860b66",
+      "type": "hook",
+      "name": "体調",
+      "definition": "文字列「体調」に関連する話題を含む配信",
+      "seed_terms": [
+        "体調"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "PP2LTvJcFkE",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5b5abca89c2d",
+      "type": "hook",
+      "name": "呪物",
+      "definition": "文字列「呪物」に関連する話題を含む配信",
+      "seed_terms": [
+        "呪物"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "4BbryGgTdUY",
+        "A4HxTRRCViY",
+        "et7xQeSO9Lc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_33b222b1d1b4",
+      "type": "hook",
+      "name": "広島弁",
+      "definition": "文字列「広島弁」に関連する話題を含む配信",
+      "seed_terms": [
+        "広島弁"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.149221,
+      "rec_yes_rate": 0.6667,
+      "yes_video_ids": [
+        "PzmhQwGOBJM",
+        "ajXkPbRJJIk",
+        "l5tN47R_KMU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_d205abee3d2a",
+      "type": "hook",
+      "name": "END",
+      "definition": "文字列「END」に関連する話題を含む配信",
+      "seed_terms": [
+        "END"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.140757,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "3p5K7roF4w0",
+        "KerjfFJDHjU",
+        "YjYw_UEmX3M",
+        "ZW5QT4Sv-5w",
+        "alfeqzduVOs",
+        "yi6cK_rZiD0",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_528a45acf629",
+      "type": "hook",
+      "name": "LINE",
+      "definition": "文字列「LINE」に関連する話題を含む配信",
+      "seed_terms": [
+        "LINE"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.140757,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "4BbryGgTdUY",
+        "FtTM28_eedk",
+        "IFKDUNrHq_0",
+        "OPNC5wt7nSQ",
+        "lOYZ39sETEk",
+        "oOOt1p82VRU",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3c8dbc7d144d",
+      "type": "hook",
+      "name": "サムネ",
+      "definition": "文字列「サムネ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サムネ"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.140757,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "3p5K7roF4w0",
+        "BvirgNnaLSk",
+        "Ev0oIMOmvn0",
+        "Wi0X0_EsuYg",
+        "mm_cGR4ijSQ",
+        "xZrj5ogR5V4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a221639ae81f",
+      "type": "hook",
+      "name": "スマホ",
+      "definition": "文字列「スマホ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スマホ"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.140757,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "D3md_ISuLYk",
+        "IFKDUNrHq_0",
+        "X-G18ZFuXPc",
+        "brc5tBLswX4",
+        "hMNy6Y-PhjI",
+        "m79nB-ZpW7A",
+        "xZrj5ogR5V4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cac4b8d5b07d",
+      "type": "hook",
+      "name": "文化祭",
+      "definition": "文字列「文化祭」に関連する話題を含む配信",
+      "seed_terms": [
+        "文化祭"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.140757,
+      "rec_yes_rate": 0.2857,
+      "yes_video_ids": [
+        "LpSBY0dBwv4",
+        "ZuPq1SOQyoY",
+        "_LifehYIBgg",
+        "hmPoCXkluM8",
+        "u5RHsH63Xd4",
+        "vSEud736WYI",
+        "y5TD8AEznd8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_713413ea5e5f",
+      "type": "hook",
+      "name": "ましゅまろ",
+      "definition": "文字列「ましゅまろ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ましゅまろ"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.134163,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "4BbryGgTdUY",
+        "Lt86o2fQwR8",
+        "R49TL9_Uwss",
+        "mwt9GELuAOc",
+        "qMIje1uTKfY",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_ef92bc286c56",
+      "type": "hook",
+      "name": "ガチ",
+      "definition": "文字列「ガチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ガチ"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.134163,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "7NyAMYaOe9c",
+        "8uZAAKvhGqs",
+        "RAae2y5Ub38",
+        "ctkre-k-maI",
+        "mqbML8VMrAk",
+        "zzl12WJRjGM"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_808d4faecfd6",
+      "type": "hook",
+      "name": "ジョジョ",
+      "definition": "文字列「ジョジョ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ジョジョ"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.134163,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "440pdg6wGHY",
+        "BXHkCEW_kbY",
+        "KXLQuq9lmlA",
+        "eYjLHypfiz4",
+        "hmPoCXkluM8",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0269d9c98c52",
+      "type": "hook",
+      "name": "清楚",
+      "definition": "文字列「清楚」に関連する話題を含む配信",
+      "seed_terms": [
+        "清楚"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.134163,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "GZe69EAbfdw",
+        "IChrtcTLRmo",
+        "TDcRHdnDt1g",
+        "ZET0F14FUzk",
+        "axFbb8WYINw",
+        "eQ4WhyW_zD4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_d1577374960f",
+      "type": "hook",
+      "name": "Simulator",
+      "definition": "文字列「Simulator」に関連する話題を含む配信",
+      "seed_terms": [
+        "Simulator"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "4gWzUegmZ7w",
+        "Gr8ftM_xvTA",
+        "fdI_N6FVh4E",
+        "jBuLSm_F_7A"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5392c950bdde",
+      "type": "hook",
+      "name": "Twitter",
+      "definition": "文字列「Twitter」に関連する話題を含む配信",
+      "seed_terms": [
+        "Twitter"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "R49TL9_Uwss",
+        "kEae-aV4JKI",
+        "xZrj5ogR5V4",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b3085a2dbe76",
+      "type": "hook",
+      "name": "メンバー",
+      "definition": "文字列「メンバー」に関連する話題を含む配信",
+      "seed_terms": [
+        "メンバー"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "hV2FBMJprhY",
+        "i1qPPxvxJZ4",
+        "jHqBK4tp-ek",
+        "nSp_x7-7LCo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0b76919ac464",
+      "type": "hook",
+      "name": "ラフ",
+      "definition": "文字列「ラフ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラフ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "00OpEJLZkY4",
+        "KwaIAV3Q_2g",
+        "l5tN47R_KMU",
+        "uRLHPp3vwmo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f6d850b3169c",
+      "type": "hook",
+      "name": "収益化",
+      "definition": "文字列「収益化」に関連する話題を含む配信",
+      "seed_terms": [
+        "収益化"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "PKTBKxtnqXE",
+        "et7xQeSO9Lc",
+        "l5tN47R_KMU",
+        "lGhbL2BpXcE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_520f730113d4",
+      "type": "hook",
+      "name": "登録者動向",
+      "definition": "文字列「登録者動向」に関連する話題を含む配信",
+      "seed_terms": [
+        "登録者動向"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.13374,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "ERULNw3eZhQ",
+        "HxVD1mjxDH4",
+        "IChrtcTLRmo",
+        "R49TL9_Uwss"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2c7a92a80b81",
+      "type": "hook",
+      "name": "たま",
+      "definition": "文字列「たま」に関連する話題を含む配信",
+      "seed_terms": [
+        "たま"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "alfeqzduVOs",
+        "bho-pb8_5Fs",
+        "ctkre-k-maI",
+        "d5HDvotYHRs",
+        "hI1VLuC-9BQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a051db2e9960",
+      "type": "hook",
+      "name": "ほのぼの",
+      "definition": "文字列「ほのぼの」に関連する話題を含む配信",
+      "seed_terms": [
+        "ほのぼの"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "T9p0YuL1JNw",
+        "bctkg3TSeHU",
+        "lOYZ39sETEk",
+        "wHvVSD-KLHk",
+        "yHP_NLTa9pU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a646289ad73a",
+      "type": "hook",
+      "name": "クリスマス",
+      "definition": "文字列「クリスマス」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリスマス"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "08jBE0vR1m8",
+        "et7xQeSO9Lc",
+        "hmPoCXkluM8",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_16d972117dd5",
+      "type": "hook",
+      "name": "コラボ",
+      "definition": "文字列「コラボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コラボ"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "H98QOybZk9o",
+        "PKTBKxtnqXE",
+        "cqZYfPtph08",
+        "eQ4WhyW_zD4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_882ef837dab5",
+      "type": "hook",
+      "name": "バニーガーデン",
+      "definition": "文字列「バニーガーデン」に関連する話題を含む配信",
+      "seed_terms": [
+        "バニーガーデン",
+        "BUNNY",
+        "GARDEN",
+        "ガーデン",
+        "バニー"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "1D9ZoDDAkUU",
+        "Hn2LnLtmcmA",
+        "XX9uoyNvUTQ",
+        "YIOXlSk_ZHY",
+        "sc75mnXwmns"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2fa9b336f717",
+      "type": "hook",
+      "name": "健康診断",
+      "definition": "文字列「健康診断」に関連する話題を含む配信",
+      "seed_terms": [
+        "健康診断"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "PYPXGWIsDvM",
+        "mG3ZYF6vvYc",
+        "u5RHsH63Xd4",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e9172a4f6793",
+      "type": "hook",
+      "name": "寝坊",
+      "definition": "文字列「寝坊」に関連する話題を含む配信",
+      "seed_terms": [
+        "寝坊"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.1309,
+      "rec_yes_rate": 0.4,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "08jBE0vR1m8",
+        "JcNFtKErk9o",
+        "tHu-YfLjQ1E",
+        "zDMCs8OtY_U"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_d9c9abdf404a",
+      "type": "hook",
+      "name": "PON",
+      "definition": "文字列「PON」に関連する話題を含む配信",
+      "seed_terms": [
+        "PON"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "7y--HbZSV-M",
+        "WAqfewAfKaQ",
+        "_LifehYIBgg",
+        "cqZYfPtph08",
+        "lOYZ39sETEk",
+        "snWEfEjr_C4",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7f4af5ee7e3c",
+      "type": "hook",
+      "name": "しか",
+      "definition": "文字列「しか」に関連する話題を含む配信",
+      "seed_terms": [
+        "しか"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "7ViHjs3sHBE",
+        "9Ua1EeTRvmA",
+        "9p4juGUr-Qw",
+        "IChrtcTLRmo",
+        "hmPoCXkluM8",
+        "pNrK8RYqxGA",
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_63b560db8849",
+      "type": "hook",
+      "name": "テスト",
+      "definition": "文字列「テスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "テスト"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "DhHXao29lQ0",
+        "F-nViYjqNKM",
+        "IFKDUNrHq_0",
+        "axFbb8WYINw",
+        "pHLlK1pWZg4",
+        "utqkk_MmStY",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_79b1535a817d",
+      "type": "hook",
+      "name": "ボイス",
+      "definition": "文字列「ボイス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボイス"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "cQz5jIxfeEU",
+        "kEae-aV4JKI",
+        "mqbML8VMrAk",
+        "utqkk_MmStY",
+        "vorCYR-Z8x8",
+        "yCDWCNslMbA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_49a9ef1b0597",
+      "type": "hook",
+      "name": "店長",
+      "definition": "文字列「店長」に関連する話題を含む配信",
+      "seed_terms": [
+        "店長"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "7ViHjs3sHBE",
+        "FtTM28_eedk",
+        "e2e1dn3E06Y",
+        "eYjLHypfiz4",
+        "fdI_N6FVh4E",
+        "lOYZ39sETEk",
+        "yi6cK_rZiD0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e2a0ced198d9",
+      "type": "hook",
+      "name": "恋愛",
+      "definition": "文字列「恋愛」に関連する話題を含む配信",
+      "seed_terms": [
+        "恋愛"
+      ],
+      "yes_count": 7,
+      "no_count": 280,
+      "unknown_count": 0,
+      "yes_rate": 0.0244,
+      "unknown_rate": 0.0,
+      "split_score": 0.130304,
+      "rec_yes_rate": 0.1429,
+      "yes_video_ids": [
+        "0yT2IVMDXGg",
+        "BUO11BWzyWU",
+        "E9d1bd-6UXE",
+        "PYPXGWIsDvM",
+        "WAqfewAfKaQ",
+        "m79nB-ZpW7A",
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0a43adab5aa4",
+      "type": "hook",
+      "name": "Sandtrix",
+      "definition": "文字列「Sandtrix」に関連する話題を含む配信",
+      "seed_terms": [
+        "Sandtrix",
+        "Sandtrix+"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.114186,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "8kdxUKSIxcg",
+        "BW9u44UzEZI",
+        "ZW5QT4Sv-5w",
+        "bHN0xCKYH_E",
+        "lP9xZjrsCSQ",
+        "yAfJpKW4Ulc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_98bd08f18ff1",
+      "type": "hook",
+      "name": "なん",
+      "definition": "文字列「なん」に関連する話題を含む配信",
+      "seed_terms": [
+        "なん"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.114186,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "4d1ITaFxFWc",
+        "E9d1bd-6UXE",
+        "WyH2jcpRECg",
+        "mwt9GELuAOc",
+        "vryXS-zekPE",
+        "yi6cK_rZiD0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6722041428da",
+      "type": "hook",
+      "name": "チャレンジ",
+      "definition": "文字列「チャレンジ」に関連する話題を含む配信",
+      "seed_terms": [
+        "チャレンジ"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.114186,
+      "rec_yes_rate": 0.1667,
+      "yes_video_ids": [
+        "LK5cTZrrpx8",
+        "loSp_OQ3sUY",
+        "nSp_x7-7LCo",
+        "qgNxzRh1a8U",
+        "xslomc9TD5o",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6a4d15efeb22",
+      "type": "hook",
+      "name": "今週",
+      "definition": "文字列「今週」に関連する話題を含む配信",
+      "seed_terms": [
+        "今週"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.114186,
+      "rec_yes_rate": 0.1667,
+      "yes_video_ids": [
+        "HmdrSpdBfeU",
+        "HxVD1mjxDH4",
+        "X-G18ZFuXPc",
+        "k1JFeKjkOds",
+        "nGZUQ0AwcOo",
+        "u5RHsH63Xd4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3919c3621d36",
+      "type": "hook",
+      "name": "朝活",
+      "definition": "文字列「朝活」に関連する話題を含む配信",
+      "seed_terms": [
+        "朝活"
+      ],
+      "yes_count": 6,
+      "no_count": 281,
+      "unknown_count": 0,
+      "yes_rate": 0.0209,
+      "unknown_rate": 0.0,
+      "split_score": 0.114186,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-QTTq2ZSmcA",
+        "JcNFtKErk9o",
+        "WI0X0cVixqc",
+        "WyH2jcpRECg",
+        "ZfAXsCI2WvE",
+        "zDMCs8OtY_U"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_55a753a0b894",
+      "type": "hook",
+      "name": "Switch / Switch2",
+      "definition": "文字列「Switch / Switch2」に関連する話題を含む配信",
+      "seed_terms": [
+        "switch",
+        "switch2"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "ERULNw3eZhQ",
+        "g6UhYEU8IDM",
+        "kEae-aV4JKI",
+        "nuLm_7mC7Ss",
+        "oQikqIV_XrA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b06801441b60",
+      "type": "hook",
+      "name": "あああああ",
+      "definition": "文字列「あああああ」に関連する話題を含む配信",
+      "seed_terms": [
+        "あああああ"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "Hn2LnLtmcmA",
+        "NvbP7ZyxO7U",
+        "WyH2jcpRECg",
+        "_agOXs8CRkQ",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b6e3f9666c7a",
+      "type": "hook",
+      "name": "しゃ",
+      "definition": "文字列「しゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しゃ"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "7y--HbZSV-M",
+        "F-nViYjqNKM",
+        "H98QOybZk9o",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_8a95e35f0c99",
+      "type": "hook",
+      "name": "ちょっとだけ",
+      "definition": "文字列「ちょっとだけ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっとだけ"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "T9p0YuL1JNw",
+        "Y_fXnLTJauI",
+        "f2GQnhUBKLU",
+        "iM5Uhax-bzI",
+        "yHP_NLTa9pU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_34cc2a6d50b6",
+      "type": "hook",
+      "name": "ギャンブル",
+      "definition": "文字列「ギャンブル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギャンブル"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "-QTTq2ZSmcA",
+        "LK5cTZrrpx8",
+        "TmCe79DNmGE",
+        "gPUWhpAYls0",
+        "l5tN47R_KMU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_58dd9da25c77",
+      "type": "hook",
+      "name": "ショート",
+      "definition": "文字列「ショート」に関連する話題を含む配信",
+      "seed_terms": [
+        "ショート"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "kEae-aV4JKI",
+        "nuLm_7mC7Ss",
+        "s9iVJCxKLb8",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_11ff349ee146",
+      "type": "hook",
+      "name": "モンカス",
+      "definition": "文字列「モンカス」に関連する話題を含む配信",
+      "seed_terms": [
+        "モンカス"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "CAYlvH97w9Y",
+        "KXLQuq9lmlA",
+        "PP2LTvJcFkE",
+        "RtFWKk55J2s",
+        "_agOXs8CRkQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e9e796e9cb60",
+      "type": "hook",
+      "name": "彼氏",
+      "definition": "文字列「彼氏」に関連する話題を含む配信",
+      "seed_terms": [
+        "彼氏"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "8uZAAKvhGqs",
+        "E9d1bd-6UXE",
+        "HaX7fKnFFgA",
+        "Ss_j0UXDTUk",
+        "oOOt1p82VRU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7de46858918a",
+      "type": "hook",
+      "name": "新衣装",
+      "definition": "文字列「新衣装」に関連する話題を含む配信",
+      "seed_terms": [
+        "新衣装"
+      ],
+      "yes_count": 5,
+      "no_count": 282,
+      "unknown_count": 0,
+      "yes_rate": 0.0174,
+      "unknown_rate": 0.0,
+      "split_score": 0.09759,
+      "rec_yes_rate": 0.2,
+      "yes_video_ids": [
+        "6l9LvQBSbuE",
+        "KXLQuq9lmlA",
+        "f9V5tiN1VEI",
+        "lOYZ39sETEk",
+        "yCDWCNslMbA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4d134bc07221",
+      "type": "hook",
+      "name": "24",
+      "definition": "文字列「24」に関連する話題を含む配信",
+      "seed_terms": [
+        "24"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "PzmhQwGOBJM",
+        "sU2hKCqFrbU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2d91cbf686b3",
+      "type": "hook",
+      "name": "CAPTCHA",
+      "definition": "文字列「CAPTCHA」に関連する話題を含む配信",
+      "seed_terms": [
+        "CAPTCHA"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "440pdg6wGHY",
+        "SYO1S6iqRh4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_bccc14ee7da1",
+      "type": "hook",
+      "name": "Discord",
+      "definition": "文字列「Discord」に関連する話題を含む配信",
+      "seed_terms": [
+        "Discord"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_56442e28fd32",
+      "type": "hook",
+      "name": "FANBOX",
+      "definition": "文字列「FANBOX」に関連する話題を含む配信",
+      "seed_terms": [
+        "FANBOX"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "KwaIAV3Q_2g",
+        "gnErfB1Tln4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c890a4554494",
+      "type": "hook",
+      "name": "Vlog",
+      "definition": "文字列「Vlog」に関連する話題を含む配信",
+      "seed_terms": [
+        "Vlog"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "D8ZZcQdn2f4",
+        "IEe1yY1jzL8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9f4a6ac500d1",
+      "type": "hook",
+      "name": "えっち",
+      "definition": "文字列「えっち」に関連する話題を含む配信",
+      "seed_terms": [
+        "えっち"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "KYWONrZnqBU",
+        "cbxqOHW0RBc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e1a8bc898865",
+      "type": "hook",
+      "name": "きたなめ",
+      "definition": "文字列「きたなめ」に関連する話題を含む配信",
+      "seed_terms": [
+        "きたなめ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "HmdrSpdBfeU",
+        "LBl_bVelUak"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_573351f8aafa",
+      "type": "hook",
+      "name": "ごめん",
+      "definition": "文字列「ごめん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ごめん"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "FtTM28_eedk",
+        "WyH2jcpRECg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0d1fb4ec5bbb",
+      "type": "hook",
+      "name": "しぐれうい",
+      "definition": "文字列「しぐれうい」に関連する話題を含む配信",
+      "seed_terms": [
+        "しぐれうい"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "IEe1yY1jzL8",
+        "qgNxzRh1a8U"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3c54027838b0",
+      "type": "hook",
+      "name": "しののっこ",
+      "definition": "文字列「しののっこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しののっこ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "80ToZBkr4JA",
+        "ZET0F14FUzk"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0440e1b0c65b",
+      "type": "hook",
+      "name": "たまごっち",
+      "definition": "文字列「たまごっち」に関連する話題を含む配信",
+      "seed_terms": [
+        "たまごっち"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "bho-pb8_5Fs",
+        "d5HDvotYHRs"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c916267f807a",
+      "type": "hook",
+      "name": "なそ",
+      "definition": "文字列「なそ」に関連する話題を含む配信",
+      "seed_terms": [
+        "なそ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "440pdg6wGHY",
+        "mn-3NxDzQnY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7ef581795b23",
+      "type": "hook",
+      "name": "アキネーター",
+      "definition": "文字列「アキネーター」に関連する話題を含む配信",
+      "seed_terms": [
+        "アキネーター"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "BA2Q7V4YVbo",
+        "L7-YCTQPnS4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b04dc4d683c9",
+      "type": "hook",
+      "name": "アクキー",
+      "definition": "文字列「アクキー」に関連する話題を含む配信",
+      "seed_terms": [
+        "アクキー"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "bZVrg3-nTqc",
+        "xslomc9TD5o"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c686c1a9dd78",
+      "type": "hook",
+      "name": "アーカイブ",
+      "definition": "文字列「アーカイブ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アーカイブ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "468TPz31ntA",
+        "y5TD8AEznd8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e24a2214ccb3",
+      "type": "hook",
+      "name": "ギュンギュん",
+      "definition": "文字列「ギュンギュん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギュンギュん"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "SBdosbUy3L0",
+        "YjYw_UEmX3M"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_56c7bc31a93a",
+      "type": "hook",
+      "name": "サプライズ",
+      "definition": "文字列「サプライズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サプライズ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "mZRy5NEDfP0",
+        "vYrL10DujkI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_791df159ad13",
+      "type": "hook",
+      "name": "セクハラ",
+      "definition": "文字列「セクハラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "セクハラ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "4gWzUegmZ7w",
+        "Cf1utnhNpk0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fec0a09bf5ba",
+      "type": "hook",
+      "name": "ナイスパ",
+      "definition": "文字列「ナイスパ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ナイスパ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "8jlKeJ8OkLk",
+        "xZrj5ogR5V4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_055d8afe073d",
+      "type": "hook",
+      "name": "フルタイム",
+      "definition": "文字列「フルタイム」に関連する話題を含む配信",
+      "seed_terms": [
+        "フルタイム"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "08jBE0vR1m8",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_d5d6e3a5b606",
+      "type": "hook",
+      "name": "メンバーシップ",
+      "definition": "文字列「メンバーシップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メンバーシップ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "i1qPPxvxJZ4",
+        "jHqBK4tp-ek"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_77a668549022",
+      "type": "hook",
+      "name": "世界地図",
+      "definition": "文字列「世界地図」に関連する話題を含む配信",
+      "seed_terms": [
+        "世界地図"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "6fRUz38wEFI",
+        "nuLm_7mC7Ss"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7895598bcd52",
+      "type": "hook",
+      "name": "事務所勧誘",
+      "definition": "文字列「事務所勧誘」に関連する話題を含む配信",
+      "seed_terms": [
+        "事務所勧誘"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "f9V5tiN1VEI",
+        "lGhbL2BpXcE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_0b545fa15a9b",
+      "type": "hook",
+      "name": "加湿器",
+      "definition": "文字列「加湿器」に関連する話題を含む配信",
+      "seed_terms": [
+        "加湿器"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "gnErfB1Tln4",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_ad50b63cbd09",
+      "type": "hook",
+      "name": "哲学",
+      "definition": "文字列「哲学」に関連する話題を含む配信",
+      "seed_terms": [
+        "哲学"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "057-so4V2MU",
+        "pu0fM_7tyPc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9fa3da66de7e",
+      "type": "hook",
+      "name": "屋台",
+      "definition": "文字列「屋台」に関連する話題を含む配信",
+      "seed_terms": [
+        "屋台"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "ZuPq1SOQyoY",
+        "vSEud736WYI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c8231a9e2e30",
+      "type": "hook",
+      "name": "怪談",
+      "definition": "文字列「怪談」に関連する話題を含む配信",
+      "seed_terms": [
+        "怪談"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "PKTBKxtnqXE",
+        "YjYw_UEmX3M"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_796ca8f45e7e",
+      "type": "hook",
+      "name": "江波",
+      "definition": "文字列「江波」に関連する話題を含む配信",
+      "seed_terms": [
+        "江波"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "g6UhYEU8IDM",
+        "mG3ZYF6vvYc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3bbff987412a",
+      "type": "hook",
+      "name": "焼肉",
+      "definition": "文字列「焼肉」に関連する話題を含む配信",
+      "seed_terms": [
+        "焼肉"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "R5__6nx-ufQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2cb627964c5e",
+      "type": "hook",
+      "name": "税理士",
+      "definition": "文字列「税理士」に関連する話題を含む配信",
+      "seed_terms": [
+        "税理士"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "brc5tBLswX4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b4ab8b6ac55e",
+      "type": "hook",
+      "name": "縦型",
+      "definition": "文字列「縦型」に関連する話題を含む配信",
+      "seed_terms": [
+        "縦型"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.097124,
+      "rec_yes_rate": 0.5,
+      "yes_video_ids": [
+        "IChrtcTLRmo",
+        "esiVP68HKpc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f63f96efcf4d",
+      "type": "hook",
+      "name": "GO",
+      "definition": "文字列「GO」に関連する話題を含む配信",
+      "seed_terms": [
+        "GO"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "f9V5tiN1VEI",
+        "i1qPPxvxJZ4",
+        "jOtfnZvLIZw",
+        "vVjC1pW00S8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_be38e4ffb7bf",
+      "type": "hook",
+      "name": "RPG",
+      "definition": "文字列「RPG」に関連する話題を含む配信",
+      "seed_terms": [
+        "RPG"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "DCcfHVlL70E",
+        "hK9UptFLngo",
+        "tHu-YfLjQ1E",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_f75ce6b9e57d",
+      "type": "hook",
+      "name": "いいいい",
+      "definition": "文字列「いいいい」に関連する話題を含む配信",
+      "seed_terms": [
+        "いいいい"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "0RqDalkY7Do",
+        "1D9ZoDDAkUU",
+        "Gr8ftM_xvTA",
+        "WyH2jcpRECg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3a449414c480",
+      "type": "hook",
+      "name": "こどおじ",
+      "definition": "文字列「こどおじ」に関連する話題を含む配信",
+      "seed_terms": [
+        "こどおじ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "T9p0YuL1JNw",
+        "_agOXs8CRkQ",
+        "cQz5jIxfeEU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c3325673d789",
+      "type": "hook",
+      "name": "やらかし",
+      "definition": "文字列「やらかし」に関連する話題を含む配信",
+      "seed_terms": [
+        "やらかし"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "IyzACoEdSZI",
+        "hmPoCXkluM8",
+        "qMIje1uTKfY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e8ceaa8f6b45",
+      "type": "hook",
+      "name": "オタク",
+      "definition": "文字列「オタク」に関連する話題を含む配信",
+      "seed_terms": [
+        "オタク"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "D8ZZcQdn2f4",
+        "f9V5tiN1VEI",
+        "vorCYR-Z8x8",
+        "zc3Ur0xJWlA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c973e21d6d52",
+      "type": "hook",
+      "name": "ケーキ",
+      "definition": "文字列「ケーキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ケーキ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "L7-YCTQPnS4",
+        "YNvopwEHchA",
+        "hmPoCXkluM8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_79a934542e7d",
+      "type": "hook",
+      "name": "スタンプ",
+      "definition": "文字列「スタンプ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スタンプ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "BDbqM9bvyow",
+        "R5__6nx-ufQ",
+        "jjCIZjARdM0",
+        "xDQmy5uZkgg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fd5f79e59d94",
+      "type": "hook",
+      "name": "マヨ",
+      "definition": "文字列「マヨ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マヨ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "iPJqPktGtBo",
+        "mZRy5NEDfP0",
+        "s9iVJCxKLb8",
+        "snWEfEjr_C4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e677262ff95b",
+      "type": "hook",
+      "name": "人生初",
+      "definition": "文字列「人生初」に関連する話題を含む配信",
+      "seed_terms": [
+        "人生初"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "IEe1yY1jzL8",
+        "SLJxvbgUFgQ",
+        "czJicZI_VWM",
+        "uRLHPp3vwmo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a455bdfb1193",
+      "type": "hook",
+      "name": "再販",
+      "definition": "文字列「再販」に関連する話題を含む配信",
+      "seed_terms": [
+        "再販"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "6l9LvQBSbuE",
+        "BUO11BWzyWU",
+        "NmWcNtlH9UE",
+        "bZVrg3-nTqc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2cb24e2529ab",
+      "type": "hook",
+      "name": "飲酒",
+      "definition": "文字列「飲酒」に関連する話題を含む配信",
+      "seed_terms": [
+        "飲酒"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "KwaIAV3Q_2g",
+        "Tn9CvNT4dVY",
+        "hmPoCXkluM8",
+        "lGhbL2BpXcE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c0427cd3d8fc",
+      "type": "hook",
+      "name": "駄菓子",
+      "definition": "文字列「駄菓子」に関連する話題を含む配信",
+      "seed_terms": [
+        "駄菓子"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08374,
+      "rec_yes_rate": 0.25,
+      "yes_video_ids": [
+        "BW_PRCATh0A",
+        "NrPKr4dvmps",
+        "_LifehYIBgg",
+        "tgJiT_U-j7w"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7f5df4aab53e",
+      "type": "hook",
+      "name": "DgS",
+      "definition": "文字列「DgS」に関連する話題を含む配信",
+      "seed_terms": [
+        "DgS"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "440pdg6wGHY",
+        "RFtUq-OPRsE",
+        "hmPoCXkluM8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1e66019c6aec",
+      "type": "hook",
+      "name": "Skeb",
+      "definition": "文字列「Skeb」に関連する話題を含む配信",
+      "seed_terms": [
+        "Skeb"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "-kPRSLaW5fY",
+        "IFKDUNrHq_0",
+        "xZrj5ogR5V4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_73796ecfaef5",
+      "type": "hook",
+      "name": "あーちゃん",
+      "definition": "文字列「あーちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "あーちゃん"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "BA2Q7V4YVbo",
+        "brc5tBLswX4",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_90060ade1f81",
+      "type": "hook",
+      "name": "くしゃみ",
+      "definition": "文字列「くしゃみ」に関連する話題を含む配信",
+      "seed_terms": [
+        "くしゃみ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "H98QOybZk9o",
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_38e52f0304e8",
+      "type": "hook",
+      "name": "たこ",
+      "definition": "文字列「たこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "たこ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "4d1ITaFxFWc",
+        "gnErfB1Tln4",
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b59331a81100",
+      "type": "hook",
+      "name": "ゆるゆる",
+      "definition": "文字列「ゆるゆる」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゆるゆる"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "8LxIDW9h6Nc",
+        "d5HDvotYHRs",
+        "z6uGr0Cw884"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_eebdeac7e1b6",
+      "type": "hook",
+      "name": "アクスタ",
+      "definition": "文字列「アクスタ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アクスタ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "Cgz4nan7fTo",
+        "GZe69EAbfdw",
+        "bZVrg3-nTqc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_9a750a03725d",
+      "type": "hook",
+      "name": "オーエン",
+      "definition": "文字列「オーエン」に関連する話題を含む配信",
+      "seed_terms": [
+        "オーエン"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "7ViHjs3sHBE",
+        "IEe1yY1jzL8",
+        "e2e1dn3E06Y"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_dc4380d53d28",
+      "type": "hook",
+      "name": "ギャル",
+      "definition": "文字列「ギャル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギャル"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "alfeqzduVOs",
+        "yAfJpKW4Ulc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5a5f08df9472",
+      "type": "hook",
+      "name": "プレゼント",
+      "definition": "文字列「プレゼント」に関連する話題を含む配信",
+      "seed_terms": [
+        "プレゼント"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "60c1otnyY50",
+        "eQ4WhyW_zD4",
+        "mqbML8VMrAk"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a99c62cf4374",
+      "type": "hook",
+      "name": "モデリング",
+      "definition": "文字列「モデリング」に関連する話題を含む配信",
+      "seed_terms": [
+        "モデリング"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "AZHBEfp4HWs",
+        "GD9-wjMdGVQ",
+        "s9iVJCxKLb8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_87879a5101ba",
+      "type": "hook",
+      "name": "ライフハック",
+      "definition": "文字列「ライフハック」に関連する話題を含む配信",
+      "seed_terms": [
+        "ライフハック"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "OPNC5wt7nSQ",
+        "oOOt1p82VRU",
+        "tHu-YfLjQ1E"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b752b6eb8e42",
+      "type": "hook",
+      "name": "ワンピ",
+      "definition": "文字列「ワンピ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワンピ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.082555,
+      "rec_yes_rate": 0.3333,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0",
+        "TmCe79DNmGE",
+        "kEae-aV4JKI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_bcd17c91d3b8",
+      "type": "hook",
+      "name": "しかのこ",
+      "definition": "文字列「しかのこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しかのこ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "9Ua1EeTRvmA",
+        "9p4juGUr-Qw",
+        "IChrtcTLRmo",
+        "pNrK8RYqxGA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_69a825a28cb9",
+      "type": "hook",
+      "name": "チョコ",
+      "definition": "文字列「チョコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "チョコ"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-bumZpJSV3U",
+        "HmdrSpdBfeU",
+        "s9iVJCxKLb8",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_36454dc98108",
+      "type": "hook",
+      "name": "ペット",
+      "definition": "文字列「ペット」に関連する話題を含む配信",
+      "seed_terms": [
+        "ペット"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "TmCe79DNmGE",
+        "hu8qS_EMtQ8",
+        "rz2rS5P3wDc",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_139b92e430a9",
+      "type": "hook",
+      "name": "不審者通報",
+      "definition": "文字列「不審者通報」に関連する話題を含む配信",
+      "seed_terms": [
+        "不審者",
+        "不審者通報",
+        "通報"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "NrPKr4dvmps",
+        "UIfeCU4zTys",
+        "e2e1dn3E06Y",
+        "ml-ZMVols_Q"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_71befe8e2817",
+      "type": "hook",
+      "name": "伝説",
+      "definition": "文字列「伝説」に関連する話題を含む配信",
+      "seed_terms": [
+        "伝説"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "5jUhue_346w",
+        "_agOXs8CRkQ",
+        "axFbb8WYINw",
+        "vd4lnydU2LU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5516f01001d3",
+      "type": "hook",
+      "name": "社畜",
+      "definition": "文字列「社畜」に関連する話題を含む配信",
+      "seed_terms": [
+        "社畜"
+      ],
+      "yes_count": 4,
+      "no_count": 283,
+      "unknown_count": 0,
+      "yes_rate": 0.0139,
+      "unknown_rate": 0.0,
+      "split_score": 0.08043,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Lt86o2fQwR8",
+        "PYPXGWIsDvM",
+        "bho-pb8_5Fs",
+        "xslomc9TD5o"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_a7eb32ca0ea2",
+      "type": "hook",
+      "name": "BGM",
+      "definition": "文字列「BGM」に関連する話題を含む配信",
+      "seed_terms": [
+        "BGM"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "8jlKeJ8OkLk",
+        "DCcfHVlL70E",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_70c94a757c2a",
+      "type": "hook",
+      "name": "JK",
+      "definition": "文字列「JK」に関連する話題を含む配信",
+      "seed_terms": [
+        "JK"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Cf1utnhNpk0",
+        "PYPXGWIsDvM",
+        "e2e1dn3E06Y"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e7905f3b1b9d",
+      "type": "hook",
+      "name": "OBS",
+      "definition": "文字列「OBS」に関連する話題を含む配信",
+      "seed_terms": [
+        "OBS"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "BW_PRCATh0A",
+        "H98QOybZk9o",
+        "TmCe79DNmGE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7b807520080d",
+      "type": "hook",
+      "name": "つぐ",
+      "definition": "文字列「つぐ」に関連する話題を含む配信",
+      "seed_terms": [
+        "つぐ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Cf1utnhNpk0",
+        "ORkBC4z3Kfw",
+        "SLJxvbgUFgQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1fae3a152002",
+      "type": "hook",
+      "name": "ぷよテト（ぷよぷよ/テトリス）",
+      "definition": "文字列「ぷよテト（ぷよぷよ/テトリス）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぷよテト",
+        "ぷよぷよ",
+        "テトリス"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "NK9BO3Koen4",
+        "czJicZI_VWM",
+        "jN48NXKNjA8"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_89eb79b5c81c",
+      "type": "hook",
+      "name": "カンパーイ",
+      "definition": "文字列「カンパーイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "カンパーイ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Tn9CvNT4dVY",
+        "lGhbL2BpXcE",
+        "u5RHsH63Xd4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c9fa83c27b8d",
+      "type": "hook",
+      "name": "コロナ",
+      "definition": "文字列「コロナ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コロナ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "A4HxTRRCViY",
+        "Qj8xJYwpm6w"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6dc0f603699b",
+      "type": "hook",
+      "name": "コンビニ",
+      "definition": "文字列「コンビニ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コンビニ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Y_fXnLTJauI",
+        "gnErfB1Tln4",
+        "yi6cK_rZiD0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5eaedaa221b4",
+      "type": "hook",
+      "name": "スイカ",
+      "definition": "文字列「スイカ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スイカ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "HaX7fKnFFgA",
+        "brc5tBLswX4",
+        "f3dI2zf97ww"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4cdd98528c99",
+      "type": "hook",
+      "name": "スタバ",
+      "definition": "文字列「スタバ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スタバ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "HaX7fKnFFgA",
+        "lOYZ39sETEk"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5969d0688239",
+      "type": "hook",
+      "name": "ドキドキ",
+      "definition": "文字列「ドキドキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドキドキ"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "ZgrDiS2vcrM",
+        "oQikqIV_XrA",
+        "sU2hKCqFrbU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_dac8ec446b17",
+      "type": "hook",
+      "name": "ネタバレ（コメント含む）",
+      "definition": "文字列「ネタバレ（コメント含む）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネタバレ",
+        "ネタバレコメント"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "057-so4V2MU",
+        "hK9UptFLngo",
+        "i1qPPxvxJZ4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_502161a90664",
+      "type": "hook",
+      "name": "ファンレター",
+      "definition": "文字列「ファンレター」に関連する話題を含む配信",
+      "seed_terms": [
+        "ファンレター"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "BA2Q7V4YVbo",
+        "cbxqOHW0RBc",
+        "pHLlK1pWZg4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e3f0c508cb89",
+      "type": "hook",
+      "name": "借金",
+      "definition": "文字列「借金」に関連する話題を含む配信",
+      "seed_terms": [
+        "借金"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "XYgupUPHQDk",
+        "gnErfB1Tln4",
+        "ywynpXOAWFA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_5978cbf78aba",
+      "type": "hook",
+      "name": "利用規約",
+      "definition": "文字列「利用規約」に関連する話題を含む配信",
+      "seed_terms": [
+        "利用規約"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "YNvopwEHchA",
+        "kEae-aV4JKI",
+        "p-qNRo9Ohdw"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1303a299947b",
+      "type": "hook",
+      "name": "勇者",
+      "definition": "文字列「勇者」に関連する話題を含む配信",
+      "seed_terms": [
+        "勇者"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "DCcfHVlL70E",
+        "hK9UptFLngo",
+        "utqkk_MmStY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_00904b6827e1",
+      "type": "hook",
+      "name": "地震",
+      "definition": "文字列「地震」に関連する話題を含む配信",
+      "seed_terms": [
+        "地震"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "R5__6nx-ufQ",
+        "bho-pb8_5Fs",
+        "kEae-aV4JKI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_6fc3645daffd",
+      "type": "hook",
+      "name": "大歓迎",
+      "definition": "文字列「大歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "大歓迎"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "DMEzwnBPaTU",
+        "Qj8xJYwpm6w",
+        "oOOt1p82VRU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_3d7c04282891",
+      "type": "hook",
+      "name": "異変",
+      "definition": "文字列「異変」に関連する話題を含む配信",
+      "seed_terms": [
+        "異変"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "0d2S9pM5vIA",
+        "8jlKeJ8OkLk",
+        "FTxO8LsUduw"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7fdaa9f4233a",
+      "type": "hook",
+      "name": "緊急記者会見",
+      "definition": "文字列「緊急記者会見」に関連する話題を含む配信",
+      "seed_terms": [
+        "緊急記者会見"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "468TPz31ntA",
+        "AEeFVAQO91w"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b08a798dd60f",
+      "type": "hook",
+      "name": "謝罪会見",
+      "definition": "文字列「謝罪会見」に関連する話題を含む配信",
+      "seed_terms": [
+        "謝罪会見"
+      ],
+      "yes_count": 3,
+      "no_count": 284,
+      "unknown_count": 0,
+      "yes_rate": 0.0105,
+      "unknown_rate": 0.0,
+      "split_score": 0.062578,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "JcNFtKErk9o",
+        "WyH2jcpRECg",
+        "u5RHsH63Xd4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b48f6f6773aa",
+      "type": "hook",
+      "name": "8192",
+      "definition": "文字列「8192」に関連する話題を含む配信",
+      "seed_terms": [
+        "8192"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "4CNvbVdvZp8",
+        "aYlNsEQEy1E"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_560040c54a3b",
+      "type": "hook",
+      "name": "AI",
+      "definition": "文字列「AI」に関連する話題を含む配信",
+      "seed_terms": [
+        "AI"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "00OpEJLZkY4",
+        "TDcRHdnDt1g"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_4d4ce73b1566",
+      "type": "hook",
+      "name": "Card",
+      "definition": "文字列「Card」に関連する話題を含む配信",
+      "seed_terms": [
+        "Card"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "fdI_N6FVh4E",
+        "jBuLSm_F_7A"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_495265260f5b",
+      "type": "hook",
+      "name": "ChatGPT",
+      "definition": "文字列「ChatGPT」に関連する話題を含む配信",
+      "seed_terms": [
+        "ChatGPT"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "2Y-PMWG1zPU",
+        "m79nB-ZpW7A"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_89f89c02cf47",
+      "type": "hook",
+      "name": "ID",
+      "definition": "文字列「ID」に関連する話題を含む配信",
+      "seed_terms": [
+        "ID"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "k8lyyhzS7Hc",
+        "m79nB-ZpW7A"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_acb9f29dc361",
+      "type": "hook",
+      "name": "MBTI",
+      "definition": "文字列「MBTI」に関連する話題を含む配信",
+      "seed_terms": [
+        "MBTI"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "D8ZZcQdn2f4",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e85bdb62be77",
+      "type": "hook",
+      "name": "UNO",
+      "definition": "文字列「UNO」に関連する話題を含む配信",
+      "seed_terms": [
+        "UNO"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "X_qi99fUTK0",
+        "jVO_8TbMpkA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_64979b975971",
+      "type": "hook",
+      "name": "おわれまテン",
+      "definition": "文字列「おわれまテン」に関連する話題を含む配信",
+      "seed_terms": [
+        "おわれまテン"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-IieV7Y5KS8",
+        "X_qi99fUTK0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fb5a5d857780",
+      "type": "hook",
+      "name": "こゲーム",
+      "definition": "文字列「こゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "こゲーム"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "9Ua1EeTRvmA",
+        "IChrtcTLRmo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c16cc9826daa",
+      "type": "hook",
+      "name": "じゃけえ",
+      "definition": "文字列「じゃけえ」に関連する話題を含む配信",
+      "seed_terms": [
+        "じゃけえ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "lOYZ39sETEk",
+        "yz6ugOAq5e0"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_763399d462bb",
+      "type": "hook",
+      "name": "すぱちゃ",
+      "definition": "文字列「すぱちゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "すぱちゃ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-IlCV3AFJqs",
+        "jfvr9jPbkDo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fbb88d744b66",
+      "type": "hook",
+      "name": "っぴー",
+      "definition": "文字列「っぴー」に関連する話題を含む配信",
+      "seed_terms": [
+        "っぴー"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "FB5cOpHNZSk",
+        "xRFrHyqqX3w"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7cf30cf7446b",
+      "type": "hook",
+      "name": "なんでも",
+      "definition": "文字列「なんでも」に関連する話題を含む配信",
+      "seed_terms": [
+        "なんでも"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "E9d1bd-6UXE",
+        "mwt9GELuAOc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cafa8b5ff8da",
+      "type": "hook",
+      "name": "ぬいぐるみ",
+      "definition": "文字列「ぬいぐるみ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぬいぐるみ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "NmWcNtlH9UE",
+        "eYjLHypfiz4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fa0ee1389663",
+      "type": "hook",
+      "name": "まさか",
+      "definition": "文字列「まさか」に関連する話題を含む配信",
+      "seed_terms": [
+        "まさか"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "ml-ZMVols_Q",
+        "sNZKTWQTJeE"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_50b63901ed37",
+      "type": "hook",
+      "name": "アツシーマン",
+      "definition": "文字列「アツシーマン」に関連する話題を含む配信",
+      "seed_terms": [
+        "アツシーマン"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Y_fXnLTJauI",
+        "mG3ZYF6vvYc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_1a29007a518c",
+      "type": "hook",
+      "name": "カミングアウト",
+      "definition": "文字列「カミングアウト」に関連する話題を含む配信",
+      "seed_terms": [
+        "カミングアウト"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Y_fXnLTJauI",
+        "gnErfB1Tln4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_c14314827041",
+      "type": "hook",
+      "name": "カレー",
+      "definition": "文字列「カレー」に関連する話題を含む配信",
+      "seed_terms": [
+        "カレー"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "80ToZBkr4JA",
+        "iPJqPktGtBo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_edd6eec3a830",
+      "type": "hook",
+      "name": "サバイバル",
+      "definition": "文字列「サバイバル」に関連する話題を含む配信",
+      "seed_terms": [
+        "サバイバル"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "HmdrSpdBfeU",
+        "uRLHPp3vwmo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_795d25e718e1",
+      "type": "hook",
+      "name": "ダンス",
+      "definition": "文字列「ダンス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ダンス"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "brc5tBLswX4",
+        "pNrK8RYqxGA"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_02f17fee864f",
+      "type": "hook",
+      "name": "デザイン",
+      "definition": "文字列「デザイン」に関連する話題を含む配信",
+      "seed_terms": [
+        "デザイン"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "Y74G6mQZTmw",
+        "lOYZ39sETEk"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_68cd1ffec81d",
+      "type": "hook",
+      "name": "ニュース",
+      "definition": "文字列「ニュース」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニュース"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "brc5tBLswX4",
+        "zDMCs8OtY_U"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_15af117d0572",
+      "type": "hook",
+      "name": "ハロウィン",
+      "definition": "文字列「ハロウィン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハロウィン"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "UvI__vRgynw",
+        "eYjLHypfiz4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_b8d197c1d9e1",
+      "type": "hook",
+      "name": "プロセカ",
+      "definition": "文字列「プロセカ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プロセカ",
+        "プロジェクトセカイ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-IieV7Y5KS8",
+        "7NyAMYaOe9c"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_ed92827a7568",
+      "type": "hook",
+      "name": "ボツ",
+      "definition": "文字列「ボツ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボツ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "lOYZ39sETEk",
+        "xslomc9TD5o"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_344a3e312396",
+      "type": "hook",
+      "name": "メダリスト",
+      "definition": "文字列「メダリスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "メダリスト"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "brc5tBLswX4",
+        "e2e1dn3E06Y"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_7ef38af353b8",
+      "type": "hook",
+      "name": "メルカリ",
+      "definition": "文字列「メルカリ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メルカリ"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "-GRm7fMLexs",
+        "-kPRSLaW5fY"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_81f68fd11348",
+      "type": "hook",
+      "name": "リアル",
+      "definition": "文字列「リアル」に関連する話題を含む配信",
+      "seed_terms": [
+        "リアル"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "DMEzwnBPaTU",
+        "XYgupUPHQDk"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_e7676d6c3885",
+      "type": "hook",
+      "name": "ワクワク",
+      "definition": "文字列「ワクワク」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワクワク"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "RFtUq-OPRsE",
+        "lP9xZjrsCSQ"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cf0dd27df81a",
+      "type": "hook",
+      "name": "事故物件",
+      "definition": "文字列「事故物件」に関連する話題を含む配信",
+      "seed_terms": [
+        "事故物件"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "i1qPPxvxJZ4",
+        "zYzzZC_jaIU"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_905a4279f8b1",
+      "type": "hook",
+      "name": "人狼",
+      "definition": "文字列「人狼」に関連する話題を含む配信",
+      "seed_terms": [
+        "人狼"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "gnErfB1Tln4",
+        "wxSsmUgfSJo"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_574cd4fb795b",
+      "type": "hook",
+      "name": "今日",
+      "definition": "文字列「今日」に関連する話題を含む配信",
+      "seed_terms": [
+        "今日"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "057-so4V2MU",
+        "zDMCs8OtY_U"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_96bbe7e67370",
+      "type": "hook",
+      "name": "会社",
+      "definition": "文字列「会社」に関連する話題を含む配信",
+      "seed_terms": [
+        "会社"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "5jUhue_346w",
+        "bho-pb8_5Fs"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_2e304a5925ae",
+      "type": "hook",
+      "name": "口内炎",
+      "definition": "文字列「口内炎」に関連する話題を含む配信",
+      "seed_terms": [
+        "口内炎"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "ERULNw3eZhQ",
+        "cbxqOHW0RBc"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_8b1b4acaa32a",
+      "type": "hook",
+      "name": "外郎売",
+      "definition": "文字列「外郎売」に関連する話題を含む配信",
+      "seed_terms": [
+        "外郎売"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "aYlNsEQEy1E",
+        "xslomc9TD5o"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_8e83d73c5faf",
+      "type": "hook",
+      "name": "晩酌",
+      "definition": "文字列「晩酌」に関連する話題を含む配信",
+      "seed_terms": [
+        "晩酌"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "cqZYfPtph08",
+        "pp3NS77EQ_k"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cd0eb1a1e60e",
+      "type": "hook",
+      "name": "最高記録",
+      "definition": "文字列「最高記録」に関連する話題を含む配信",
+      "seed_terms": [
+        "最高記録"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "9Ua1EeTRvmA",
+        "bHN0xCKYH_E"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_06e2c91939b9",
+      "type": "hook",
+      "name": "流行語大賞",
+      "definition": "文字列「流行語大賞」に関連する話題を含む配信",
+      "seed_terms": [
+        "流行語大賞"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "yz6ugOAq5e0",
+        "zQHiODQz3A4"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_fcb422a84531",
+      "type": "hook",
+      "name": "粘液嚢胞",
+      "definition": "文字列「粘液嚢胞」に関連する話題を含む配信",
+      "seed_terms": [
+        "粘液嚢胞"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "1zk3KJmmw1s",
+        "hMNy6Y-PhjI"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_cbc262d9f2d2",
+      "type": "hook",
+      "name": "花奈",
+      "definition": "文字列「花奈」に関連する話題を含む配信",
+      "seed_terms": [
+        "花奈"
+      ],
+      "yes_count": 2,
+      "no_count": 285,
+      "unknown_count": 0,
+      "yes_rate": 0.007,
+      "unknown_rate": 0.0,
+      "split_score": 0.043814,
+      "rec_yes_rate": 0.0,
+      "yes_video_ids": [
+        "1D9ZoDDAkUU",
+        "sc75mnXwmns"
+      ],
+      "selection_lane": "core"
+    },
+    {
+      "concept_id": "hook_606f9cc9c5c5",
+      "type": "hook",
+      "name": "BAN",
+      "definition": "文字列「BAN」に関連する話題を含む配信",
+      "seed_terms": [
+        "BAN"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "KYWONrZnqBU"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_03aa1ad19790",
+      "type": "hook",
+      "name": "Creepy",
+      "definition": "文字列「Creepy」に関連する話題を含む配信",
+      "seed_terms": [
+        "Creepy"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "EBAwBn9_Me8"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_d1415f04bb34",
+      "type": "hook",
+      "name": "GeoGuessr",
+      "definition": "文字列「GeoGuessr」に関連する話題を含む配信",
+      "seed_terms": [
+        "GeoGuessr"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "4lcNBQb7Z-c"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_7533092f7898",
+      "type": "hook",
+      "name": "NOMUZO",
+      "definition": "文字列「NOMUZO」に関連する話題を含む配信",
+      "seed_terms": [
+        "NOMUZO"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "8uZAAKvhGqs"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_698de13e6027",
+      "type": "hook",
+      "name": "PayPay",
+      "definition": "文字列「PayPay」に関連する話題を含む配信",
+      "seed_terms": [
+        "PayPay"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "snWEfEjr_C4"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_d219af98f552",
+      "type": "hook",
+      "name": "Skb",
+      "definition": "文字列「Skb」に関連する話題を含む配信",
+      "seed_terms": [
+        "Skb"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "l-zeiMw_Gw4"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_05329fa70eb0",
+      "type": "hook",
+      "name": "おしがま",
+      "definition": "文字列「おしがま」に関連する話題を含む配信",
+      "seed_terms": [
+        "おしがま"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "pu0fM_7tyPc"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_01c7b6d14648",
+      "type": "hook",
+      "name": "おしるこニキ",
+      "definition": "文字列「おしるこニキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "おしるこニキ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "vWIj7IXpFOQ"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_1177d3402d40",
+      "type": "hook",
+      "name": "おっさんカップリング",
+      "definition": "文字列「おっさんカップリング」に関連する話題を含む配信",
+      "seed_terms": [
+        "おっさんカップリング"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "77K-m3r4B6k"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_bcdb32cf37ce",
+      "type": "hook",
+      "name": "こイングリッシュ",
+      "definition": "文字列「こイングリッシュ」に関連する話題を含む配信",
+      "seed_terms": [
+        "こイングリッシュ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "6fRUz38wEFI"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_e160af9d399e",
+      "type": "hook",
+      "name": "たこやき",
+      "definition": "文字列「たこやき」に関連する話題を含む配信",
+      "seed_terms": [
+        "たこやき"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "xPTdKfS93nU"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_afdea8c6caf4",
+      "type": "hook",
+      "name": "つぶゆき",
+      "definition": "文字列「つぶゆき」に関連する話題を含む配信",
+      "seed_terms": [
+        "つぶゆき"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "kc-NxHb4wRE"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_b60ee6b3b856",
+      "type": "hook",
+      "name": "どステップ",
+      "definition": "文字列「どステップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "どステップ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "FtTM28_eedk"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_92d87602c8e4",
+      "type": "hook",
+      "name": "ねばーランド",
+      "definition": "文字列「ねばーランド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ねばーランド"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "PzmhQwGOBJM"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_cef8ef9ef5aa",
+      "type": "hook",
+      "name": "ほのぼのゲーム",
+      "definition": "文字列「ほのぼのゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ほのぼのゲーム"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "bctkg3TSeHU"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_f88a717b2b91",
+      "type": "hook",
+      "name": "りんちゃ",
+      "definition": "文字列「りんちゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "りんちゃ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "Hn2LnLtmcmA"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_c066ad803e60",
+      "type": "hook",
+      "name": "イマジナリーフレンド",
+      "definition": "文字列「イマジナリーフレンド」に関連する話題を含む配信",
+      "seed_terms": [
+        "イマジナリーフレンド"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "s1oT47MSYwY"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_c43f586ea659",
+      "type": "hook",
+      "name": "ウォシュレットバトル",
+      "definition": "文字列「ウォシュレットバトル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ウォシュレットバトル"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "eQ4WhyW_zD4"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_8af3f177a93c",
+      "type": "hook",
+      "name": "エマージェンシー",
+      "definition": "文字列「エマージェンシー」に関連する話題を含む配信",
+      "seed_terms": [
+        "エマージェンシー"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "qNBKuJAcoQM"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_650412d8f266",
+      "type": "hook",
+      "name": "エヴァ",
+      "definition": "文字列「エヴァ」に関連する話題を含む配信",
+      "seed_terms": [
+        "エヴァ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "PP2LTvJcFkE"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_0ea61c3a41ca",
+      "type": "hook",
+      "name": "ガシャ",
+      "definition": "文字列「ガシャ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ガシャ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "zwoGZFEdQkg"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_268364082249",
+      "type": "hook",
+      "name": "クズライフハック",
+      "definition": "文字列「クズライフハック」に関連する話題を含む配信",
+      "seed_terms": [
+        "クズライフハック"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "tHu-YfLjQ1E"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_51892847f233",
+      "type": "hook",
+      "name": "クリアカード",
+      "definition": "文字列「クリアカード」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリアカード"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "bZVrg3-nTqc"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_60c0363639c4",
+      "type": "hook",
+      "name": "グリル",
+      "definition": "文字列「グリル」に関連する話題を含む配信",
+      "seed_terms": [
+        "グリル"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "PGPkpIjy6m8"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_548b92e6b656",
+      "type": "hook",
+      "name": "サバちゃん",
+      "definition": "文字列「サバちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "サバちゃん"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "L7-YCTQPnS4"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_d1b4e4f83b7f",
+      "type": "hook",
+      "name": "シスター",
+      "definition": "文字列「シスター」に関連する話題を含む配信",
+      "seed_terms": [
+        "シスター"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "ctkre-k-maI"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_9fcfe47efa58",
+      "type": "hook",
+      "name": "ストビュー",
+      "definition": "文字列「ストビュー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ストビュー"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "g6UhYEU8IDM"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_0fbf35f1cbeb",
+      "type": "hook",
+      "name": "ストリートビュー",
+      "definition": "文字列「ストリートビュー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ストリートビュー"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "Av0FgoBvA8E"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_d37a6215e77e",
+      "type": "hook",
+      "name": "スペースワールド",
+      "definition": "文字列「スペースワールド」に関連する話題を含む配信",
+      "seed_terms": [
+        "スペースワールド"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "08jBE0vR1m8"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_276f0a53ff3a",
+      "type": "hook",
+      "name": "セクハラペイント",
+      "definition": "文字列「セクハラペイント」に関連する話題を含む配信",
+      "seed_terms": [
+        "セクハラペイント"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "4gWzUegmZ7w"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_6c9f767a5448",
+      "type": "hook",
+      "name": "ニンダイ",
+      "definition": "文字列「ニンダイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニンダイ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "Ev0oIMOmvn0"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_1516c306db3a",
+      "type": "hook",
+      "name": "フラウィ",
+      "definition": "文字列「フラウィ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フラウィ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "KerjfFJDHjU"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_29372771e38c",
+      "type": "hook",
+      "name": "プチバズ",
+      "definition": "文字列「プチバズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プチバズ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "et7xQeSO9Lc"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_51e37ef424d0",
+      "type": "hook",
+      "name": "ホロライバー",
+      "definition": "文字列「ホロライバー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホロライバー"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "nSp_x7-7LCo"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_14351b8be06f",
+      "type": "hook",
+      "name": "マンモグラフィー",
+      "definition": "文字列「マンモグラフィー」に関連する話題を含む配信",
+      "seed_terms": [
+        "マンモグラフィー"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "KwaIAV3Q_2g"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_ca712023d579",
+      "type": "hook",
+      "name": "メシテロ",
+      "definition": "文字列「メシテロ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メシテロ"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "l5tN47R_KMU"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_3919902844cb",
+      "type": "hook",
+      "name": "一周年記念",
+      "definition": "文字列「一周年記念」に関連する話題を含む配信",
+      "seed_terms": [
+        "一周年記念"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "vYrL10DujkI"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_67264496e8bc",
+      "type": "hook",
+      "name": "体型図解",
+      "definition": "文字列「体型図解」に関連する話題を含む配信",
+      "seed_terms": [
+        "体型図解"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "IyzACoEdSZI"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_f99fe5398c70",
+      "type": "hook",
+      "name": "作詞挑戦",
+      "definition": "文字列「作詞挑戦」に関連する話題を含む配信",
+      "seed_terms": [
+        "作詞挑戦"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "d5HDvotYHRs"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    },
+    {
+      "concept_id": "hook_61efd531db94",
+      "type": "hook",
+      "name": "公共交通",
+      "definition": "文字列「公共交通」に関連する話題を含む配信",
+      "seed_terms": [
+        "公共交通"
+      ],
+      "yes_count": 1,
+      "no_count": 286,
+      "unknown_count": 0,
+      "yes_rate": 0.0035,
+      "unknown_rate": 0.0,
+      "split_score": 0.176988,
+      "rec_yes_rate": 1.0,
+      "yes_video_ids": [
+        "HxVD1mjxDH4"
+      ],
+      "selection_lane": "spice",
+      "spice_score": 1.270098
+    }
+  ]
+}

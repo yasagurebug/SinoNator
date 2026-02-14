@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "_doc": {
+    "rule": "係数パラメータは round(基準件数 * 係数) で件数化されます。",
+    "base_count_step_b": "動画数（archives.items の件数）",
+    "base_count_step_d": "動画数（archives.items の件数）",
+    "base_count_step_e": "selected_concepts の件数",
+    "note": "0以下の係数は 0 扱い（内部ガードで最小/最大を補正）"
+  },
+  "model": "gpt-5.2",
+  "openai_api_key_placeholder": "YOUR_OPENAI_API_KEY",
+  "step_a": {
+    "keywords_per_video": 8,
+    "max_keywords_per_video": 20
+  },
+  "step_b": {
+    "_comment": "以下は係数（動画数ベース）",
+    "hook_min_support": 0.003,
+    "hook_top_k": 2.0,
+    "core_type_enabled": true,
+    "core_type_min_support": 0.01,
+    "core_type_top_k": 0.2,
+    "semantic_concept_count": 0.0,
+    "hook_merge_enabled": true,
+    "hook_merge_max_groups": 0.2,
+    "hook_merge_mode": "aggressive",
+    "hook_merge_input_top_k": 0.77
+  },
+  "step_d": {
+    "_comment": "rare_hook_* は係数（動画数ベース）。*rate/threshold は固定値。",
+    "min_yes_rate": 0.005,
+    "max_yes_rate": 0.98,
+    "max_unknown_rate": 1.0,
+    "redundant_jaccard_threshold": 0.98,
+    "rare_hook_keep_count": 0.14,
+    "rare_hook_max_support": 0.02,
+    "rare_hook_min_yes_rate": 0.00001,
+    "rare_hook_max_yes_rate": 0.12,
+    "rare_redundant_jaccard_threshold": 0.98,
+    "core_priority_boost": 0.25
+  },
+  "step_e": {
+    "_comment": "variable_count は係数（selected_concepts件数ベース）",
+    "variable_count": 1.0,
+    "llm_retry_attempts": 3
+  }
+}

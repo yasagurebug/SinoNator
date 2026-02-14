@@ -1,0 +1,5688 @@
+{
+  "set_id": "2026-02",
+  "generated_at": "2026-02-15T03:34:24+09:00",
+  "concepts": [
+    {
+      "concept_id": "core_90b29d5fa1eb",
+      "type": "core",
+      "name": "雑談",
+      "definition": "TSVのタイプが「雑談」に該当する配信",
+      "seed_terms": [
+        "雑談"
+      ],
+      "support": 115
+    },
+    {
+      "concept_id": "core_3081d7739206",
+      "type": "core",
+      "name": "ゲーム",
+      "definition": "TSVのタイプが「ゲーム」に該当する配信",
+      "seed_terms": [
+        "ゲーム"
+      ],
+      "support": 83
+    },
+    {
+      "concept_id": "core_1c85eecc34a9",
+      "type": "core",
+      "name": "同時視聴",
+      "definition": "TSVのタイプが「同時視聴」に該当する配信",
+      "seed_terms": [
+        "同時視聴"
+      ],
+      "support": 16
+    },
+    {
+      "concept_id": "core_f9cfe5e8d968",
+      "type": "core",
+      "name": "お絵描き",
+      "definition": "TSVのタイプが「お絵描き」に該当する配信",
+      "seed_terms": [
+        "お絵描き"
+      ],
+      "support": 15
+    },
+    {
+      "concept_id": "core_35ef38c013dc",
+      "type": "core",
+      "name": "企画雑談",
+      "definition": "TSVのタイプが「企画雑談」に該当する配信",
+      "seed_terms": [
+        "企画雑談"
+      ],
+      "support": 14
+    },
+    {
+      "concept_id": "core_1bf9ad95e731",
+      "type": "core",
+      "name": "作業雑談",
+      "definition": "TSVのタイプが「作業雑談」に該当する配信",
+      "seed_terms": [
+        "作業雑談"
+      ],
+      "support": 14
+    },
+    {
+      "concept_id": "core_b818f9348564",
+      "type": "core",
+      "name": "マロ読み",
+      "definition": "TSVのタイプが「マロ読み」に該当する配信",
+      "seed_terms": [
+        "マロ読み"
+      ],
+      "support": 12
+    },
+    {
+      "concept_id": "core_e18b1ea15d9c",
+      "type": "core",
+      "name": "イベント",
+      "definition": "TSVのタイプが「イベント」に該当する配信",
+      "seed_terms": [
+        "イベント"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "core_f9f14b980b1a",
+      "type": "core",
+      "name": "同時視聴＋雑談",
+      "definition": "TSVのタイプが「同時視聴＋雑談」に該当する配信",
+      "seed_terms": [
+        "同時視聴＋雑談"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "core_58dd9da25c77",
+      "type": "core",
+      "name": "ショート",
+      "definition": "TSVのタイプが「ショート」に該当する配信",
+      "seed_terms": [
+        "ショート"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "core_641db47da274",
+      "type": "core",
+      "name": "プレ配信",
+      "definition": "TSVのタイプが「プレ配信」に該当する配信",
+      "seed_terms": [
+        "プレ配信"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "core_f0aff3d58da1",
+      "type": "core",
+      "name": "歌枠",
+      "definition": "TSVのタイプが「歌枠」に該当する配信",
+      "seed_terms": [
+        "歌枠"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "core_e22cc4624493",
+      "type": "core",
+      "name": "スパチャ読み",
+      "definition": "TSVのタイプが「スパチャ読み」に該当する配信",
+      "seed_terms": [
+        "スパチャ読み"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_4d0fff7f1128",
+      "type": "hook",
+      "name": "歓迎",
+      "definition": "文字列「歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "歓迎"
+      ],
+      "support": 17
+    },
+    {
+      "concept_id": "hook_5e497a6bda81",
+      "type": "hook",
+      "name": "ゲリラ",
+      "definition": "文字列「ゲリラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲリラ"
+      ],
+      "support": 15
+    },
+    {
+      "concept_id": "hook_1c85eecc34a9",
+      "type": "hook",
+      "name": "同時視聴",
+      "definition": "文字列「同時視聴」に関連する話題を含む配信",
+      "seed_terms": [
+        "同時視聴"
+      ],
+      "support": 15
+    },
+    {
+      "concept_id": "hook_f3ef78af4c24",
+      "type": "hook",
+      "name": "アオ",
+      "definition": "文字列「アオ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アオ"
+      ],
+      "support": 13
+    },
+    {
+      "concept_id": "hook_461e0f63836d",
+      "type": "hook",
+      "name": "アオのハコ",
+      "definition": "文字列「アオのハコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アオのハコ"
+      ],
+      "support": 13
+    },
+    {
+      "concept_id": "hook_b9ebdb4a47ab",
+      "type": "hook",
+      "name": "ハコ",
+      "definition": "文字列「ハコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハコ"
+      ],
+      "support": 13
+    },
+    {
+      "concept_id": "hook_b65b8080e4ce",
+      "type": "hook",
+      "name": "マシュマロ（マロ）",
+      "definition": "文字列「マシュマロ（マロ）」に関連する話題を含む配信",
+      "seed_terms": [
+        "マシュマロ",
+        "マロ",
+        "ましゅまろ"
+      ],
+      "support": 10
+    },
+    {
+      "concept_id": "hook_631a2479d98b",
+      "type": "hook",
+      "name": "作業",
+      "definition": "文字列「作業」に関連する話題を含む配信",
+      "seed_terms": [
+        "作業"
+      ],
+      "support": 9
+    },
+    {
+      "concept_id": "hook_2b532893eb86",
+      "type": "hook",
+      "name": "初見",
+      "definition": "文字列「初見」に関連する話題を含む配信",
+      "seed_terms": [
+        "初見"
+      ],
+      "support": 9
+    },
+    {
+      "concept_id": "hook_11ddb2b6badc",
+      "type": "hook",
+      "name": "ASMR",
+      "definition": "文字列「ASMR」に関連する話題を含む配信",
+      "seed_terms": [
+        "ASMR"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_1dacfa28b6d7",
+      "type": "hook",
+      "name": "グッズ",
+      "definition": "文字列「グッズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "グッズ"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_f5bb61a56be5",
+      "type": "hook",
+      "name": "スパチャ",
+      "definition": "文字列「スパチャ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スパチャ"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_b9cf65617654",
+      "type": "hook",
+      "name": "マッマ",
+      "definition": "文字列「マッマ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マッマ"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_f6d4b64ad1d4",
+      "type": "hook",
+      "name": "職場トーク",
+      "definition": "文字列「職場トーク」に関連する話題を含む配信",
+      "seed_terms": [
+        "職場",
+        "職場話"
+      ],
+      "support": 8
+    },
+    {
+      "concept_id": "hook_cb47a21f5883",
+      "type": "hook",
+      "name": "Live2D",
+      "definition": "文字列「Live2D」に関連する話題を含む配信",
+      "seed_terms": [
+        "Live2D"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_69b21bbc1543",
+      "type": "hook",
+      "name": "アナリティクス",
+      "definition": "文字列「アナリティクス」に関連する話題を含む配信",
+      "seed_terms": [
+        "アナリティクス"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_6b75ef797fb0",
+      "type": "hook",
+      "name": "個人",
+      "definition": "文字列「個人」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_f0aff3d58da1",
+      "type": "hook",
+      "name": "歌枠",
+      "definition": "文字列「歌枠」に関連する話題を含む配信",
+      "seed_terms": [
+        "歌枠"
+      ],
+      "support": 7
+    },
+    {
+      "concept_id": "hook_0a43adab5aa4",
+      "type": "hook",
+      "name": "Sandtrix",
+      "definition": "文字列「Sandtrix」に関連する話題を含む配信",
+      "seed_terms": [
+        "Sandtrix",
+        "Sandtrix+"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "hook_c7123e52ef88",
+      "type": "hook",
+      "name": "リスナー",
+      "definition": "文字列「リスナー」に関連する話題を含む配信",
+      "seed_terms": [
+        "リスナー"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "hook_3919c3621d36",
+      "type": "hook",
+      "name": "朝活",
+      "definition": "文字列「朝活」に関連する話題を含む配信",
+      "seed_terms": [
+        "朝活"
+      ],
+      "support": 6
+    },
+    {
+      "concept_id": "hook_49459476d972",
+      "type": "hook",
+      "name": "UNDERTALE（アンダーテール）",
+      "definition": "文字列「UNDERTALE（アンダーテール）」に関連する話題を含む配信",
+      "seed_terms": [
+        "UNDERTALE",
+        "アンダーテール"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_1dec9772cd49",
+      "type": "hook",
+      "name": "ホラー（ホラーゲーム含む）",
+      "definition": "文字列「ホラー（ホラーゲーム含む）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホラー",
+        "ホラーゲーム"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_cac4b8d5b07d",
+      "type": "hook",
+      "name": "文化祭",
+      "definition": "文字列「文化祭」に関連する話題を含む配信",
+      "seed_terms": [
+        "文化祭"
+      ],
+      "support": 5
+    },
+    {
+      "concept_id": "hook_d1577374960f",
+      "type": "hook",
+      "name": "Simulator",
+      "definition": "文字列「Simulator」に関連する話題を含む配信",
+      "seed_terms": [
+        "Simulator"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_dace8aabe19e",
+      "type": "hook",
+      "name": "いもこ",
+      "definition": "文字列「いもこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "いもこ"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_7f4af5ee7e3c",
+      "type": "hook",
+      "name": "しか",
+      "definition": "文字列「しか」に関連する話題を含む配信",
+      "seed_terms": [
+        "しか"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_9c2cbd91f4f5",
+      "type": "hook",
+      "name": "ちょっ",
+      "definition": "文字列「ちょっ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっ"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_713413ea5e5f",
+      "type": "hook",
+      "name": "ましゅまろ",
+      "definition": "文字列「ましゅまろ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ましゅまろ"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_70092af8e575",
+      "type": "hook",
+      "name": "アニメ",
+      "definition": "文字列「アニメ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アニメ"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_3bc3b528013e",
+      "type": "hook",
+      "name": "カオス",
+      "definition": "文字列「カオス」に関連する話題を含む配信",
+      "seed_terms": [
+        "カオス"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_3081d7739206",
+      "type": "hook",
+      "name": "ゲーム",
+      "definition": "文字列「ゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲーム"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_808d4faecfd6",
+      "type": "hook",
+      "name": "ジョジョ",
+      "definition": "文字列「ジョジョ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ジョジョ"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_882ef837dab5",
+      "type": "hook",
+      "name": "バニーガーデン",
+      "definition": "文字列「バニーガーデン」に関連する話題を含む配信",
+      "seed_terms": [
+        "バニーガーデン",
+        "BUNNY",
+        "GARDEN",
+        "ガーデン",
+        "バニー"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_6600a62f1a19",
+      "type": "hook",
+      "name": "広島",
+      "definition": "文字列「広島」に関連する話題を含む配信",
+      "seed_terms": [
+        "広島"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_288ad7813d7a",
+      "type": "hook",
+      "name": "青春",
+      "definition": "文字列「青春」に関連する話題を含む配信",
+      "seed_terms": [
+        "青春"
+      ],
+      "support": 4
+    },
+    {
+      "concept_id": "hook_c919853c899a",
+      "type": "hook",
+      "name": "FA",
+      "definition": "文字列「FA」に関連する話題を含む配信",
+      "seed_terms": [
+        "FA"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_e7905f3b1b9d",
+      "type": "hook",
+      "name": "OBS",
+      "definition": "文字列「OBS」に関連する話題を含む配信",
+      "seed_terms": [
+        "OBS"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_1e66019c6aec",
+      "type": "hook",
+      "name": "Skeb",
+      "definition": "文字列「Skeb」に関連する話題を含む配信",
+      "seed_terms": [
+        "Skeb"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_5392c950bdde",
+      "type": "hook",
+      "name": "Twitter",
+      "definition": "文字列「Twitter」に関連する話題を含む配信",
+      "seed_terms": [
+        "Twitter"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_55a753a0b894",
+      "type": "hook",
+      "name": "Switch / Switch2",
+      "definition": "文字列「Switch / Switch2」に関連する話題を含む配信",
+      "seed_terms": [
+        "switch",
+        "switch2"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_aba65c8fa8af",
+      "type": "hook",
+      "name": "だけ",
+      "definition": "文字列「だけ」に関連する話題を含む配信",
+      "seed_terms": [
+        "だけ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_7b807520080d",
+      "type": "hook",
+      "name": "つぐ",
+      "definition": "文字列「つぐ」に関連する話題を含む配信",
+      "seed_terms": [
+        "つぐ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_d5d267a7d346",
+      "type": "hook",
+      "name": "つぐのひ",
+      "definition": "文字列「つぐのひ」に関連する話題を含む配信",
+      "seed_terms": [
+        "つぐのひ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_1232a9d8485f",
+      "type": "hook",
+      "name": "イラスト",
+      "definition": "文字列「イラスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "イラスト"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_89eb79b5c81c",
+      "type": "hook",
+      "name": "カンパーイ",
+      "definition": "文字列「カンパーイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "カンパーイ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_ef92bc286c56",
+      "type": "hook",
+      "name": "ガチ",
+      "definition": "文字列「ガチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ガチ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_34cc2a6d50b6",
+      "type": "hook",
+      "name": "ギャンブル",
+      "definition": "文字列「ギャンブル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギャンブル"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_1a8c28197dab",
+      "type": "hook",
+      "name": "スイカゲーム",
+      "definition": "文字列「スイカゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "スイカゲーム"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_79a934542e7d",
+      "type": "hook",
+      "name": "スタンプ",
+      "definition": "文字列「スタンプ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スタンプ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_5969d0688239",
+      "type": "hook",
+      "name": "ドキドキ",
+      "definition": "文字列「ドキドキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドキドキ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_5ef262aa2496",
+      "type": "hook",
+      "name": "ネットプリント（ネップリ）",
+      "definition": "文字列「ネットプリント（ネップリ）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネップリ",
+        "ネットプリント"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_4e8ac322b7c0",
+      "type": "hook",
+      "name": "バズ",
+      "definition": "文字列「バズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "バズ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_4b346b942f50",
+      "type": "hook",
+      "name": "プレイ",
+      "definition": "文字列「プレイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プレイ"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_a99c62cf4374",
+      "type": "hook",
+      "name": "モデリング",
+      "definition": "文字列「モデリング」に関連する話題を含む配信",
+      "seed_terms": [
+        "モデリング"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_11ff349ee146",
+      "type": "hook",
+      "name": "モンカス",
+      "definition": "文字列「モンカス」に関連する話題を含む配信",
+      "seed_terms": [
+        "モンカス"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_f6d850b3169c",
+      "type": "hook",
+      "name": "収益化",
+      "definition": "文字列「収益化」に関連する話題を含む配信",
+      "seed_terms": [
+        "収益化"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_e9172a4f6793",
+      "type": "hook",
+      "name": "寝坊",
+      "definition": "文字列「寝坊」に関連する話題を含む配信",
+      "seed_terms": [
+        "寝坊"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_cd68fa3c27ee",
+      "type": "hook",
+      "name": "幼少期",
+      "definition": "文字列「幼少期」に関連する話題を含む配信",
+      "seed_terms": [
+        "幼少期"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_d9339526fcb2",
+      "type": "hook",
+      "name": "性癖",
+      "definition": "文字列「性癖」に関連する話題を含む配信",
+      "seed_terms": [
+        "性癖"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_7de46858918a",
+      "type": "hook",
+      "name": "新衣装",
+      "definition": "文字列「新衣装」に関連する話題を含む配信",
+      "seed_terms": [
+        "新衣装"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_0c295d2805ec",
+      "type": "hook",
+      "name": "案件",
+      "definition": "文字列「案件」に関連する話題を含む配信",
+      "seed_terms": [
+        "案件"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_520f730113d4",
+      "type": "hook",
+      "name": "登録者動向",
+      "definition": "文字列「登録者動向」に関連する話題を含む配信",
+      "seed_terms": [
+        "登録者動向"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_7fdaa9f4233a",
+      "type": "hook",
+      "name": "緊急記者会見",
+      "definition": "文字列「緊急記者会見」に関連する話題を含む配信",
+      "seed_terms": [
+        "緊急記者会見"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_9c693a859df2",
+      "type": "hook",
+      "name": "自己紹介",
+      "definition": "文字列「自己紹介」に関連する話題を含む配信",
+      "seed_terms": [
+        "自己紹介"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_b08a798dd60f",
+      "type": "hook",
+      "name": "謝罪会見",
+      "definition": "文字列「謝罪会見」に関連する話題を含む配信",
+      "seed_terms": [
+        "謝罪会見"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_2cb24e2529ab",
+      "type": "hook",
+      "name": "飲酒",
+      "definition": "文字列「飲酒」に関連する話題を含む配信",
+      "seed_terms": [
+        "飲酒"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_c0427cd3d8fc",
+      "type": "hook",
+      "name": "駄菓子",
+      "definition": "文字列「駄菓子」に関連する話題を含む配信",
+      "seed_terms": [
+        "駄菓子"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_7e8c46514bb2",
+      "type": "hook",
+      "name": "黒歴史",
+      "definition": "文字列「黒歴史」に関連する話題を含む配信",
+      "seed_terms": [
+        "黒歴史"
+      ],
+      "support": 3
+    },
+    {
+      "concept_id": "hook_4d4ce73b1566",
+      "type": "hook",
+      "name": "Card",
+      "definition": "文字列「Card」に関連する話題を含む配信",
+      "seed_terms": [
+        "Card"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_495265260f5b",
+      "type": "hook",
+      "name": "ChatGPT",
+      "definition": "文字列「ChatGPT」に関連する話題を含む配信",
+      "seed_terms": [
+        "ChatGPT"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_7f5df4aab53e",
+      "type": "hook",
+      "name": "DgS",
+      "definition": "文字列「DgS」に関連する話題を含む配信",
+      "seed_terms": [
+        "DgS"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_bccc14ee7da1",
+      "type": "hook",
+      "name": "Discord",
+      "definition": "文字列「Discord」に関連する話題を含む配信",
+      "seed_terms": [
+        "Discord"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_d205abee3d2a",
+      "type": "hook",
+      "name": "END",
+      "definition": "文字列「END」に関連する話題を含む配信",
+      "seed_terms": [
+        "END"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_56442e28fd32",
+      "type": "hook",
+      "name": "FANBOX",
+      "definition": "文字列「FANBOX」に関連する話題を含む配信",
+      "seed_terms": [
+        "FANBOX"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_ceda0e396ec3",
+      "type": "hook",
+      "name": "PowerWash",
+      "definition": "文字列「PowerWash」に関連する話題を含む配信",
+      "seed_terms": [
+        "PowerWash"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_55de88709232",
+      "type": "hook",
+      "name": "Shop",
+      "definition": "文字列「Shop」に関連する話題を含む配信",
+      "seed_terms": [
+        "Shop"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_1fdbfefd88a8",
+      "type": "hook",
+      "name": "TCG",
+      "definition": "文字列「TCG」に関連する話題を含む配信",
+      "seed_terms": [
+        "TCG"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_e85bdb62be77",
+      "type": "hook",
+      "name": "UNO",
+      "definition": "文字列「UNO」に関連する話題を含む配信",
+      "seed_terms": [
+        "UNO"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_64979b975971",
+      "type": "hook",
+      "name": "おわれまテン",
+      "definition": "文字列「おわれまテン」に関連する話題を含む配信",
+      "seed_terms": [
+        "おわれまテン"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_90060ade1f81",
+      "type": "hook",
+      "name": "くしゃみ",
+      "definition": "文字列「くしゃみ」に関連する話題を含む配信",
+      "seed_terms": [
+        "くしゃみ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_fb5a5d857780",
+      "type": "hook",
+      "name": "こゲーム",
+      "definition": "文字列「こゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "こゲーム"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_0d0fd2531ac7",
+      "type": "hook",
+      "name": "さん",
+      "definition": "文字列「さん」に関連する話題を含む配信",
+      "seed_terms": [
+        "さん"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_bcd17c91d3b8",
+      "type": "hook",
+      "name": "しかのこ",
+      "definition": "文字列「しかのこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しかのこ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_b58c0fe12d45",
+      "type": "hook",
+      "name": "しかのこゲーム",
+      "definition": "文字列「しかのこゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "しかのこゲーム"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_0d1fb4ec5bbb",
+      "type": "hook",
+      "name": "しぐれうい",
+      "definition": "文字列「しぐれうい」に関連する話題を含む配信",
+      "seed_terms": [
+        "しぐれうい"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_8d00450c5d27",
+      "type": "hook",
+      "name": "ちゃん",
+      "definition": "文字列「ちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちゃん"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_f7b0201b3f0e",
+      "type": "hook",
+      "name": "ちょっと",
+      "definition": "文字列「ちょっと」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっと"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_8a95e35f0c99",
+      "type": "hook",
+      "name": "ちょっとだけ",
+      "definition": "文字列「ちょっとだけ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちょっとだけ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_1fae3a152002",
+      "type": "hook",
+      "name": "ぷよテト（ぷよぷよ/テトリス）",
+      "definition": "文字列「ぷよテト（ぷよぷよ/テトリス）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぷよテト",
+        "ぷよぷよ",
+        "テトリス"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_a051db2e9960",
+      "type": "hook",
+      "name": "ほのぼの",
+      "definition": "文字列「ほのぼの」に関連する話題を含む配信",
+      "seed_terms": [
+        "ほのぼの"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_7ef581795b23",
+      "type": "hook",
+      "name": "アキネーター",
+      "definition": "文字列「アキネーター」に関連する話題を含む配信",
+      "seed_terms": [
+        "アキネーター"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_b04dc4d683c9",
+      "type": "hook",
+      "name": "アクキー",
+      "definition": "文字列「アクキー」に関連する話題を含む配信",
+      "seed_terms": [
+        "アクキー"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_50b63901ed37",
+      "type": "hook",
+      "name": "アツシーマン",
+      "definition": "文字列「アツシーマン」に関連する話題を含む配信",
+      "seed_terms": [
+        "アツシーマン"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_c686c1a9dd78",
+      "type": "hook",
+      "name": "アーカイブ",
+      "definition": "文字列「アーカイブ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アーカイブ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_30a1e3646343",
+      "type": "hook",
+      "name": "ウォーターフェル",
+      "definition": "文字列「ウォーターフェル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ウォーターフェル"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_9a750a03725d",
+      "type": "hook",
+      "name": "オーエン",
+      "definition": "文字列「オーエン」に関連する話題を含む配信",
+      "seed_terms": [
+        "オーエン"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_c14314827041",
+      "type": "hook",
+      "name": "カレー",
+      "definition": "文字列「カレー」に関連する話題を含む配信",
+      "seed_terms": [
+        "カレー"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_a8e51527055e",
+      "type": "hook",
+      "name": "クリア",
+      "definition": "文字列「クリア」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリア"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_16d972117dd5",
+      "type": "hook",
+      "name": "コラボ",
+      "definition": "文字列「コラボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コラボ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_c9fa83c27b8d",
+      "type": "hook",
+      "name": "コロナ",
+      "definition": "文字列「コロナ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コロナ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_6dc0f603699b",
+      "type": "hook",
+      "name": "コンビニ",
+      "definition": "文字列「コンビニ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コンビニ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_3c8dbc7d144d",
+      "type": "hook",
+      "name": "サムネ",
+      "definition": "文字列「サムネ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サムネ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_4cdd98528c99",
+      "type": "hook",
+      "name": "スタバ",
+      "definition": "文字列「スタバ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スタバ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_a221639ae81f",
+      "type": "hook",
+      "name": "スマホ",
+      "definition": "文字列「スマホ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スマホ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_6722041428da",
+      "type": "hook",
+      "name": "チャレンジ",
+      "definition": "文字列「チャレンジ」に関連する話題を含む配信",
+      "seed_terms": [
+        "チャレンジ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_69a825a28cb9",
+      "type": "hook",
+      "name": "チョコ",
+      "definition": "文字列「チョコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "チョコ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_63b560db8849",
+      "type": "hook",
+      "name": "テスト",
+      "definition": "文字列「テスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "テスト"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_a2d30870d5e3",
+      "type": "hook",
+      "name": "ドラッグストア",
+      "definition": "文字列「ドラッグストア」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドラッグストア"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_a3726658b20c",
+      "type": "hook",
+      "name": "ニューホーム",
+      "definition": "文字列「ニューホーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニューホーム"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_dac8ec446b17",
+      "type": "hook",
+      "name": "ネタバレ（コメント含む）",
+      "definition": "文字列「ネタバレ（コメント含む）」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネタバレ",
+        "ネタバレコメント"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_5a5f08df9472",
+      "type": "hook",
+      "name": "プレゼント",
+      "definition": "文字列「プレゼント」に関連する話題を含む配信",
+      "seed_terms": [
+        "プレゼント"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_b8d197c1d9e1",
+      "type": "hook",
+      "name": "プロセカ",
+      "definition": "文字列「プロセカ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プロセカ",
+        "プロジェクトセカイ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_fd5f79e59d94",
+      "type": "hook",
+      "name": "マヨ",
+      "definition": "文字列「マヨ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マヨ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_7ef38af353b8",
+      "type": "hook",
+      "name": "メルカリ",
+      "definition": "文字列「メルカリ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メルカリ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_d5d6e3a5b606",
+      "type": "hook",
+      "name": "メンバーシップ",
+      "definition": "文字列「メンバーシップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メンバーシップ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_761da43975d2",
+      "type": "hook",
+      "name": "ラボ",
+      "definition": "文字列「ラボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラボ"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_139b92e430a9",
+      "type": "hook",
+      "name": "不審者通報",
+      "definition": "文字列「不審者通報」に関連する話題を含む配信",
+      "seed_terms": [
+        "不審者",
+        "不審者通報",
+        "通報"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_77a668549022",
+      "type": "hook",
+      "name": "世界地図",
+      "definition": "文字列「世界地図」に関連する話題を含む配信",
+      "seed_terms": [
+        "世界地図"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_554539438cea",
+      "type": "hook",
+      "name": "中二病",
+      "definition": "文字列「中二病」に関連する話題を含む配信",
+      "seed_terms": [
+        "中二病"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_7895598bcd52",
+      "type": "hook",
+      "name": "事務所勧誘",
+      "definition": "文字列「事務所勧誘」に関連する話題を含む配信",
+      "seed_terms": [
+        "事務所勧誘"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_009da4b01172",
+      "type": "hook",
+      "name": "余裕",
+      "definition": "文字列「余裕」に関連する話題を含む配信",
+      "seed_terms": [
+        "余裕"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_2fa9b336f717",
+      "type": "hook",
+      "name": "健康診断",
+      "definition": "文字列「健康診断」に関連する話題を含む配信",
+      "seed_terms": [
+        "健康診断"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_1f4ae9397ec4",
+      "type": "hook",
+      "name": "写真",
+      "definition": "文字列「写真」に関連する話題を含む配信",
+      "seed_terms": [
+        "写真"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_5978cbf78aba",
+      "type": "hook",
+      "name": "利用規約",
+      "definition": "文字列「利用規約」に関連する話題を含む配信",
+      "seed_terms": [
+        "利用規約"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_0b545fa15a9b",
+      "type": "hook",
+      "name": "加湿器",
+      "definition": "文字列「加湿器」に関連する話題を含む配信",
+      "seed_terms": [
+        "加湿器"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_1303a299947b",
+      "type": "hook",
+      "name": "勇者",
+      "definition": "文字列「勇者」に関連する話題を含む配信",
+      "seed_terms": [
+        "勇者"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_2e304a5925ae",
+      "type": "hook",
+      "name": "口内炎",
+      "definition": "文字列「口内炎」に関連する話題を含む配信",
+      "seed_terms": [
+        "口内炎"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_5b5abca89c2d",
+      "type": "hook",
+      "name": "呪物",
+      "definition": "文字列「呪物」に関連する話題を含む配信",
+      "seed_terms": [
+        "呪物"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_ad50b63cbd09",
+      "type": "hook",
+      "name": "哲学",
+      "definition": "文字列「哲学」に関連する話題を含む配信",
+      "seed_terms": [
+        "哲学"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_00904b6827e1",
+      "type": "hook",
+      "name": "地震",
+      "definition": "文字列「地震」に関連する話題を含む配信",
+      "seed_terms": [
+        "地震"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_8b1b4acaa32a",
+      "type": "hook",
+      "name": "外郎売",
+      "definition": "文字列「外郎売」に関連する話題を含む配信",
+      "seed_terms": [
+        "外郎売"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_6fc3645daffd",
+      "type": "hook",
+      "name": "大歓迎",
+      "definition": "文字列「大歓迎」に関連する話題を含む配信",
+      "seed_terms": [
+        "大歓迎"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_3e0c0cc25958",
+      "type": "hook",
+      "name": "実写",
+      "definition": "文字列「実写」に関連する話題を含む配信",
+      "seed_terms": [
+        "実写"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_242e8e5c3fbc",
+      "type": "hook",
+      "name": "家族",
+      "definition": "文字列「家族」に関連する話題を含む配信",
+      "seed_terms": [
+        "家族"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_9fa3da66de7e",
+      "type": "hook",
+      "name": "屋台",
+      "definition": "文字列「屋台」に関連する話題を含む配信",
+      "seed_terms": [
+        "屋台"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_33b222b1d1b4",
+      "type": "hook",
+      "name": "広島弁",
+      "definition": "文字列「広島弁」に関連する話題を含む配信",
+      "seed_terms": [
+        "広島弁"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_49a9ef1b0597",
+      "type": "hook",
+      "name": "店長",
+      "definition": "文字列「店長」に関連する話題を含む配信",
+      "seed_terms": [
+        "店長"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_e9e796e9cb60",
+      "type": "hook",
+      "name": "彼氏",
+      "definition": "文字列「彼氏」に関連する話題を含む配信",
+      "seed_terms": [
+        "彼氏"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_c8231a9e2e30",
+      "type": "hook",
+      "name": "怪談",
+      "definition": "文字列「怪談」に関連する話題を含む配信",
+      "seed_terms": [
+        "怪談"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_e2a0ced198d9",
+      "type": "hook",
+      "name": "恋愛",
+      "definition": "文字列「恋愛」に関連する話題を含む配信",
+      "seed_terms": [
+        "恋愛"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_09558b2cc685",
+      "type": "hook",
+      "name": "時間",
+      "definition": "文字列「時間」に関連する話題を含む配信",
+      "seed_terms": [
+        "時間"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_8e83d73c5faf",
+      "type": "hook",
+      "name": "晩酌",
+      "definition": "文字列「晩酌」に関連する話題を含む配信",
+      "seed_terms": [
+        "晩酌"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_cd0eb1a1e60e",
+      "type": "hook",
+      "name": "最高記録",
+      "definition": "文字列「最高記録」に関連する話題を含む配信",
+      "seed_terms": [
+        "最高記録"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_796ca8f45e7e",
+      "type": "hook",
+      "name": "江波",
+      "definition": "文字列「江波」に関連する話題を含む配信",
+      "seed_terms": [
+        "江波"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_06e2c91939b9",
+      "type": "hook",
+      "name": "流行語大賞",
+      "definition": "文字列「流行語大賞」に関連する話題を含む配信",
+      "seed_terms": [
+        "流行語大賞"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_0269d9c98c52",
+      "type": "hook",
+      "name": "清楚",
+      "definition": "文字列「清楚」に関連する話題を含む配信",
+      "seed_terms": [
+        "清楚"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_3bbff987412a",
+      "type": "hook",
+      "name": "焼肉",
+      "definition": "文字列「焼肉」に関連する話題を含む配信",
+      "seed_terms": [
+        "焼肉"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_1dd34007293f",
+      "type": "hook",
+      "name": "生誕祭（誕生日）",
+      "definition": "文字列「生誕祭（誕生日）」に関連する話題を含む配信",
+      "seed_terms": [
+        "生誕祭",
+        "生誕",
+        "誕生日"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_3d7c04282891",
+      "type": "hook",
+      "name": "異変",
+      "definition": "文字列「異変」に関連する話題を含む配信",
+      "seed_terms": [
+        "異変"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_6c3fe52f0f88",
+      "type": "hook",
+      "name": "相談",
+      "definition": "文字列「相談」に関連する話題を含む配信",
+      "seed_terms": [
+        "相談"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_5516f01001d3",
+      "type": "hook",
+      "name": "社畜",
+      "definition": "文字列「社畜」に関連する話題を含む配信",
+      "seed_terms": [
+        "社畜"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_2cb627964c5e",
+      "type": "hook",
+      "name": "税理士",
+      "definition": "文字列「税理士」に関連する話題を含む配信",
+      "seed_terms": [
+        "税理士"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_fcb422a84531",
+      "type": "hook",
+      "name": "粘液嚢胞",
+      "definition": "文字列「粘液嚢胞」に関連する話題を含む配信",
+      "seed_terms": [
+        "粘液嚢胞"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_b4ab8b6ac55e",
+      "type": "hook",
+      "name": "縦型",
+      "definition": "文字列「縦型」に関連する話題を含む配信",
+      "seed_terms": [
+        "縦型"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_cbc262d9f2d2",
+      "type": "hook",
+      "name": "花奈",
+      "definition": "文字列「花奈」に関連する話題を含む配信",
+      "seed_terms": [
+        "花奈"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_bdd573f7541e",
+      "type": "hook",
+      "name": "高圧洗浄機",
+      "definition": "文字列「高圧洗浄機」に関連する話題を含む配信",
+      "seed_terms": [
+        "高圧洗浄機"
+      ],
+      "support": 2
+    },
+    {
+      "concept_id": "hook_b21e1fa898d2",
+      "type": "hook",
+      "name": "1vs3",
+      "definition": "文字列「1vs3」に関連する話題を含む配信",
+      "seed_terms": [
+        "1vs3"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4d134bc07221",
+      "type": "hook",
+      "name": "24",
+      "definition": "文字列「24」に関連する話題を含む配信",
+      "seed_terms": [
+        "24"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_64fe85d796d8",
+      "type": "hook",
+      "name": "3D",
+      "definition": "文字列「3D」に関連する話題を含む配信",
+      "seed_terms": [
+        "3D"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cf1df727219b",
+      "type": "hook",
+      "name": "3DS",
+      "definition": "文字列「3DS」に関連する話題を含む配信",
+      "seed_terms": [
+        "3DS"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dc3bd10cfa6a",
+      "type": "hook",
+      "name": "8-2",
+      "definition": "文字列「8-2」に関連する話題を含む配信",
+      "seed_terms": [
+        "8-2"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b48f6f6773aa",
+      "type": "hook",
+      "name": "8192",
+      "definition": "文字列「8192」に関連する話題を含む配信",
+      "seed_terms": [
+        "8192"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_560040c54a3b",
+      "type": "hook",
+      "name": "AI",
+      "definition": "文字列「AI」に関連する話題を含む配信",
+      "seed_terms": [
+        "AI"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c693baba307e",
+      "type": "hook",
+      "name": "Ado",
+      "definition": "文字列「Ado」に関連する話題を含む配信",
+      "seed_terms": [
+        "Ado"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_606f9cc9c5c5",
+      "type": "hook",
+      "name": "BAN",
+      "definition": "文字列「BAN」に関連する話題を含む配信",
+      "seed_terms": [
+        "BAN"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a7eb32ca0ea2",
+      "type": "hook",
+      "name": "BGM",
+      "definition": "文字列「BGM」に関連する話題を含む配信",
+      "seed_terms": [
+        "BGM"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f8fb8dd6e497",
+      "type": "hook",
+      "name": "BOOTH",
+      "definition": "文字列「BOOTH」に関連する話題を含む配信",
+      "seed_terms": [
+        "BOOTH"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1c7e9fff67d9",
+      "type": "hook",
+      "name": "BUNNYGARDEN",
+      "definition": "文字列「BUNNYGARDEN」に関連する話題を含む配信",
+      "seed_terms": [
+        "BUNNYGARDEN"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e1ed43f54355",
+      "type": "hook",
+      "name": "Blender",
+      "definition": "文字列「Blender」に関連する話題を含む配信",
+      "seed_terms": [
+        "Blender"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2d91cbf686b3",
+      "type": "hook",
+      "name": "CAPTCHA",
+      "definition": "文字列「CAPTCHA」に関連する話題を含む配信",
+      "seed_terms": [
+        "CAPTCHA"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1060274bc900",
+      "type": "hook",
+      "name": "CM",
+      "definition": "文字列「CM」に関連する話題を含む配信",
+      "seed_terms": [
+        "CM"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ff221d4752ce",
+      "type": "hook",
+      "name": "CPU",
+      "definition": "文字列「CPU」に関連する話題を含む配信",
+      "seed_terms": [
+        "CPU"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_652af2dbce23",
+      "type": "hook",
+      "name": "Clear40",
+      "definition": "文字列「Clear40」に関連する話題を含む配信",
+      "seed_terms": [
+        "Clear40"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_03aa1ad19790",
+      "type": "hook",
+      "name": "Creepy",
+      "definition": "文字列「Creepy」に関連する話題を含む配信",
+      "seed_terms": [
+        "Creepy"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_891328bf0d5b",
+      "type": "hook",
+      "name": "DYPING",
+      "definition": "文字列「DYPING」に関連する話題を含む配信",
+      "seed_terms": [
+        "DYPING"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4b63860361d6",
+      "type": "hook",
+      "name": "ESFP",
+      "definition": "文字列「ESFP」に関連する話題を含む配信",
+      "seed_terms": [
+        "ESFP"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_185441806667",
+      "type": "hook",
+      "name": "Endless",
+      "definition": "文字列「Endless」に関連する話題を含む配信",
+      "seed_terms": [
+        "Endless"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f63f96efcf4d",
+      "type": "hook",
+      "name": "GO",
+      "definition": "文字列「GO」に関連する話題を含む配信",
+      "seed_terms": [
+        "GO"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d1415f04bb34",
+      "type": "hook",
+      "name": "GeoGuessr",
+      "definition": "文字列「GeoGuessr」に関連する話題を含む配信",
+      "seed_terms": [
+        "GeoGuessr"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dd7c1f30ccca",
+      "type": "hook",
+      "name": "ICOCA",
+      "definition": "文字列「ICOCA」に関連する話題を含む配信",
+      "seed_terms": [
+        "ICOCA"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_89f89c02cf47",
+      "type": "hook",
+      "name": "ID",
+      "definition": "文字列「ID」に関連する話題を含む配信",
+      "seed_terms": [
+        "ID"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1c01cb91fa1e",
+      "type": "hook",
+      "name": "IKEA",
+      "definition": "文字列「IKEA」に関連する話題を含む配信",
+      "seed_terms": [
+        "IKEA"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_452c61c906d6",
+      "type": "hook",
+      "name": "INTP",
+      "definition": "文字列「INTP」に関連する話題を含む配信",
+      "seed_terms": [
+        "INTP"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_70c94a757c2a",
+      "type": "hook",
+      "name": "JK",
+      "definition": "文字列「JK」に関連する話題を含む配信",
+      "seed_terms": [
+        "JK"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_528a45acf629",
+      "type": "hook",
+      "name": "LINE",
+      "definition": "文字列「LINE」に関連する話題を含む配信",
+      "seed_terms": [
+        "LINE"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_acb9f29dc361",
+      "type": "hook",
+      "name": "MBTI",
+      "definition": "文字列「MBTI」に関連する話題を含む配信",
+      "seed_terms": [
+        "MBTI"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8a0dc42bf096",
+      "type": "hook",
+      "name": "MiSide",
+      "definition": "文字列「MiSide」に関連する話題を含む配信",
+      "seed_terms": [
+        "MiSide"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7533092f7898",
+      "type": "hook",
+      "name": "NOMUZO",
+      "definition": "文字列「NOMUZO」に関連する話題を含む配信",
+      "seed_terms": [
+        "NOMUZO"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_86524f2f40ec",
+      "type": "hook",
+      "name": "Nuts",
+      "definition": "文字列「Nuts」に関連する話題を含む配信",
+      "seed_terms": [
+        "Nuts"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_23cd65215304",
+      "type": "hook",
+      "name": "PARK",
+      "definition": "文字列「PARK」に関連する話題を含む配信",
+      "seed_terms": [
+        "PARK"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_fc1c82fe013e",
+      "type": "hook",
+      "name": "PART",
+      "definition": "文字列「PART」に関連する話題を含む配信",
+      "seed_terms": [
+        "PART"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_88b9878bf384",
+      "type": "hook",
+      "name": "PICO",
+      "definition": "文字列「PICO」に関連する話題を含む配信",
+      "seed_terms": [
+        "PICO"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d9c9abdf404a",
+      "type": "hook",
+      "name": "PON",
+      "definition": "文字列「PON」に関連する話題を含む配信",
+      "seed_terms": [
+        "PON"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_55af20415ead",
+      "type": "hook",
+      "name": "PR",
+      "definition": "文字列「PR」に関連する話題を含む配信",
+      "seed_terms": [
+        "PR"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_698de13e6027",
+      "type": "hook",
+      "name": "PayPay",
+      "definition": "文字列「PayPay」に関連する話題を含む配信",
+      "seed_terms": [
+        "PayPay"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_be38e4ffb7bf",
+      "type": "hook",
+      "name": "RPG",
+      "definition": "文字列「RPG」に関連する話題を含む配信",
+      "seed_terms": [
+        "RPG"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0aa0bc3c7b92",
+      "type": "hook",
+      "name": "RTA",
+      "definition": "文字列「RTA」に関連する話題を含む配信",
+      "seed_terms": [
+        "RTA"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ad173e04d8ec",
+      "type": "hook",
+      "name": "RUN",
+      "definition": "文字列「RUN」に関連する話題を含む配信",
+      "seed_terms": [
+        "RUN"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8ba9762c3cd4",
+      "type": "hook",
+      "name": "SPAM",
+      "definition": "文字列「SPAM」に関連する話題を含む配信",
+      "seed_terms": [
+        "SPAM"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9cf96d7bb3a0",
+      "type": "hook",
+      "name": "Scream",
+      "definition": "文字列「Scream」に関連する話題を含む配信",
+      "seed_terms": [
+        "Scream"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d219af98f552",
+      "type": "hook",
+      "name": "Skb",
+      "definition": "文字列「Skb」に関連する話題を含む配信",
+      "seed_terms": [
+        "Skb"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_211ecc62afe2",
+      "type": "hook",
+      "name": "TATRAS",
+      "definition": "文字列「TATRAS」に関連する話題を含む配信",
+      "seed_terms": [
+        "TATRAS"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_36aa03dec773",
+      "type": "hook",
+      "name": "VTS",
+      "definition": "文字列「VTS」に関連する話題を含む配信",
+      "seed_terms": [
+        "VTS"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c890a4554494",
+      "type": "hook",
+      "name": "Vlog",
+      "definition": "文字列「Vlog」に関連する話題を含む配信",
+      "seed_terms": [
+        "Vlog"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_780ff71c8f1f",
+      "type": "hook",
+      "name": "Wi-Fi",
+      "definition": "文字列「Wi-Fi」に関連する話題を含む配信",
+      "seed_terms": [
+        "Wi-Fi"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5e094862905f",
+      "type": "hook",
+      "name": "Wolt",
+      "definition": "文字列「Wolt」に関連する話題を含む配信",
+      "seed_terms": [
+        "Wolt"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_49dc1cb094df",
+      "type": "hook",
+      "name": "face",
+      "definition": "文字列「face」に関連する話題を含む配信",
+      "seed_terms": [
+        "face"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ba93d90199cf",
+      "type": "hook",
+      "name": "minamoa",
+      "definition": "文字列「minamoa」に関連する話題を含む配信",
+      "seed_terms": [
+        "minamoa"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6c1d28877f40",
+      "type": "hook",
+      "name": "part5",
+      "definition": "文字列「part5」に関連する話題を含む配信",
+      "seed_terms": [
+        "part5"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d070b6f68a2f",
+      "type": "hook",
+      "name": "part6",
+      "definition": "文字列「part6」に関連する話題を含む配信",
+      "seed_terms": [
+        "part6"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b06801441b60",
+      "type": "hook",
+      "name": "あああああ",
+      "definition": "文字列「あああああ」に関連する話題を含む配信",
+      "seed_terms": [
+        "あああああ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_03c0bc6c7d84",
+      "type": "hook",
+      "name": "あたれええええええええ",
+      "definition": "文字列「あたれええええええええ」に関連する話題を含む配信",
+      "seed_terms": [
+        "あたれええええええええ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_73796ecfaef5",
+      "type": "hook",
+      "name": "あーちゃん",
+      "definition": "文字列「あーちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "あーちゃん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f75ce6b9e57d",
+      "type": "hook",
+      "name": "いいいい",
+      "definition": "文字列「いいいい」に関連する話題を含む配信",
+      "seed_terms": [
+        "いいいい"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5104e2aea2fd",
+      "type": "hook",
+      "name": "いけるっしょ",
+      "definition": "文字列「いけるっしょ」に関連する話題を含む配信",
+      "seed_terms": [
+        "いけるっしょ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_34b8a3f20a69",
+      "type": "hook",
+      "name": "いちごフレグランス",
+      "definition": "文字列「いちごフレグランス」に関連する話題を含む配信",
+      "seed_terms": [
+        "いちごフレグランス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bafc14d5591f",
+      "type": "hook",
+      "name": "いもこショック",
+      "definition": "文字列「いもこショック」に関連する話題を含む配信",
+      "seed_terms": [
+        "いもこショック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_058d3d60543a",
+      "type": "hook",
+      "name": "いらす",
+      "definition": "文字列「いらす」に関連する話題を含む配信",
+      "seed_terms": [
+        "いらす"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a4477db5b1dd",
+      "type": "hook",
+      "name": "いらすとや",
+      "definition": "文字列「いらすとや」に関連する話題を含む配信",
+      "seed_terms": [
+        "いらすとや"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bc8534db6651",
+      "type": "hook",
+      "name": "いらすとやチャレンジ",
+      "definition": "文字列「いらすとやチャレンジ」に関連する話題を含む配信",
+      "seed_terms": [
+        "いらすとやチャレンジ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9f4a6ac500d1",
+      "type": "hook",
+      "name": "えっち",
+      "definition": "文字列「えっち」に関連する話題を含む配信",
+      "seed_terms": [
+        "えっち"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_769fc15c4fcb",
+      "type": "hook",
+      "name": "えびふらいスリッパ",
+      "definition": "文字列「えびふらいスリッパ」に関連する話題を含む配信",
+      "seed_terms": [
+        "えびふらいスリッパ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_95894b08c6f9",
+      "type": "hook",
+      "name": "おし",
+      "definition": "文字列「おし」に関連する話題を含む配信",
+      "seed_terms": [
+        "おし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_05329fa70eb0",
+      "type": "hook",
+      "name": "おしがま",
+      "definition": "文字列「おしがま」に関連する話題を含む配信",
+      "seed_terms": [
+        "おしがま"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_01c7b6d14648",
+      "type": "hook",
+      "name": "おしるこニキ",
+      "definition": "文字列「おしるこニキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "おしるこニキ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_41ea47ae96f0",
+      "type": "hook",
+      "name": "おじさんチャット",
+      "definition": "文字列「おじさんチャット」に関連する話題を含む配信",
+      "seed_terms": [
+        "おじさんチャット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_15a803ec0438",
+      "type": "hook",
+      "name": "おじアテレコ",
+      "definition": "文字列「おじアテレコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "おじアテレコ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1177d3402d40",
+      "type": "hook",
+      "name": "おっさんカップリング",
+      "definition": "文字列「おっさんカップリング」に関連する話題を含む配信",
+      "seed_terms": [
+        "おっさんカップリング"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9a67aef39dce",
+      "type": "hook",
+      "name": "かい",
+      "definition": "文字列「かい」に関連する話題を含む配信",
+      "seed_terms": [
+        "かい"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7a80c0650168",
+      "type": "hook",
+      "name": "かいもこ",
+      "definition": "文字列「かいもこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "かいもこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_84b180445f40",
+      "type": "hook",
+      "name": "かなえ",
+      "definition": "文字列「かなえ」に関連する話題を含む配信",
+      "seed_terms": [
+        "かなえ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e1a8bc898865",
+      "type": "hook",
+      "name": "きたなめ",
+      "definition": "文字列「きたなめ」に関連する話題を含む配信",
+      "seed_terms": [
+        "きたなめ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2af8fd129760",
+      "type": "hook",
+      "name": "きたなめにこ",
+      "definition": "文字列「きたなめにこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "きたなめにこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_92fbdb19e712",
+      "type": "hook",
+      "name": "くまトモ",
+      "definition": "文字列「くまトモ」に関連する話題を含む配信",
+      "seed_terms": [
+        "くまトモ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2dee2b5b57da",
+      "type": "hook",
+      "name": "げきかわ",
+      "definition": "文字列「げきかわ」に関連する話題を含む配信",
+      "seed_terms": [
+        "げきかわ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c34fbbedc884",
+      "type": "hook",
+      "name": "げリラ",
+      "definition": "文字列「げリラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "げリラ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bf2eb92b4ca3",
+      "type": "hook",
+      "name": "こけし",
+      "definition": "文字列「こけし」に関連する話題を含む配信",
+      "seed_terms": [
+        "こけし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c7599332b238",
+      "type": "hook",
+      "name": "こっくりさん",
+      "definition": "文字列「こっくりさん」に関連する話題を含む配信",
+      "seed_terms": [
+        "こっくりさん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3a449414c480",
+      "type": "hook",
+      "name": "こどおじ",
+      "definition": "文字列「こどおじ」に関連する話題を含む配信",
+      "seed_terms": [
+        "こどおじ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bcdb32cf37ce",
+      "type": "hook",
+      "name": "こイングリッシュ",
+      "definition": "文字列「こイングリッシュ」に関連する話題を含む配信",
+      "seed_terms": [
+        "こイングリッシュ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d5f483243d47",
+      "type": "hook",
+      "name": "こショック",
+      "definition": "文字列「こショック」に関連する話題を含む配信",
+      "seed_terms": [
+        "こショック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_573351f8aafa",
+      "type": "hook",
+      "name": "ごめん",
+      "definition": "文字列「ごめん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ごめん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_403e9d9a0f4f",
+      "type": "hook",
+      "name": "ささ",
+      "definition": "文字列「ささ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ささ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ed7d29e66ade",
+      "type": "hook",
+      "name": "ささやき",
+      "definition": "文字列「ささやき」に関連する話題を含む配信",
+      "seed_terms": [
+        "ささやき"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_091de44104ec",
+      "type": "hook",
+      "name": "しずかなおそうじ",
+      "definition": "文字列「しずかなおそうじ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しずかなおそうじ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3c54027838b0",
+      "type": "hook",
+      "name": "しののっこ",
+      "definition": "文字列「しののっこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しののっこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b6e3f9666c7a",
+      "type": "hook",
+      "name": "しゃ",
+      "definition": "文字列「しゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しゃ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_858391645c7a",
+      "type": "hook",
+      "name": "しゃもじスピン",
+      "definition": "文字列「しゃもじスピン」に関連する話題を含む配信",
+      "seed_terms": [
+        "しゃもじスピン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7e50adc08913",
+      "type": "hook",
+      "name": "しよ",
+      "definition": "文字列「しよ」に関連する話題を含む配信",
+      "seed_terms": [
+        "しよ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c16cc9826daa",
+      "type": "hook",
+      "name": "じゃけえ",
+      "definition": "文字列「じゃけえ」に関連する話題を含む配信",
+      "seed_terms": [
+        "じゃけえ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0177cf25a25c",
+      "type": "hook",
+      "name": "じスピン",
+      "definition": "文字列「じスピン」に関連する話題を含む配信",
+      "seed_terms": [
+        "じスピン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8da2f7bb8689",
+      "type": "hook",
+      "name": "すごい",
+      "definition": "文字列「すごい」に関連する話題を含む配信",
+      "seed_terms": [
+        "すごい"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_763399d462bb",
+      "type": "hook",
+      "name": "すぱちゃ",
+      "definition": "文字列「すぱちゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "すぱちゃ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8a2ca4f914c8",
+      "type": "hook",
+      "name": "ずす",
+      "definition": "文字列「ずす」に関連する話題を含む配信",
+      "seed_terms": [
+        "ずす"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bd91bbc928a8",
+      "type": "hook",
+      "name": "せええええええ",
+      "definition": "文字列「せええええええ」に関連する話題を含む配信",
+      "seed_terms": [
+        "せええええええ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_38e52f0304e8",
+      "type": "hook",
+      "name": "たこ",
+      "definition": "文字列「たこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "たこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e160af9d399e",
+      "type": "hook",
+      "name": "たこやき",
+      "definition": "文字列「たこやき」に関連する話題を含む配信",
+      "seed_terms": [
+        "たこやき"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2c7a92a80b81",
+      "type": "hook",
+      "name": "たま",
+      "definition": "文字列「たま」に関連する話題を含む配信",
+      "seed_terms": [
+        "たま"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0440e1b0c65b",
+      "type": "hook",
+      "name": "たまごっち",
+      "definition": "文字列「たまごっち」に関連する話題を含む配信",
+      "seed_terms": [
+        "たまごっち"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_723cc066ed5c",
+      "type": "hook",
+      "name": "たまには",
+      "definition": "文字列「たまには」に関連する話題を含む配信",
+      "seed_terms": [
+        "たまには"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_353de042d6e3",
+      "type": "hook",
+      "name": "だるまパンツ",
+      "definition": "文字列「だるまパンツ」に関連する話題を含む配信",
+      "seed_terms": [
+        "だるまパンツ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b42e4e54492d",
+      "type": "hook",
+      "name": "ちゅー",
+      "definition": "文字列「ちゅー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ちゅー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_baf3e224422d",
+      "type": "hook",
+      "name": "っこ",
+      "definition": "文字列「っこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "っこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_fbb88d744b66",
+      "type": "hook",
+      "name": "っぴー",
+      "definition": "文字列「っぴー」に関連する話題を含む配信",
+      "seed_terms": [
+        "っぴー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d208794318ef",
+      "type": "hook",
+      "name": "っぴーあ",
+      "definition": "文字列「っぴーあ」に関連する話題を含む配信",
+      "seed_terms": [
+        "っぴーあ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_450f7df92b69",
+      "type": "hook",
+      "name": "つくるぞ",
+      "definition": "文字列「つくるぞ」に関連する話題を含む配信",
+      "seed_terms": [
+        "つくるぞ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_afdea8c6caf4",
+      "type": "hook",
+      "name": "つぶゆき",
+      "definition": "文字列「つぶゆき」に関連する話題を含む配信",
+      "seed_terms": [
+        "つぶゆき"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2b8f2b6ea48e",
+      "type": "hook",
+      "name": "とんでもない",
+      "definition": "文字列「とんでもない」に関連する話題を含む配信",
+      "seed_terms": [
+        "とんでもない"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b60ee6b3b856",
+      "type": "hook",
+      "name": "どステップ",
+      "definition": "文字列「どステップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "どステップ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9fccc80054f5",
+      "type": "hook",
+      "name": "ない",
+      "definition": "文字列「ない」に関連する話題を含む配信",
+      "seed_terms": [
+        "ない"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b36e9312d27b",
+      "type": "hook",
+      "name": "なき",
+      "definition": "文字列「なき」に関連する話題を含む配信",
+      "seed_terms": [
+        "なき"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c916267f807a",
+      "type": "hook",
+      "name": "なそ",
+      "definition": "文字列「なそ」に関連する話題を含む配信",
+      "seed_terms": [
+        "なそ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5bf808ea386a",
+      "type": "hook",
+      "name": "なりすまし",
+      "definition": "文字列「なりすまし」に関連する話題を含む配信",
+      "seed_terms": [
+        "なりすまし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_98bd08f18ff1",
+      "type": "hook",
+      "name": "なん",
+      "definition": "文字列「なん」に関連する話題を含む配信",
+      "seed_terms": [
+        "なん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7086842aec4d",
+      "type": "hook",
+      "name": "なんさ",
+      "definition": "文字列「なんさ」に関連する話題を含む配信",
+      "seed_terms": [
+        "なんさ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7cf30cf7446b",
+      "type": "hook",
+      "name": "なんでも",
+      "definition": "文字列「なんでも」に関連する話題を含む配信",
+      "seed_terms": [
+        "なんでも"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3fa6c8c0f203",
+      "type": "hook",
+      "name": "にこイングリッシュ",
+      "definition": "文字列「にこイングリッシュ」に関連する話題を含む配信",
+      "seed_terms": [
+        "にこイングリッシュ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cafa8b5ff8da",
+      "type": "hook",
+      "name": "ぬいぐるみ",
+      "definition": "文字列「ぬいぐるみ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぬいぐるみ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_46d3dc1e45a4",
+      "type": "hook",
+      "name": "ねっす",
+      "definition": "文字列「ねっす」に関連する話題を含む配信",
+      "seed_terms": [
+        "ねっす"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_92d87602c8e4",
+      "type": "hook",
+      "name": "ねばーランド",
+      "definition": "文字列「ねばーランド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ねばーランド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1a3551784d58",
+      "type": "hook",
+      "name": "ねよっ",
+      "definition": "文字列「ねよっ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ねよっ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b1172e31d4d0",
+      "type": "hook",
+      "name": "のりば",
+      "definition": "文字列「のりば」に関連する話題を含む配信",
+      "seed_terms": [
+        "のりば"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e4714f80c5a9",
+      "type": "hook",
+      "name": "のんびり",
+      "definition": "文字列「のんびり」に関連する話題を含む配信",
+      "seed_terms": [
+        "のんびり"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8bf3cc67eef1",
+      "type": "hook",
+      "name": "はずす",
+      "definition": "文字列「はずす」に関連する話題を含む配信",
+      "seed_terms": [
+        "はずす"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bcea6bba92b8",
+      "type": "hook",
+      "name": "はっぴー",
+      "definition": "文字列「はっぴー」に関連する話題を含む配信",
+      "seed_terms": [
+        "はっぴー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9ba2ff504f4a",
+      "type": "hook",
+      "name": "はっぴーあにめ",
+      "definition": "文字列「はっぴーあにめ」に関連する話題を含む配信",
+      "seed_terms": [
+        "はっぴーあにめ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_09df7738e5e2",
+      "type": "hook",
+      "name": "はなそ",
+      "definition": "文字列「はなそ」に関連する話題を含む配信",
+      "seed_terms": [
+        "はなそ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_711417aafd93",
+      "type": "hook",
+      "name": "ぱんつひ",
+      "definition": "文字列「ぱんつひ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぱんつひ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_798c3875054f",
+      "type": "hook",
+      "name": "ぱんつひも",
+      "definition": "文字列「ぱんつひも」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぱんつひも"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a6cf9a3b248e",
+      "type": "hook",
+      "name": "ふぁ",
+      "definition": "文字列「ふぁ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ふぁ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3642f4e6ba4d",
+      "type": "hook",
+      "name": "べえゲーム",
+      "definition": "文字列「べえゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "べえゲーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cef8ef9ef5aa",
+      "type": "hook",
+      "name": "ほのぼのゲーム",
+      "definition": "文字列「ほのぼのゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ほのぼのゲーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6b9d46880766",
+      "type": "hook",
+      "name": "ぼっちちゃん",
+      "definition": "文字列「ぼっちちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぼっちちゃん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_00251f182d8c",
+      "type": "hook",
+      "name": "ぼっちネタ",
+      "definition": "文字列「ぼっちネタ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ぼっちネタ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8e99b2ace3e1",
+      "type": "hook",
+      "name": "まぐろ",
+      "definition": "文字列「まぐろ」に関連する話題を含む配信",
+      "seed_terms": [
+        "まぐろ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_fa0ee1389663",
+      "type": "hook",
+      "name": "まさか",
+      "definition": "文字列「まさか」に関連する話題を含む配信",
+      "seed_terms": [
+        "まさか"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f0bb20ea29e8",
+      "type": "hook",
+      "name": "まじめ",
+      "definition": "文字列「まじめ」に関連する話題を含む配信",
+      "seed_terms": [
+        "まじめ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_748b15881153",
+      "type": "hook",
+      "name": "むぎ",
+      "definition": "文字列「むぎ」に関連する話題を含む配信",
+      "seed_terms": [
+        "むぎ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c33d119078bc",
+      "type": "hook",
+      "name": "むぎちゃん",
+      "definition": "文字列「むぎちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "むぎちゃん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_631999ea5f3c",
+      "type": "hook",
+      "name": "むさし",
+      "definition": "文字列「むさし」に関連する話題を含む配信",
+      "seed_terms": [
+        "むさし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_525401495012",
+      "type": "hook",
+      "name": "めがね",
+      "definition": "文字列「めがね」に関連する話題を含む配信",
+      "seed_terms": [
+        "めがね"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4801f9fe292a",
+      "type": "hook",
+      "name": "やべえゲーム",
+      "definition": "文字列「やべえゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "やべえゲーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c3325673d789",
+      "type": "hook",
+      "name": "やらかし",
+      "definition": "文字列「やらかし」に関連する話題を含む配信",
+      "seed_terms": [
+        "やらかし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1e81158904d7",
+      "type": "hook",
+      "name": "ゆるっ",
+      "definition": "文字列「ゆるっ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゆるっ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_70bad1a1447f",
+      "type": "hook",
+      "name": "ゆるっと",
+      "definition": "文字列「ゆるっと」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゆるっと"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b59331a81100",
+      "type": "hook",
+      "name": "ゆるゆる",
+      "definition": "文字列「ゆるゆる」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゆるゆる"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8738ae4c120e",
+      "type": "hook",
+      "name": "よるご",
+      "definition": "文字列「よるご」に関連する話題を含む配信",
+      "seed_terms": [
+        "よるご"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3b035292fb0e",
+      "type": "hook",
+      "name": "よるごはん",
+      "definition": "文字列「よるごはん」に関連する話題を含む配信",
+      "seed_terms": [
+        "よるごはん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4e926a31925d",
+      "type": "hook",
+      "name": "らかし",
+      "definition": "文字列「らかし」に関連する話題を含む配信",
+      "seed_terms": [
+        "らかし"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ae05ce463286",
+      "type": "hook",
+      "name": "らしい",
+      "definition": "文字列「らしい」に関連する話題を含む配信",
+      "seed_terms": [
+        "らしい"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e9e39e33088b",
+      "type": "hook",
+      "name": "りば",
+      "definition": "文字列「りば」に関連する話題を含む配信",
+      "seed_terms": [
+        "りば"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_933a4a010e5f",
+      "type": "hook",
+      "name": "りるれふ",
+      "definition": "文字列「りるれふ」に関連する話題を含む配信",
+      "seed_terms": [
+        "りるれふ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f88a717b2b91",
+      "type": "hook",
+      "name": "りんちゃ",
+      "definition": "文字列「りんちゃ」に関連する話題を含む配信",
+      "seed_terms": [
+        "りんちゃ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9579dd0fb80f",
+      "type": "hook",
+      "name": "わくわく",
+      "definition": "文字列「わくわく」に関連する話題を含む配信",
+      "seed_terms": [
+        "わくわく"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3282ea66be9d",
+      "type": "hook",
+      "name": "わんコメ",
+      "definition": "文字列「わんコメ」に関連する話題を含む配信",
+      "seed_terms": [
+        "わんコメ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_160472cb11da",
+      "type": "hook",
+      "name": "んびり",
+      "definition": "文字列「んびり」に関連する話題を含む配信",
+      "seed_terms": [
+        "んびり"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_eebdeac7e1b6",
+      "type": "hook",
+      "name": "アクスタ",
+      "definition": "文字列「アクスタ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アクスタ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cc40a6fc6756",
+      "type": "hook",
+      "name": "アニメーション",
+      "definition": "文字列「アニメーション」に関連する話題を含む配信",
+      "seed_terms": [
+        "アニメーション"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d578dc02c08a",
+      "type": "hook",
+      "name": "アバター",
+      "definition": "文字列「アバター」に関連する話題を含む配信",
+      "seed_terms": [
+        "アバター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1938da263f84",
+      "type": "hook",
+      "name": "アラームボイス",
+      "definition": "文字列「アラームボイス」に関連する話題を含む配信",
+      "seed_terms": [
+        "アラームボイス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_533adec32b34",
+      "type": "hook",
+      "name": "アルバイトォォ",
+      "definition": "文字列「アルバイトォォ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アルバイトォォ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e721012f5f3f",
+      "type": "hook",
+      "name": "アンテ",
+      "definition": "文字列「アンテ」に関連する話題を含む配信",
+      "seed_terms": [
+        "アンテ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b5e667d03770",
+      "type": "hook",
+      "name": "イケア",
+      "definition": "文字列「イケア」に関連する話題を含む配信",
+      "seed_terms": [
+        "イケア"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1ddaba78aaf1",
+      "type": "hook",
+      "name": "イノシシトーク",
+      "definition": "文字列「イノシシトーク」に関連する話題を含む配信",
+      "seed_terms": [
+        "イノシシトーク"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c066ad803e60",
+      "type": "hook",
+      "name": "イマジナリーフレンド",
+      "definition": "文字列「イマジナリーフレンド」に関連する話題を含む配信",
+      "seed_terms": [
+        "イマジナリーフレンド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7ec0a3ec2ca7",
+      "type": "hook",
+      "name": "インスタントラヴァー",
+      "definition": "文字列「インスタントラヴァー」に関連する話題を含む配信",
+      "seed_terms": [
+        "インスタントラヴァー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_528e1f678e3d",
+      "type": "hook",
+      "name": "イーブイ",
+      "definition": "文字列「イーブイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "イーブイ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c43f586ea659",
+      "type": "hook",
+      "name": "ウォシュレットバトル",
+      "definition": "文字列「ウォシュレットバトル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ウォシュレットバトル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_19ae91d53fc5",
+      "type": "hook",
+      "name": "ウーマンコミュニケーション",
+      "definition": "文字列「ウーマンコミュニケーション」に関連する話題を含む配信",
+      "seed_terms": [
+        "ウーマンコミュニケーション"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e83900a5eb1d",
+      "type": "hook",
+      "name": "エアホッケー",
+      "definition": "文字列「エアホッケー」に関連する話題を含む配信",
+      "seed_terms": [
+        "エアホッケー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1d935dcbad7d",
+      "type": "hook",
+      "name": "エガちゃん",
+      "definition": "文字列「エガちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "エガちゃん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7f7d6e3c7ad4",
+      "type": "hook",
+      "name": "エビフライ",
+      "definition": "文字列「エビフライ」に関連する話題を含む配信",
+      "seed_terms": [
+        "エビフライ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8af3f177a93c",
+      "type": "hook",
+      "name": "エマージェンシー",
+      "definition": "文字列「エマージェンシー」に関連する話題を含む配信",
+      "seed_terms": [
+        "エマージェンシー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_650412d8f266",
+      "type": "hook",
+      "name": "エヴァ",
+      "definition": "文字列「エヴァ」に関連する話題を含む配信",
+      "seed_terms": [
+        "エヴァ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e8ceaa8f6b45",
+      "type": "hook",
+      "name": "オタク",
+      "definition": "文字列「オタク」に関連する話題を含む配信",
+      "seed_terms": [
+        "オタク"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_efccfb78bad7",
+      "type": "hook",
+      "name": "カツラパッパ",
+      "definition": "文字列「カツラパッパ」に関連する話題を含む配信",
+      "seed_terms": [
+        "カツラパッパ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1a29007a518c",
+      "type": "hook",
+      "name": "カミングアウト",
+      "definition": "文字列「カミングアウト」に関連する話題を含む配信",
+      "seed_terms": [
+        "カミングアウト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0ea61c3a41ca",
+      "type": "hook",
+      "name": "ガシャ",
+      "definition": "文字列「ガシャ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ガシャ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_552dd7033003",
+      "type": "hook",
+      "name": "ガンダム",
+      "definition": "文字列「ガンダム」に関連する話題を含む配信",
+      "seed_terms": [
+        "ガンダム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_42db036c948e",
+      "type": "hook",
+      "name": "キノピオファクトリー",
+      "definition": "文字列「キノピオファクトリー」に関連する話題を含む配信",
+      "seed_terms": [
+        "キノピオファクトリー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e5cecebf7f40",
+      "type": "hook",
+      "name": "キャサリン",
+      "definition": "文字列「キャサリン」に関連する話題を含む配信",
+      "seed_terms": [
+        "キャサリン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8b7e9b828cae",
+      "type": "hook",
+      "name": "キャプボ",
+      "definition": "文字列「キャプボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "キャプボ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b7113cb0cfbf",
+      "type": "hook",
+      "name": "キービジュ",
+      "definition": "文字列「キービジュ」に関連する話題を含む配信",
+      "seed_terms": [
+        "キービジュ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dc4380d53d28",
+      "type": "hook",
+      "name": "ギャル",
+      "definition": "文字列「ギャル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギャル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5d50cf0b7e30",
+      "type": "hook",
+      "name": "ギャルゲー",
+      "definition": "文字列「ギャルゲー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギャルゲー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e24a2214ccb3",
+      "type": "hook",
+      "name": "ギュンギュん",
+      "definition": "文字列「ギュンギュん」に関連する話題を含む配信",
+      "seed_terms": [
+        "ギュンギュん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_268364082249",
+      "type": "hook",
+      "name": "クズライフハック",
+      "definition": "文字列「クズライフハック」に関連する話題を含む配信",
+      "seed_terms": [
+        "クズライフハック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_51892847f233",
+      "type": "hook",
+      "name": "クリアカード",
+      "definition": "文字列「クリアカード」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリアカード"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a646289ad73a",
+      "type": "hook",
+      "name": "クリスマス",
+      "definition": "文字列「クリスマス」に関連する話題を含む配信",
+      "seed_terms": [
+        "クリスマス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_748d5905d9c5",
+      "type": "hook",
+      "name": "クレカ",
+      "definition": "文字列「クレカ」に関連する話題を含む配信",
+      "seed_terms": [
+        "クレカ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e3a35c6f216e",
+      "type": "hook",
+      "name": "グラコロ",
+      "definition": "文字列「グラコロ」に関連する話題を含む配信",
+      "seed_terms": [
+        "グラコロ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a2e86f05f73b",
+      "type": "hook",
+      "name": "グリッチ",
+      "definition": "文字列「グリッチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "グリッチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_60c0363639c4",
+      "type": "hook",
+      "name": "グリル",
+      "definition": "文字列「グリル」に関連する話題を含む配信",
+      "seed_terms": [
+        "グリル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6998d2fd0470",
+      "type": "hook",
+      "name": "グローバルデビュー",
+      "definition": "文字列「グローバルデビュー」に関連する話題を含む配信",
+      "seed_terms": [
+        "グローバルデビュー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c973e21d6d52",
+      "type": "hook",
+      "name": "ケーキ",
+      "definition": "文字列「ケーキ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ケーキ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_052e750f2799",
+      "type": "hook",
+      "name": "ゲロビーンズ",
+      "definition": "文字列「ゲロビーンズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲロビーンズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4d301c47076d",
+      "type": "hook",
+      "name": "ゲロライン",
+      "definition": "文字列「ゲロライン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゲロライン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_41a632efa308",
+      "type": "hook",
+      "name": "コメント",
+      "definition": "文字列「コメント」に関連する話題を含む配信",
+      "seed_terms": [
+        "コメント"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2d210d68f8ae",
+      "type": "hook",
+      "name": "コンボ",
+      "definition": "文字列「コンボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "コンボ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b8ed552bda56",
+      "type": "hook",
+      "name": "ゴールデンウイーク",
+      "definition": "文字列「ゴールデンウイーク」に関連する話題を含む配信",
+      "seed_terms": [
+        "ゴールデンウイーク"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_888a2ba979a4",
+      "type": "hook",
+      "name": "サイゼ",
+      "definition": "文字列「サイゼ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サイゼ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4ccee7fcc23f",
+      "type": "hook",
+      "name": "サイドステップ",
+      "definition": "文字列「サイドステップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サイドステップ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9062b51cd69c",
+      "type": "hook",
+      "name": "サウナ",
+      "definition": "文字列「サウナ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サウナ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_548b92e6b656",
+      "type": "hook",
+      "name": "サバちゃん",
+      "definition": "文字列「サバちゃん」に関連する話題を含む配信",
+      "seed_terms": [
+        "サバちゃん"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_edd6eec3a830",
+      "type": "hook",
+      "name": "サバイバル",
+      "definition": "文字列「サバイバル」に関連する話題を含む配信",
+      "seed_terms": [
+        "サバイバル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_56c7bc31a93a",
+      "type": "hook",
+      "name": "サプライズ",
+      "definition": "文字列「サプライズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "サプライズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f50cd1aedf45",
+      "type": "hook",
+      "name": "サムネイル",
+      "definition": "文字列「サムネイル」に関連する話題を含む配信",
+      "seed_terms": [
+        "サムネイル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d1b4e4f83b7f",
+      "type": "hook",
+      "name": "シスター",
+      "definition": "文字列「シスター」に関連する話題を含む配信",
+      "seed_terms": [
+        "シスター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dbedb44bf9ea",
+      "type": "hook",
+      "name": "シチュボ",
+      "definition": "文字列「シチュボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "シチュボ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0dd5e6f4f047",
+      "type": "hook",
+      "name": "ショック",
+      "definition": "文字列「ショック」に関連する話題を含む配信",
+      "seed_terms": [
+        "ショック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_58dd9da25c77",
+      "type": "hook",
+      "name": "ショート",
+      "definition": "文字列「ショート」に関連する話題を含む配信",
+      "seed_terms": [
+        "ショート"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_869670dbe16a",
+      "type": "hook",
+      "name": "ジェットコースター",
+      "definition": "文字列「ジェットコースター」に関連する話題を含む配信",
+      "seed_terms": [
+        "ジェットコースター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5eaedaa221b4",
+      "type": "hook",
+      "name": "スイカ",
+      "definition": "文字列「スイカ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スイカ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_73d0cc960657",
+      "type": "hook",
+      "name": "スキンケア",
+      "definition": "文字列「スキンケア」に関連する話題を含む配信",
+      "seed_terms": [
+        "スキンケア"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a266a3d34aef",
+      "type": "hook",
+      "name": "スクワット",
+      "definition": "文字列「スクワット」に関連する話題を含む配信",
+      "seed_terms": [
+        "スクワット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_764b5ffbc134",
+      "type": "hook",
+      "name": "スタバギフト",
+      "definition": "文字列「スタバギフト」に関連する話題を含む配信",
+      "seed_terms": [
+        "スタバギフト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9fcfe47efa58",
+      "type": "hook",
+      "name": "ストビュー",
+      "definition": "文字列「ストビュー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ストビュー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0fbf35f1cbeb",
+      "type": "hook",
+      "name": "ストリートビュー",
+      "definition": "文字列「ストリートビュー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ストリートビュー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dbbd45ec96a8",
+      "type": "hook",
+      "name": "ストーキング",
+      "definition": "文字列「ストーキング」に関連する話題を含む配信",
+      "seed_terms": [
+        "ストーキング"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d37a6215e77e",
+      "type": "hook",
+      "name": "スペースワールド",
+      "definition": "文字列「スペースワールド」に関連する話題を含む配信",
+      "seed_terms": [
+        "スペースワールド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f3f5dd79c2c1",
+      "type": "hook",
+      "name": "スマホカメラ",
+      "definition": "文字列「スマホカメラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スマホカメラ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a2f97883428f",
+      "type": "hook",
+      "name": "スロットカー",
+      "definition": "文字列「スロットカー」に関連する話題を含む配信",
+      "seed_terms": [
+        "スロットカー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3f46fa52cc57",
+      "type": "hook",
+      "name": "スーパーマリオブラザーズ",
+      "definition": "文字列「スーパーマリオブラザーズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "スーパーマリオブラザーズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_791df159ad13",
+      "type": "hook",
+      "name": "セクハラ",
+      "definition": "文字列「セクハラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "セクハラ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_276f0a53ff3a",
+      "type": "hook",
+      "name": "セクハラペイント",
+      "definition": "文字列「セクハラペイント」に関連する話題を含む配信",
+      "seed_terms": [
+        "セクハラペイント"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2448a4129cb6",
+      "type": "hook",
+      "name": "セットリスト",
+      "definition": "文字列「セットリスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "セットリスト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_16aad75a8939",
+      "type": "hook",
+      "name": "セトリ",
+      "definition": "文字列「セトリ」に関連する話題を含む配信",
+      "seed_terms": [
+        "セトリ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5dbfabae6bc9",
+      "type": "hook",
+      "name": "タイピングホラーゲーム",
+      "definition": "文字列「タイピングホラーゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "タイピングホラーゲーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_65de4c2c7274",
+      "type": "hook",
+      "name": "タイミー",
+      "definition": "文字列「タイミー」に関連する話題を含む配信",
+      "seed_terms": [
+        "タイミー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_76fbb238a363",
+      "type": "hook",
+      "name": "タコピー",
+      "definition": "文字列「タコピー」に関連する話題を含む配信",
+      "seed_terms": [
+        "タコピー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3b559e6d9c37",
+      "type": "hook",
+      "name": "タッチ",
+      "definition": "文字列「タッチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "タッチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7f7f38872261",
+      "type": "hook",
+      "name": "タランチュラ",
+      "definition": "文字列「タランチュラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "タランチュラ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9799a80d9a60",
+      "type": "hook",
+      "name": "ダウン",
+      "definition": "文字列「ダウン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ダウン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d0fe553398db",
+      "type": "hook",
+      "name": "ダブルすいか",
+      "definition": "文字列「ダブルすいか」に関連する話題を含む配信",
+      "seed_terms": [
+        "ダブルすいか"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_795d25e718e1",
+      "type": "hook",
+      "name": "ダンス",
+      "definition": "文字列「ダンス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ダンス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5c5cad4bd8dc",
+      "type": "hook",
+      "name": "ダンボール",
+      "definition": "文字列「ダンボール」に関連する話題を含む配信",
+      "seed_terms": [
+        "ダンボール"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5d105470a2ec",
+      "type": "hook",
+      "name": "チョコザップ",
+      "definition": "文字列「チョコザップ」に関連する話題を含む配信",
+      "seed_terms": [
+        "チョコザップ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_90eb8ebb7ecb",
+      "type": "hook",
+      "name": "チート",
+      "definition": "文字列「チート」に関連する話題を含む配信",
+      "seed_terms": [
+        "チート"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_16c4b8acb295",
+      "type": "hook",
+      "name": "テストプレイ",
+      "definition": "文字列「テストプレイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "テストプレイ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9a63c92412a5",
+      "type": "hook",
+      "name": "テナガザル",
+      "definition": "文字列「テナガザル」に関連する話題を含む配信",
+      "seed_terms": [
+        "テナガザル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a0f8305d9f84",
+      "type": "hook",
+      "name": "デグー",
+      "definition": "文字列「デグー」に関連する話題を含む配信",
+      "seed_terms": [
+        "デグー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_02f17fee864f",
+      "type": "hook",
+      "name": "デザイン",
+      "definition": "文字列「デザイン」に関連する話題を含む配信",
+      "seed_terms": [
+        "デザイン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_16ddcea82d02",
+      "type": "hook",
+      "name": "デスノート",
+      "definition": "文字列「デスノート」に関連する話題を含む配信",
+      "seed_terms": [
+        "デスノート"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ff041f79a7b0",
+      "type": "hook",
+      "name": "デスマーチ",
+      "definition": "文字列「デスマーチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "デスマーチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1995e41b7ab1",
+      "type": "hook",
+      "name": "ドラクエ",
+      "definition": "文字列「ドラクエ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドラクエ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_535891f8f6ea",
+      "type": "hook",
+      "name": "ドロートゥマッチ",
+      "definition": "文字列「ドロートゥマッチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドロートゥマッチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e9a02e161e81",
+      "type": "hook",
+      "name": "ドローン",
+      "definition": "文字列「ドローン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ドローン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_fec0a09bf5ba",
+      "type": "hook",
+      "name": "ナイスパ",
+      "definition": "文字列「ナイスパ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ナイスパ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6001166cb2a2",
+      "type": "hook",
+      "name": "ナイトプール",
+      "definition": "文字列「ナイトプール」に関連する話題を含む配信",
+      "seed_terms": [
+        "ナイトプール"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5bfdf050e86c",
+      "type": "hook",
+      "name": "ナンシー",
+      "definition": "文字列「ナンシー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ナンシー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_68cd1ffec81d",
+      "type": "hook",
+      "name": "ニュース",
+      "definition": "文字列「ニュース」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニュース"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6c9f767a5448",
+      "type": "hook",
+      "name": "ニンダイ",
+      "definition": "文字列「ニンダイ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニンダイ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_42c118a1abdb",
+      "type": "hook",
+      "name": "ニンテンドッグス",
+      "definition": "文字列「ニンテンドッグス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ニンテンドッグス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6a18ecf7567a",
+      "type": "hook",
+      "name": "ネットタトゥー",
+      "definition": "文字列「ネットタトゥー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネットタトゥー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_753906d06a1d",
+      "type": "hook",
+      "name": "ネトスト",
+      "definition": "文字列「ネトスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "ネトスト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_07ebf55f904c",
+      "type": "hook",
+      "name": "ノーミス",
+      "definition": "文字列「ノーミス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ノーミス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d346aec70ab0",
+      "type": "hook",
+      "name": "ハウスメーカー",
+      "definition": "文字列「ハウスメーカー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハウスメーカー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_51b2e0365abc",
+      "type": "hook",
+      "name": "ハムスター",
+      "definition": "文字列「ハムスター」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハムスター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_15af117d0572",
+      "type": "hook",
+      "name": "ハロウィン",
+      "definition": "文字列「ハロウィン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハロウィン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e54a2c1c5799",
+      "type": "hook",
+      "name": "ハロルド",
+      "definition": "文字列「ハロルド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハロルド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2252c2176c07",
+      "type": "hook",
+      "name": "ハートフル",
+      "definition": "文字列「ハートフル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハートフル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b3ad4251ecb0",
+      "type": "hook",
+      "name": "ハートフルボーイフレンド",
+      "definition": "文字列「ハートフルボーイフレンド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ハートフルボーイフレンド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7adce1764fec",
+      "type": "hook",
+      "name": "バニラエッセンス",
+      "definition": "文字列「バニラエッセンス」に関連する話題を含む配信",
+      "seed_terms": [
+        "バニラエッセンス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ce0dd2d5e052",
+      "type": "hook",
+      "name": "バレンタイン",
+      "definition": "文字列「バレンタイン」に関連する話題を含む配信",
+      "seed_terms": [
+        "バレンタイン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_56502d167728",
+      "type": "hook",
+      "name": "バーバパパ",
+      "definition": "文字列「バーバパパ」に関連する話題を含む配信",
+      "seed_terms": [
+        "バーバパパ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_75fe255028d0",
+      "type": "hook",
+      "name": "ビーンズオチ",
+      "definition": "文字列「ビーンズオチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ビーンズオチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_97508e50a6fb",
+      "type": "hook",
+      "name": "ピカチュウ",
+      "definition": "文字列「ピカチュウ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ピカチュウ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d8e9ae9d5b14",
+      "type": "hook",
+      "name": "ピタゴラス",
+      "definition": "文字列「ピタゴラス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ピタゴラス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4e38ce4d5ae8",
+      "type": "hook",
+      "name": "ファブル",
+      "definition": "文字列「ファブル」に関連する話題を含む配信",
+      "seed_terms": [
+        "ファブル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_502161a90664",
+      "type": "hook",
+      "name": "ファンレター",
+      "definition": "文字列「ファンレター」に関連する話題を含む配信",
+      "seed_terms": [
+        "ファンレター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3baafa0f8cf8",
+      "type": "hook",
+      "name": "ファンレターファイリング",
+      "definition": "文字列「ファンレターファイリング」に関連する話題を含む配信",
+      "seed_terms": [
+        "ファンレターファイリング"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cccb437dde5b",
+      "type": "hook",
+      "name": "フィードバック",
+      "definition": "文字列「フィードバック」に関連する話題を含む配信",
+      "seed_terms": [
+        "フィードバック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_22f7f7720786",
+      "type": "hook",
+      "name": "フェチ",
+      "definition": "文字列「フェチ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フェチ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_43e49db3c07b",
+      "type": "hook",
+      "name": "フォッコ",
+      "definition": "文字列「フォッコ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フォッコ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1516c306db3a",
+      "type": "hook",
+      "name": "フラウィ",
+      "definition": "文字列「フラウィ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フラウィ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_99a441170b22",
+      "type": "hook",
+      "name": "フリーチャット",
+      "definition": "文字列「フリーチャット」に関連する話題を含む配信",
+      "seed_terms": [
+        "フリーチャット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ec0092c29a90",
+      "type": "hook",
+      "name": "フルコン",
+      "definition": "文字列「フルコン」に関連する話題を含む配信",
+      "seed_terms": [
+        "フルコン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9949cd447519",
+      "type": "hook",
+      "name": "フルコンボ",
+      "definition": "文字列「フルコンボ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フルコンボ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_055d8afe073d",
+      "type": "hook",
+      "name": "フルタイム",
+      "definition": "文字列「フルタイム」に関連する話題を含む配信",
+      "seed_terms": [
+        "フルタイム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_257b366de6a5",
+      "type": "hook",
+      "name": "フータ",
+      "definition": "文字列「フータ」に関連する話題を含む配信",
+      "seed_terms": [
+        "フータ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_db90f946bf98",
+      "type": "hook",
+      "name": "ブラックジャック",
+      "definition": "文字列「ブラックジャック」に関連する話題を含む配信",
+      "seed_terms": [
+        "ブラックジャック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_29372771e38c",
+      "type": "hook",
+      "name": "プチバズ",
+      "definition": "文字列「プチバズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プチバズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0f74b8e91d3e",
+      "type": "hook",
+      "name": "プロポーズ",
+      "definition": "文字列「プロポーズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "プロポーズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_091a910edee7",
+      "type": "hook",
+      "name": "ベーシスト",
+      "definition": "文字列「ベーシスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "ベーシスト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8dd84c3fa6b8",
+      "type": "hook",
+      "name": "ペアローン",
+      "definition": "文字列「ペアローン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ペアローン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_36454dc98108",
+      "type": "hook",
+      "name": "ペット",
+      "definition": "文字列「ペット」に関連する話題を含む配信",
+      "seed_terms": [
+        "ペット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9f01e8a83171",
+      "type": "hook",
+      "name": "ホテルマン",
+      "definition": "文字列「ホテルマン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホテルマン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_080955a637a9",
+      "type": "hook",
+      "name": "ホロオーディション",
+      "definition": "文字列「ホロオーディション」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホロオーディション"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_51e37ef424d0",
+      "type": "hook",
+      "name": "ホロライバー",
+      "definition": "文字列「ホロライバー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ホロライバー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_79b1535a817d",
+      "type": "hook",
+      "name": "ボイス",
+      "definition": "文字列「ボイス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボイス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ed92827a7568",
+      "type": "hook",
+      "name": "ボツ",
+      "definition": "文字列「ボツ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボツ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2f8c3b1517ee",
+      "type": "hook",
+      "name": "ボーイフレンド",
+      "definition": "文字列「ボーイフレンド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボーイフレンド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_01b54b135a75",
+      "type": "hook",
+      "name": "ボーナススター",
+      "definition": "文字列「ボーナススター」に関連する話題を含む配信",
+      "seed_terms": [
+        "ボーナススター"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f77016e4490f",
+      "type": "hook",
+      "name": "ポイントカード",
+      "definition": "文字列「ポイントカード」に関連する話題を含む配信",
+      "seed_terms": [
+        "ポイントカード"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7c0b9ff97eeb",
+      "type": "hook",
+      "name": "ポケミク",
+      "definition": "文字列「ポケミク」に関連する話題を含む配信",
+      "seed_terms": [
+        "ポケミク"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c411c94a4696",
+      "type": "hook",
+      "name": "ポケモン",
+      "definition": "文字列「ポケモン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ポケモン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_9b68b27e9c8f",
+      "type": "hook",
+      "name": "ポーカー",
+      "definition": "文字列「ポーカー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ポーカー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_91bda58399a3",
+      "type": "hook",
+      "name": "マイクアーム",
+      "definition": "文字列「マイクアーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "マイクアーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6ec12c481307",
+      "type": "hook",
+      "name": "マイクミュート",
+      "definition": "文字列「マイクミュート」に関連する話題を含む配信",
+      "seed_terms": [
+        "マイクミュート"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f1c647d13190",
+      "type": "hook",
+      "name": "マイクラ",
+      "definition": "文字列「マイクラ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マイクラ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ee7e93cbd5fa",
+      "type": "hook",
+      "name": "マイホーム",
+      "definition": "文字列「マイホーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "マイホーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6ac7117a3b8d",
+      "type": "hook",
+      "name": "マインクラフト",
+      "definition": "文字列「マインクラフト」に関連する話題を含む配信",
+      "seed_terms": [
+        "マインクラフト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_66cc84ba856f",
+      "type": "hook",
+      "name": "マジメ",
+      "definition": "文字列「マジメ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マジメ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dcc5ec7b1bd5",
+      "type": "hook",
+      "name": "マスコット",
+      "definition": "文字列「マスコット」に関連する話題を含む配信",
+      "seed_terms": [
+        "マスコット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5f0ba38697d0",
+      "type": "hook",
+      "name": "マヨネーズ",
+      "definition": "文字列「マヨネーズ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マヨネーズ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0c5c5494ba26",
+      "type": "hook",
+      "name": "マリオパーティジャンボリー",
+      "definition": "文字列「マリオパーティジャンボリー」に関連する話題を含む配信",
+      "seed_terms": [
+        "マリオパーティジャンボリー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4ba9e8da1fc6",
+      "type": "hook",
+      "name": "マンガモード",
+      "definition": "文字列「マンガモード」に関連する話題を含む配信",
+      "seed_terms": [
+        "マンガモード"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_14351b8be06f",
+      "type": "hook",
+      "name": "マンモグラフィー",
+      "definition": "文字列「マンモグラフィー」に関連する話題を含む配信",
+      "seed_terms": [
+        "マンモグラフィー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8e0dea4d781c",
+      "type": "hook",
+      "name": "マーシャ",
+      "definition": "文字列「マーシャ」に関連する話題を含む配信",
+      "seed_terms": [
+        "マーシャ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a1a7545f53f1",
+      "type": "hook",
+      "name": "ミサイド",
+      "definition": "文字列「ミサイド」に関連する話題を含む配信",
+      "seed_terms": [
+        "ミサイド"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_095939a5ebdc",
+      "type": "hook",
+      "name": "ミッフィー",
+      "definition": "文字列「ミッフィー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ミッフィー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_8de32102be20",
+      "type": "hook",
+      "name": "ミニゲームハーバー",
+      "definition": "文字列「ミニゲームハーバー」に関連する話題を含む配信",
+      "seed_terms": [
+        "ミニゲームハーバー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_08f4b32bfc62",
+      "type": "hook",
+      "name": "ミボット",
+      "definition": "文字列「ミボット」に関連する話題を含む配信",
+      "seed_terms": [
+        "ミボット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_bc1a2abb16e0",
+      "type": "hook",
+      "name": "メガネ",
+      "definition": "文字列「メガネ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メガネ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ca712023d579",
+      "type": "hook",
+      "name": "メシテロ",
+      "definition": "文字列「メシテロ」に関連する話題を含む配信",
+      "seed_terms": [
+        "メシテロ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_344a3e312396",
+      "type": "hook",
+      "name": "メダリスト",
+      "definition": "文字列「メダリスト」に関連する話題を含む配信",
+      "seed_terms": [
+        "メダリスト"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b3085a2dbe76",
+      "type": "hook",
+      "name": "メンバー",
+      "definition": "文字列「メンバー」に関連する話題を含む配信",
+      "seed_terms": [
+        "メンバー"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1e20dd673d7a",
+      "type": "hook",
+      "name": "モデル",
+      "definition": "文字列「モデル」に関連する話題を含む配信",
+      "seed_terms": [
+        "モデル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a2ac0b8a285c",
+      "type": "hook",
+      "name": "モデルルーム",
+      "definition": "文字列「モデルルーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "モデルルーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_678199a5dc39",
+      "type": "hook",
+      "name": "モンスターエピソード",
+      "definition": "文字列「モンスターエピソード」に関連する話題を含む配信",
+      "seed_terms": [
+        "モンスターエピソード"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cf7029ee97d6",
+      "type": "hook",
+      "name": "ヤンキーい",
+      "definition": "文字列「ヤンキーい」に関連する話題を含む配信",
+      "seed_terms": [
+        "ヤンキーい"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_69dc3f826571",
+      "type": "hook",
+      "name": "ヤンキーいもこ",
+      "definition": "文字列「ヤンキーいもこ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ヤンキーいもこ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1e4cdf716dac",
+      "type": "hook",
+      "name": "ヨット",
+      "definition": "文字列「ヨット」に関連する話題を含む配信",
+      "seed_terms": [
+        "ヨット"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_87879a5101ba",
+      "type": "hook",
+      "name": "ライフハック",
+      "definition": "文字列「ライフハック」に関連する話題を含む配信",
+      "seed_terms": [
+        "ライフハック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d4729409b440",
+      "type": "hook",
+      "name": "ラジオ",
+      "definition": "文字列「ラジオ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラジオ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_31122f262353",
+      "type": "hook",
+      "name": "ラジコン",
+      "definition": "文字列「ラジコン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラジコン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0b76919ac464",
+      "type": "hook",
+      "name": "ラフ",
+      "definition": "文字列「ラフ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラフ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f95663eb069c",
+      "type": "hook",
+      "name": "ラブドール",
+      "definition": "文字列「ラブドール」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラブドール"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_dd2b43c4aa9a",
+      "type": "hook",
+      "name": "ラブライブ",
+      "definition": "文字列「ラブライブ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ラブライブ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_81f68fd11348",
+      "type": "hook",
+      "name": "リアル",
+      "definition": "文字列「リアル」に関連する話題を含む配信",
+      "seed_terms": [
+        "リアル"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ff58c15c0a1a",
+      "type": "hook",
+      "name": "リズムクッキング",
+      "definition": "文字列「リズムクッキング」に関連する話題を含む配信",
+      "seed_terms": [
+        "リズムクッキング"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_585d65179695",
+      "type": "hook",
+      "name": "リズムゲーム",
+      "definition": "文字列「リズムゲーム」に関連する話題を含む配信",
+      "seed_terms": [
+        "リズムゲーム"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_83cc71cb9ece",
+      "type": "hook",
+      "name": "リバーシ",
+      "definition": "文字列「リバーシ」に関連する話題を含む配信",
+      "seed_terms": [
+        "リバーシ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_fc2497f0408a",
+      "type": "hook",
+      "name": "リモコン",
+      "definition": "文字列「リモコン」に関連する話題を含む配信",
+      "seed_terms": [
+        "リモコン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_68b02b05fa48",
+      "type": "hook",
+      "name": "ルキウス",
+      "definition": "文字列「ルキウス」に関連する話題を含む配信",
+      "seed_terms": [
+        "ルキウス"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d22fccd26ca6",
+      "type": "hook",
+      "name": "ルギア",
+      "definition": "文字列「ルギア」に関連する話題を含む配信",
+      "seed_terms": [
+        "ルギア"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d1cf833bd6c2",
+      "type": "hook",
+      "name": "ルックバック",
+      "definition": "文字列「ルックバック」に関連する話題を含む配信",
+      "seed_terms": [
+        "ルックバック"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e7676d6c3885",
+      "type": "hook",
+      "name": "ワクワク",
+      "definition": "文字列「ワクワク」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワクワク"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_c3515f8f9545",
+      "type": "hook",
+      "name": "ワンコメ",
+      "definition": "文字列「ワンコメ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワンコメ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_b752b6eb8e42",
+      "type": "hook",
+      "name": "ワンピ",
+      "definition": "文字列「ワンピ」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワンピ"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0a9d2cb81213",
+      "type": "hook",
+      "name": "ワンピース",
+      "definition": "文字列「ワンピース」に関連する話題を含む配信",
+      "seed_terms": [
+        "ワンピース"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_0e8fd3bfafb7",
+      "type": "hook",
+      "name": "ヴィーガン",
+      "definition": "文字列「ヴィーガン」に関連する話題を含む配信",
+      "seed_terms": [
+        "ヴィーガン"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3919902844cb",
+      "type": "hook",
+      "name": "一周年記念",
+      "definition": "文字列「一周年記念」に関連する話題を含む配信",
+      "seed_terms": [
+        "一周年記念"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4525ceaf831a",
+      "type": "hook",
+      "name": "一曲",
+      "definition": "文字列「一曲」に関連する話題を含む配信",
+      "seed_terms": [
+        "一曲"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_84047122837e",
+      "type": "hook",
+      "name": "七味人生",
+      "definition": "文字列「七味人生」に関連する話題を含む配信",
+      "seed_terms": [
+        "七味人生"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_aa176f334111",
+      "type": "hook",
+      "name": "三次",
+      "definition": "文字列「三次」に関連する話題を含む配信",
+      "seed_terms": [
+        "三次"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_55f12f1ae7c9",
+      "type": "hook",
+      "name": "不動産税",
+      "definition": "文字列「不動産税」に関連する話題を含む配信",
+      "seed_terms": [
+        "不動産税"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_eab017d273ef",
+      "type": "hook",
+      "name": "不法侵入",
+      "definition": "文字列「不法侵入」に関連する話題を含む配信",
+      "seed_terms": [
+        "不法侵入"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1c58b41d377c",
+      "type": "hook",
+      "name": "世代差",
+      "definition": "文字列「世代差」に関連する話題を含む配信",
+      "seed_terms": [
+        "世代差"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_376b2786ca1c",
+      "type": "hook",
+      "name": "九州",
+      "definition": "文字列「九州」に関連する話題を含む配信",
+      "seed_terms": [
+        "九州"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_200dabc8232b",
+      "type": "hook",
+      "name": "乳液腐敗",
+      "definition": "文字列「乳液腐敗」に関連する話題を含む配信",
+      "seed_terms": [
+        "乳液腐敗"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e7d0f9fa3819",
+      "type": "hook",
+      "name": "予知夢",
+      "definition": "文字列「予知夢」に関連する話題を含む配信",
+      "seed_terms": [
+        "予知夢"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cf0dd27df81a",
+      "type": "hook",
+      "name": "事故物件",
+      "definition": "文字列「事故物件」に関連する話題を含む配信",
+      "seed_terms": [
+        "事故物件"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_168edd346938",
+      "type": "hook",
+      "name": "二択戦争",
+      "definition": "文字列「二択戦争」に関連する話題を含む配信",
+      "seed_terms": [
+        "二択戦争"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1a5117f914df",
+      "type": "hook",
+      "name": "二枚爪",
+      "definition": "文字列「二枚爪」に関連する話題を含む配信",
+      "seed_terms": [
+        "二枚爪"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_ba26b551e084",
+      "type": "hook",
+      "name": "京言葉",
+      "definition": "文字列「京言葉」に関連する話題を含む配信",
+      "seed_terms": [
+        "京言葉"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_10f78ca197c8",
+      "type": "hook",
+      "name": "京都旅行",
+      "definition": "文字列「京都旅行」に関連する話題を含む配信",
+      "seed_terms": [
+        "京都旅行"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_2f0913ed5df7",
+      "type": "hook",
+      "name": "人形",
+      "definition": "文字列「人形」に関連する話題を含む配信",
+      "seed_terms": [
+        "人形"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_71f2bc573711",
+      "type": "hook",
+      "name": "人怖話",
+      "definition": "文字列「人怖話」に関連する話題を含む配信",
+      "seed_terms": [
+        "人怖話"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_905a4279f8b1",
+      "type": "hook",
+      "name": "人狼",
+      "definition": "文字列「人狼」に関連する話題を含む配信",
+      "seed_terms": [
+        "人狼"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e677262ff95b",
+      "type": "hook",
+      "name": "人生初",
+      "definition": "文字列「人生初」に関連する話題を含む配信",
+      "seed_terms": [
+        "人生初"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3e6d2843ec5f",
+      "type": "hook",
+      "name": "人生経験",
+      "definition": "文字列「人生経験」に関連する話題を含む配信",
+      "seed_terms": [
+        "人生経験"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_574cd4fb795b",
+      "type": "hook",
+      "name": "今日",
+      "definition": "文字列「今日」に関連する話題を含む配信",
+      "seed_terms": [
+        "今日"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6a4d15efeb22",
+      "type": "hook",
+      "name": "今週",
+      "definition": "文字列「今週」に関連する話題を含む配信",
+      "seed_terms": [
+        "今週"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_6b131d1de108",
+      "type": "hook",
+      "name": "仕事休",
+      "definition": "文字列「仕事休」に関連する話題を含む配信",
+      "seed_terms": [
+        "仕事休"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_07234491ae9e",
+      "type": "hook",
+      "name": "任天堂",
+      "definition": "文字列「任天堂」に関連する話題を含む配信",
+      "seed_terms": [
+        "任天堂"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_3434d8dafa1e",
+      "type": "hook",
+      "name": "伊勢海老",
+      "definition": "文字列「伊勢海老」に関連する話題を含む配信",
+      "seed_terms": [
+        "伊勢海老"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_96bbe7e67370",
+      "type": "hook",
+      "name": "会社",
+      "definition": "文字列「会社」に関連する話題を含む配信",
+      "seed_terms": [
+        "会社"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_71befe8e2817",
+      "type": "hook",
+      "name": "伝説",
+      "definition": "文字列「伝説」に関連する話題を含む配信",
+      "seed_terms": [
+        "伝説"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_82906a2fd8a6",
+      "type": "hook",
+      "name": "伝説回",
+      "definition": "文字列「伝説回」に関連する話題を含む配信",
+      "seed_terms": [
+        "伝説回"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_1a774fc9e700",
+      "type": "hook",
+      "name": "低体温",
+      "definition": "文字列「低体温」に関連する話題を含む配信",
+      "seed_terms": [
+        "低体温"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_5f5ffadb73d8",
+      "type": "hook",
+      "name": "体力",
+      "definition": "文字列「体力」に関連する話題を含む配信",
+      "seed_terms": [
+        "体力"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_67264496e8bc",
+      "type": "hook",
+      "name": "体型図解",
+      "definition": "文字列「体型図解」に関連する話題を含む配信",
+      "seed_terms": [
+        "体型図解"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4cc54c860b66",
+      "type": "hook",
+      "name": "体調",
+      "definition": "文字列「体調」に関連する話題を含む配信",
+      "seed_terms": [
+        "体調"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_d599a2d77855",
+      "type": "hook",
+      "name": "体重特定",
+      "definition": "文字列「体重特定」に関連する話題を含む配信",
+      "seed_terms": [
+        "体重特定"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_cc0d53cf1811",
+      "type": "hook",
+      "name": "作業台",
+      "definition": "文字列「作業台」に関連する話題を含む配信",
+      "seed_terms": [
+        "作業台"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_f99fe5398c70",
+      "type": "hook",
+      "name": "作詞挑戦",
+      "definition": "文字列「作詞挑戦」に関連する話題を含む配信",
+      "seed_terms": [
+        "作詞挑戦"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e7c8b080d006",
+      "type": "hook",
+      "name": "依頼絵",
+      "definition": "文字列「依頼絵」に関連する話題を含む配信",
+      "seed_terms": [
+        "依頼絵"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_35b7c0a023cb",
+      "type": "hook",
+      "name": "個人勢",
+      "definition": "文字列「個人勢」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人勢"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_00e7e1727175",
+      "type": "hook",
+      "name": "個人情報",
+      "definition": "文字列「個人情報」に関連する話題を含む配信",
+      "seed_terms": [
+        "個人情報"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e3f0c508cb89",
+      "type": "hook",
+      "name": "借金",
+      "definition": "文字列「借金」に関連する話題を含む配信",
+      "seed_terms": [
+        "借金"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_959534707667",
+      "type": "hook",
+      "name": "健全",
+      "definition": "文字列「健全」に関連する話題を含む配信",
+      "seed_terms": [
+        "健全"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_32dc95cd977c",
+      "type": "hook",
+      "name": "健康法",
+      "definition": "文字列「健康法」に関連する話題を含む配信",
+      "seed_terms": [
+        "健康法"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_7d9e9a6c34ab",
+      "type": "hook",
+      "name": "健康診断結果",
+      "definition": "文字列「健康診断結果」に関連する話題を含む配信",
+      "seed_terms": [
+        "健康診断結果"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4dcf3434a609",
+      "type": "hook",
+      "name": "健康飲料",
+      "definition": "文字列「健康飲料」に関連する話題を含む配信",
+      "seed_terms": [
+        "健康飲料"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e6c17e39fc7e",
+      "type": "hook",
+      "name": "債務者",
+      "definition": "文字列「債務者」に関連する話題を含む配信",
+      "seed_terms": [
+        "債務者"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_4ce2b43527c4",
+      "type": "hook",
+      "name": "全回収",
+      "definition": "文字列「全回収」に関連する話題を含む配信",
+      "seed_terms": [
+        "全回収"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_61efd531db94",
+      "type": "hook",
+      "name": "公共交通",
+      "definition": "文字列「公共交通」に関連する話題を含む配信",
+      "seed_terms": [
+        "公共交通"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_a455bdfb1193",
+      "type": "hook",
+      "name": "再販",
+      "definition": "文字列「再販」に関連する話題を含む配信",
+      "seed_terms": [
+        "再販"
+      ],
+      "support": 1
+    },
+    {
+      "concept_id": "hook_e434336cf357",
+      "type": "hook",
+      "name": "冷蔵庫説教",
+      "definition": "文字列「冷蔵庫説教」に関連する話題を含む配信",
+      "seed_terms": [
+        "冷蔵庫説教"
+      ],
+      "support": 1
+    }
+  ],
+  "meta": {
+    "core_count": 13,
+    "hook_count": 551,
+    "semantic_count": 0,
+    "core_count_raw": 13,
+    "hook_count_raw": 574,
+    "semantic_count_raw": 0,
+    "filtered_by_blocklist": 4,
+    "hook_merge_enabled": true,
+    "hook_merge_mode": "aggressive",
+    "hook_merge_input_top_k": 221,
+    "hook_merge_max_groups": 57,
+    "hook_merge_fingerprint": "87e286fb6cf06e61a3c10361492dcacbec79b992",
+    "hook_merge_groups": 13,
+    "hook_merge_concepts": 19,
+    "source_blocklist_path": "config/concept_blocklist.json",
+    "blocklist_fingerprint": "ed5ace3ad562b78e0effbdd3b72f428c65a07ff4",
+    "source_archives_path": "data/v2/archives.json",
+    "source_keywords_path": "data/v2/keywords_raw.jsonl",
+    "source_fingerprint": "f3a01522db519c92cb6651af2a0cc2b26e304fdb",
+    "mock": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "limits": {
+    "min_questions": 1,
+    "max_questions": 20,
+    "finalize_candidate_size": 5
+  },
+  "selection": {
+    "no_repeat": true,
+    "exploration_epsilon": 0.12,
+    "temperature": 0.55
+  },
+  "stagnation_limit": 3,
+  "weights": {
+    "recommended_label": 2.0,
+    "default": 1.0
+  },
+  "scoring": {
+    "match_reward": 2.0,
+    "mismatch_penalty": 1.6,
+    "split_weight_scale": 1.2,
+    "split_weight_power": 1.0,
+    "final_temperature": 1.0,
+    "final_exploration_epsilon": 0.05,
+    "hard_candidate_boost": 1.3
+  }
+}

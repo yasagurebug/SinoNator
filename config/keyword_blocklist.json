@@ -1,0 +1,13 @@
+{
+  "_comment": "StepA keyword blacklist base terms. Variants are expanded by LLM and cached.",
+  "terms": [
+    "雑談",
+    "深夜",
+    "配信",
+    "しののめにこ",
+    "にこち",
+    "セルフ受肉",
+    "新人",
+    "VTuber"
+  ]
+}

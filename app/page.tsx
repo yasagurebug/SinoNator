@@ -11,7 +11,7 @@ function buildXShareUrl(title: string, videoUrl: string): string {
       ? "https://example.com/"
       : new URL("/", window.location.href).toString();
   const params = new URLSearchParams({
-    text: `あなたへの１本：${title}、${videoUrl}（シノネーター：${appUrl}より）`
+    text: `シノネーター：${appUrl}が選ぶ今日の１本：\n${title}\n${videoUrl}`
   });
   return `https://x.com/intent/tweet?${params.toString()}`;
 }
@@ -123,7 +123,7 @@ export default function HomePage() {
 
         {isFinished && response?.recommended_archive ? (
           <div className="result-card">
-            <h2>あなたへの1本</h2>
+            <h2>今日の1本</h2>
             <a href={response.recommended_archive.video_url} target="_blank" rel="noreferrer">
               {response.recommended_archive.title}
             </a>
