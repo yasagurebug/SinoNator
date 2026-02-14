@@ -3,12 +3,12 @@
   "limits": {
     "min_questions": 1,
     "max_questions": 20,
-    "finalize_candidate_size": 5
+    "finalize_candidate_size": 3
   },
   "selection": {
     "no_repeat": true,
-    "exploration_epsilon": 0.12,
-    "temperature": 0.55
+    "exploration_epsilon": 0.05,
+    "temperature": 0.2
   },
   "stagnation_limit": 3,
   "weights": {
